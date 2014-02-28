@@ -22,7 +22,7 @@ var Site = {
 	aboutPageContainer: $('#about-page-container'),
 	isExpanded: false,
 	currentPage: '#work',
-	page: $('.page')
+	page: $('.page'),
 
 	init: function() {
 		
