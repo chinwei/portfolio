@@ -1,0 +1,645 @@
+@import compass/reset
+
+$dark-grey: #292e35
+$dark-blue: #363d47
+$medium-blue: #6c7a8c
+$light-blue: #f5fdff
+
+
+
+// Base Styles
+
+*
+	box-sizing: border-box
+
+body
+	overflow: hidden
+	@extend .light
+	background: $medium-blue
+
+.light
+	font-family: 'source_sans_proextralight'	
+	// font-family: -apple-system-font, 'source_sans_proextralight'
+
+h1
+	font-size: 22px
+	margin-bottom: 0.5em
+
+h1, h2, h3, h4, h5, h6
+	text-transform: uppercase	
+
+h3	
+	font-size: 16px
+	text-transform: uppercase
+
+p
+	font-size: 18px
+	line-height: 1.2
+	margin-bottom: 1em
+
+a
+	color: white
+	text-transform: uppercase
+	text-decoration: none
+
+blockquote
+	font-size: 30px
+	margin-bottom: 20px
+
+img
+	max-width: 100%	
+
+#form-container
+	width: 100%
+	// min-width: 498px
+	// float: left
+	// border-right: 1px $light-blue solid
+	// padding-right: 50px
+
+
+form#commentForm
+	width: 100%
+
+input, label, textarea
+	margin: 0
+	margin-bottom: 15px
+	padding: 5px
+	@extend .light
+	border: none
+	font-size: 18px
+	transition: background 0.5s ease
+
+input, label 
+	width: 50%
+	height: 2em
+	min-width: 483px
+	
+textarea
+	width: 100%	
+
+button[type=submit]
+	background: $light-blue
+	color: $medium-blue
+	display: inline	
+	width: 15%
+	min-width: 93px
+	cursor: pointer
+	transition: background-color 0.3s ease
+	-webkit-appearance: none
+	padding: 8px
+	border: none
+	font-size: 14px
+	text-transform: uppercase
+	> #submit-loader
+		margin-left: 2px
+		width: 0
+		height: 0 
+		overflow: hidden
+		transition: width 0.3s ease, color 0.3s ease
+		opacity: 1
+		color: $dark-blue
+
+	
+		
+
+
+button[type=submit].active		
+	> #submit-loader
+		width: 11px
+		height: 12px
+	
+		
+
+
+input:focus, textarea:focus 
+	box-shadow: none
+	outline: none
+
+
+	
+
+// Top Level Sections
+
+#sidebar
+	width: 255px
+	height: 2000px
+	background: $dark-grey
+	position: fixed
+	z-index: 9999
+	overflow: hidden
+	-webkit-transition: margin-left 0.8s ease
+	-moz-transition: margin-left 0.8s ease
+	-ms-transition: margin-left 0.8s ease
+	-o-transition: margin-left 0.8s ease
+	transition: margin-left 0.8s ease
+
+#content
+	position: relative
+	top: 0
+	left: 0
+	margin-left: 255px
+	background: black
+	width: 100%
+	height: 800px
+	-webkit-transition: margin-left 0.8s ease
+	-moz-transition: margin-left 0.8s ease
+	-ms-transition: margin-left 0.8s ease
+	-o-transition: margin-left 0.8s ease
+	transition: margin-left 0.8s ease		
+
+.page
+	background: $medium-blue
+	width: 100%
+	height: 100%
+
+
+	
+
+
+
+// Sub Sections
+
+.panel
+	height: 100%
+	background: $medium-blue
+	float: left
+	position: relative
+	overflow: visible
+	// width: 50%
+
+
+
+
+#project-display-container
+	background: $dark-blue
+	overflow: hidden
+
+
+#project-display-container.expanded
+	overflow: auto
+	
+
+#project-display
+	height: 100%	
+
+#project-list 
+	padding-top: 100px
+
+	> li
+		opacity: 0	// For intro animation
+
+
+
+
+
+.page-container
+	padding: 4%	20%
+	color: $light-blue
+	clear: both
+	padding-top: 50px
+
+	> h1
+		font-size: 40px
+
+#sidebar
+	text-align: center
+	padding-top: 30px
+
+	// Side bar menu
+	> ul
+		> li
+			margin-bottom: 18px
+			border-bottom: 4px $dark-grey solid	
+			-webkit-transition: border-color 0.3s ease
+			-moz-transition: border-color 0.3s ease
+			transition: border-color 0.3s ease
+
+			&:hover
+				border-color: $medium-blue
+				> a
+					padding: 0 60px
+					color: $light-blue
+			&.active
+				border-color: $light-blue
+				> a
+					padding: 0 10px
+					color: $light-blue
+
+
+				
+
+#project-list 
+	> li
+		width: 240px
+		height: 240px
+		float: left
+		margin: 0 0 40px 40px
+		background: $light-blue
+		display: table
+		transition: background-color 0.3s ease
+
+	> li.disabled
+		background: lighten($medium-blue, 10%)
+		&:hover
+			background: lighten($medium-blue, 10%)
+			
+
+
+#project-detail
+	color: white
+	text-align: center
+	width: 100%
+	padding: 20px
+
+	> h1
+		// margin: 60px 0 0px 0	
+		font-size: 35px
+	> h2
+		margin-top: 40px
+		font-size: 20px	
+	> h3
+		margin: 10px 0		
+	> p
+		margin-top: 10px	
+
+
+
+
+// UI
+
+.divider
+	width: 100px
+	height: 4px
+	background: $light-blue
+	margin: 15px auto 30px auto
+
+#display-controls
+	> li
+		position: absolute
+		background: $light-blue
+		padding: 5px
+		top: 20px
+		cursor: pointer
+		transition: background-color 0.5s ease
+
+
+		> a
+			width: 100%
+			height: 100%
+			color: $dark-blue
+
+	> li.disabled
+		background: $dark-grey	
+		cursor: default
+		> a
+			cursor: default	
+
+#collapse-btn
+	right: 20px
+
+#next-btn
+	right: 67px
+
+#prev-btn
+	right: 97px
+
+.preloader
+	color: $light-blue
+	opacity: 0
+	line-height: 0
+
+
+.centered
+	position: absolute	
+	width: 42px // depends on size of preloader
+	height: 48px
+	top: 50%
+	left: 50%
+	margin-left: -21px
+
+
+.full-width-bar
+	width: 100%
+	height: 50px
+	position: relative
+	transition: margin-top 0.5s ease
+
+.full-width-bar.view-project
+	margin-top: 10px
+
+.section-header-bar
+	position: absolute
+	bottom: 0
+	background: $medium-blue
+
+.section-header
+	position: absolute
+	bottom: 10px
+	left: 40px
+	background: $light-blue
+	color: $medium-blue
+	padding: 8px 10px
+	text-decoration: none	
+
+	
+
+
+// Type
+
+#sidebar
+
+	// Header
+	> h1
+		font-size: 50px
+		margin-bottom: 2em
+		color: $light-blue	
+		width: 250px
+	
+	// Menu items
+	> ul
+		> li
+			> a
+				font-size: 22px
+				text-decoration: none
+				background: $dark-grey
+				color: $medium-blue
+				position: relative
+				top: 13px
+				padding: 0 85px
+				-webkit-transition: padding 0.3s ease
+				-moz-transition: padding 0.3s ease
+				transition: padding 0.3s ease
+
+#project-list 
+	> li
+		> a
+			color: $medium-blue
+			text-decoration: none
+			display: table-cell
+			vertical-align: middle
+			width: 100%
+			height: 100%
+			text-align: center
+			font-size: 60px
+			text-transform: uppercase
+	> li.disabled
+		> a:hover
+			cursor: default			
+			
+			
+#contact-details
+	width: 30%
+	float: left
+	padding-left: 50px
+
+
+#thank-you-note
+	display: display
+	text-align: center
+	width: 100%
+	height: 0
+	opacity: 0
+	overflow: hidden
+	padding-top: 0
+	h2
+		display: display
+		vertical-align: middle
+		font-size: 30px
+
+
+
+
+.video-container 
+	position: relative
+	padding-bottom: 56.25%
+	padding-top: 30px 
+	height: 0 
+	overflow: hidden
+
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed 
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+
+#sidebar.hide
+	margin-left: -255px
+
+#content.hide
+	margin-left: 0
+
+
+
+
+@media (max-width: 480px)
+	#project-list
+		padding-top: 80px
+		margin: 0 auto
+		width: 320px
+	.page-container.panel
+		padding-top: 80px	
+	.page-container
+		padding: 4% 10%	
+		padding-top: 50px	
+	
+
+@media (min-width: 480px) and (max-width: 768px)
+	.page-container.panel
+		padding-top: 100px
+	#project-list
+		width: 480px
+		margin: 0 auto
+		padding-top: 60px
+		> li
+			margin: 0 0 10px 10px
+			width: 230px
+			height: 230px
+
+@media (max-width: 768px)
+	body
+		overflow: scroll
+	#sidebar
+		display: none	
+	.panel
+		height: initial	
+	input, label, textarea
+		width: 100%
+		border-radius: 0
+
+	.centered
+		position: fixed	
+	.page
+		text-align: center
+	#project-detail
+		> p
+			padding: 0 4%	
+			margin-top: 1em
+		// > h1
+		// 	margin: 60px 0 0px 0
+	.hide-mobile
+		display: none		
+
+
+	
+
+	.full-width-bar
+		margin-top: 50px	
+
+	button[type=submit]
+		width: 100%
+
+
+@media (min-width: 768px)
+	.page
+		height: 100%
+		display: table
+		padding-right: 255px
+	.page-container
+		display: table-cell
+		vertical-align: middle
+
+	#project-menu-container
+		border-bottom: 1px $dark-blue solid
+		overflow-y: scroll	
+		overflow-x: hidden
+			
+	#project-list 
+		> li
+			&:hover
+				background: $dark-blue	
+
+
+
+
+	#project-list 
+		> li.disabled
+			&:hover
+				background: lighten($medium-blue, 10%)		
+	#display-controls	
+		> li
+			&:hover
+				background: $medium-blue
+
+	button[type=submit].active		
+
+		&:hover
+			background: $dark-blue
+			> #submit-loader
+				color: $light-blue	
+
+	.showScroll::-webkit-scrollbar
+		-webkit-appearance: none
+		width: 0px
+
+	.showScroll::-webkit-scrollbar-thumb 
+		border-radius: 4px
+		background-color: rgba(0,0,0,.5)
+		-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5)			
+
+								
+
+
+.scrollable 
+	-webkit-overflow-scrolling: touch
+	overflow-y: visible
+
+
+#topbar.show
+	margin-top: 0
+
+#topbar
+	width: 100%
+	height: 42px
+	position: fixed
+	z-index: 9999
+	top: 0
+	background: $dark-blue
+	padding-top: 5px
+	padding-left: 20px
+	padding-right: 20px
+	border-bottom: 3px $dark-grey solid
+	overflow: hidden
+	margin-top: -42px
+	-webkit-transition: margin-top 0.5s ease, height 0.5s ease
+	-moz-transition: margin-top 0.5s ease, height 0.5s ease
+	-ms-transition: margin-top 0.5s ease, height 0.5s ease
+	-o-transition: margin-top 0.5s ease, height 0.5s ease
+	transition: margin-top 0.5s ease, height 0.5s ease
+	> #menu
+		float: right
+	> h1
+		font-size: 30px
+		color: $light-blue
+		margin-bottom: 12px
+		float: left
+
+	> ul
+		clear: both
+		text-align: center
+		> li
+			margin-bottom: 18px
+			> a
+				font-size: 22px
+				text-decoration: none
+				color: $light-blue
+#topbar	
+	> ul			
+		> li	
+			&:hover
+				> a
+					padding: 0 60px
+					color: $light-blue
+			&.active
+				> a
+					padding: 0 10px
+					color: $light-blue
+#topbar.reveal
+	height: 165px
+
+#wrapper
+	overflow: hidden	
+	
+
+.clearfix
+	clear: both
+
+
+input.error, textarea.error
+	background: #d49999
+	
+
+
+
+input.error::-webkit-input-placeholder, textarea.error::-webkit-input-placeholder
+	color: $dark-blue
+
+
+.boxed
+	padding: 5px 10px
+	margin-top: 10px
+	background: $light-blue
+	color: $dark-grey
+	font-size: 18px
+	transition: color 0.3s ease, background 0.3s ease
+	display: inline-block
+	&:hover
+		background: $medium-blue
+		
+
+
+.boxed.content-section
+	&:hover
+		background: $dark-blue
+		color: $medium-blue
+
+.right
+	float: right
+
+
+
+
+

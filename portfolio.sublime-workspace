@@ -1,0 +1,690 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"counter",
+				"counterX"
+			],
+			[
+				"pot",
+				"potValue"
+			],
+			[
+				"dii",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"digita",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"digit",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"ard",
+				"analogRead	Arduino analogRead"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"pin",
+				"pinMode	Arduino pinMode"
+			],
+			[
+				"di",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"anit",
+				"antiscroll/"
+			],
+			[
+				"scr",
+				"perfect-scrollbar/"
+			],
+			[
+				"dig",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"se",
+				"setup	Arduino setup"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"file",
+				"filename"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ard",
+				"Set Syntax: Arduino"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"exten",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"upda",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"updat",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"update",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"ever",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"ar",
+				"Set Syntax: Arduino"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ardu",
+				"Set Syntax: Arduino"
+			],
+			[
+				"proj",
+				"Project: Refresh Folders"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"erato",
+				"Markdown: Open with Erato"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"UPPER",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"projec",
+				"Project: Add Folder"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"r",
+				"Rot13 Selection"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-breadcrumbs"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"swap",
+				"Convert Case: Swap Case"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chinweiwong/Box Sync/Portfolio/www/js/script.js",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/upmc.html",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/project1-part2.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/pingpong/pingpong.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/pitches.h",
+		"/Users/chinweiwong/Documents/UPMC-Bond/Research/Interviews/upmc interview",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/pingpong.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part1/project1-part1.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/project1_part2/project1_part2.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/Timer.h",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/TimerOne.cpp",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part1/project1.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/TimerOne.h",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/TimerOne.cpp",
+		"/Users/chinweiwong/Documents/UPMC-Bond/Research/Interviews/iris - Pulmonary Hypertension",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/microprojects/uproject3/uproject3.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/microprojects/uproject4/project1.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/microprojects/uproject4/uproject4.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/microprojects/uproject1/uproject1.ino",
+		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/microprojects/uproject2/uproject2.ino",
+		"/Users/chinweiwong/Box Documents/MHCI/spring/gadgets/projects/microprojects/uproject3/uproject3.ino",
+		"/Users/chinweiwong/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/chinweiwong/Box Documents/MHCI/spring/gadgets/projects/microprojects/uproject2/uproject2.ino",
+		"/Users/chinweiwong/Box Documents/MHCI/spring/gadgets/projects/microprojects/uproject1/uproject1.ino",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/index.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/js/script.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/sass/screen.sass",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/ixd.html",
+		"/Users/chinweiwong/Box Documents/MHCI/spring/gadgets/projects/microprojects/uproject1/uproject2.ino",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/antiscroll/antiscroll.css",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/antiscroll/antiscroll.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/photo.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/todo.md",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/mint.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/nlb.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/js/hello.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/ixdf.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/waitforimages.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/test.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/mti.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/hello.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/modernizr.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/sass/print.sass",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/sass/ie.sass",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/less/spinning.less",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/css/font-awesome.css",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/stylesheets/print.css",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/stylesheets/screen.css",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/.sass-cache/f819531ea0e3d8976a43f43b1f6b6f726e1d49e1/screen.sassc",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/stylesheets/ie.css",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/config.rb",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/imagesloaded.pkgd.min.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/jquery.validate.min.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/portfolio/cmu.html",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/jquery.h5validate.js",
+		"/Users/chinweiwong/Box Documents/Portfolio/www/libs/scrolltoplugin.js",
+		"/Users/chinweiwong/Box Documents/MHCI/Web Lab/P4/index.html",
+		"/Users/chinweiwong/Box Documents/MHCI/Web Lab/P4/display.html",
+		"/Users/chinweiwong/Box Documents/MHCI/Web Lab/P4/client-script.js",
+		"/Users/chinweiwong/Box Documents/MHCI/Web Lab/P4/script.js",
+		"/Users/chinweiwong/Box Documents/MHCI/Web Lab/wear_jacket(1)/jacket.html",
+		"/Users/chinweiwong/Documents/CMU/MHCI/intro-to-prog/course-files/Playground.java",
+		"/Users/chinweiwong/Documents/CMU/MHCI/intro-to-prog/course-files/Playground.class",
+		"/Users/chinweiwong/Documents/CMU/MHCI/intro-to-prog/course-files/bookClasses/Turtle.java",
+		"/Users/chinweiwong/Downloads/mint/onedash22/www/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"timeCount",
+			"doubleBuffer",
+			"Timer1",
+			"doubleBuffer",
+			"translatePin",
+			"pins",
+			"screen",
+			"ledFlashController",
+			"pins",
+			"off",
+			"B1",
+			"screen",
+			"PIN_LEFT",
+			"pins",
+			"0",
+			"1",
+			"2",
+			"0",
+			"1",
+			"2",
+			"0",
+			"1",
+			"&lt;",
+			"0",
+			"2",
+			"0",
+			"1",
+			"2",
+			"0",
+			"1",
+			"drawScreen",
+			"&lt;",
+			"patterns",
+			"numPatterns",
+			"^[a-z]",
+			"<",
+			",",
+			"page-btn",
+			"-btn",
+			"navigation",
+			"sideb",
+			"switchPanel",
+			"expanded",
+			"isExpanded",
+			"expand",
+			".panel",
+			"scroll",
+			"project-display-container",
+			"\\n",
+			"\\n«",
+			"\\n",
+			"currentPage",
+			"switchPanel",
+			"scrollto",
+			"scroll",
+			"page-con",
+			"scroll",
+			"topbar",
+			"project-de",
+			".full-width-bar",
+			"full-",
+			"projec",
+			"button",
+			"menu",
+			"form",
+			"thank",
+			"about",
+			"button",
+			"loadContent",
+			"expandPanel",
+			"loadContent",
+			"media",
+			"button",
+			"]\n",
+			"full",
+			"topbar",
+			"full",
+			"full=",
+			"top",
+			"h1",
+			"project-detail",
+			"submit",
+			"project-de",
+			"projectMenuContainer",
+			"0.5",
+			"height",
+			"projectDisplayContainer",
+			"h1",
+			"project-de",
+			"project",
+			"project-di",
+			"project-",
+			"4%",
+			"display-con",
+			"display-contain",
+			"display",
+			"projectDisplayContainer",
+			"page",
+			"h3",
+			"media",
+			"consol",
+			"input",
+			"thank",
+			"submit",
+			"input",
+			"form",
+			"comment",
+			"clear",
+			"switchPanel",
+			"menu",
+			"project",
+			"sub",
+			"switchPanel",
+			"media"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.pingpong":
+	{
+		"height": 118.0
+	},
+	"output.project1":
+	{
+		"height": 118.0
+	},
+	"output.project1-part1":
+	{
+		"height": 118.0
+	},
+	"output.project1-part2":
+	{
+		"height": 118.0
+	},
+	"output.stino_log":
+	{
+		"height": 118.0
+	},
+	"output.uproject1":
+	{
+		"height": 118.0
+	},
+	"output.uproject2":
+	{
+		"height": 118.0
+	},
+	"output.uproject3":
+	{
+		"height": 118.0
+	},
+	"output.uproject4":
+	{
+		"height": 118.0
+	},
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"upmc",
+				"portfolio/upmc.html"
+			],
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"sass",
+				"sass/screen.sass"
+			],
+			[
+				"scr",
+				"js/script.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"min",
+				"portfolio/mint.html"
+			],
+			[
+				"sc",
+				"sass/screen.sass"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ixdf",
+				"portfolio/ixdf.html"
+			],
+			[
+				"nlb",
+				"portfolio/nlb.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"todo",
+				"todo.md"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"scri",
+				"js/script.js"
+			],
+			[
+				"ix",
+				"portfolio/ixdf.html"
+			],
+			[
+				"int",
+				"index.html"
+			],
+			[
+				"mint",
+				"portfolio/mint.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"script",
+				"js/script.js"
+			],
+			[
+				"phoo",
+				"portfolio/photo.html"
+			],
+			[
+				"tur",
+				"Turtle.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Box Sync/MHCI/spring/gadgets/projects/microprojects/gadgets.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
