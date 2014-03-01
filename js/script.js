@@ -1,5 +1,16 @@
 $(window).load(function(){
 
+
+
+	// $('body').on('touchmove', function (e) {
+ //         if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
+	//  });
+
+// document.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+// document.getElementById('inner-scroll').addEventListener('touchmove', function(e){e.stopPropagation()}, false);
+
+// $('.scrollable').on('touchmove', function(e){e.stopPropagation()}, false);
+
 var Site = {
 
 	cw: $(window).width(),
@@ -22,7 +33,6 @@ var Site = {
 	aboutPageContainer: $('#about-page-container'),
 	isExpanded: false,
 	currentPage: '#work',
-	page: $('.page'),
 
 	init: function() {
 		
@@ -31,7 +41,7 @@ var Site = {
 		if (!Modernizr.mq('only screen and (max-width: 768px)')) {
 			Site.resize();
 		} else {
-			Site.page.css('height', 'initial');
+			$('.page').css('height', 'initial');
 		}
 
 		Site.introAnimation(true);
@@ -41,7 +51,7 @@ var Site = {
 		target.css(property, targetSize);
 	},
 	resize: function(){
-
+		// alert (Site.content);
 		var cw = $(window).width();
 		var ch = $(window).height();
 		var height;
@@ -87,6 +97,9 @@ var Site = {
 			
 		}
 		
+		
+		// Site.resizePanel(Site.content, 'height', ch);
+		
 		if (Modernizr.mq('only screen and (max-width: 768px)')) {
 			if (Site.isExpanded) {
 				var height = $('#project-display-container').height();
@@ -101,9 +114,11 @@ var Site = {
 
 	},
 	expandPanel: function(content){
-
+		// reveal portfolio item
 		var cw = $(window).width();
 		var ch = $(window).height()+80;
+		
+		
 
 		if (Modernizr.mq('only screen and (max-width: 768px)')) {
 			Site.resizePanel(Site.projectDisplayContainer, 'height', $(window).height()+80+$(window).scrollTop());	
@@ -130,13 +145,18 @@ var Site = {
 				Site.loadContent(content);
 			}});
 		}
+
+		
+		
+		
+		
 	},
 	collapsePanel: function(href){
-
 		// hide portfolio item
 		var cw = $(window).width();
 		var ch = $(window).height();
 		Site.isExpanded = false;
+		
 
 		if (Modernizr.mq('only screen and (max-width: 768px)')) {
 			Site.resizePanel(Site.projectDisplayContainer, 'height', $(window).height()+80+$(window).scrollTop());	
@@ -156,7 +176,7 @@ var Site = {
 
 		// Phone size
 		if (Modernizr.mq('only screen and (max-width: 768px)')) {
-
+			
 			TweenLite.to(window, 1.5, {scrollTo:{y: $(href).position().top}, ease:Power2.easeInOut});
 		} else {
 		// desktop

@@ -145,7 +145,7 @@ input, label, textarea {
 input, label {
   width: 50%;
   height: 2em;
-  min-width: 483px;
+  min-width: 200px;
 }
 
 /* line 77, ../sass/screen.sass */
