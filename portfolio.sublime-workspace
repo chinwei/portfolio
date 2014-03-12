@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-family"
+			],
+			[
 				"counter",
 				"counterX"
 			],
@@ -107,20 +111,124 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Write Up\n===\n\nUPMC\n---\n\n###About the Project\n\n- UPMC approached us with a problem\n    + Small proportion of patients accounted for a large proportion of costs involved in treating a pation\n    + How to improve the health of patients outside of the hospital system?\n    \n\n###Process\n\n- 15 Guerilla Interviews\n- 22 Patient Interviews\n- 6 Clinician Interviews\n- Affinity Diagramming\n- Story Sharing\n\n\n###Involvement\n\n- Design of documentation\n- Design of prototype during design phase of the project\n\n\nNEWG\n---\n\n###About the Project\n\n- To understand the goals and challenges of event planners in the New Economy and create an interactive mapping tool to facilitate communication and empower the New Economy with more informed decision-making.\n\n###Process\n\n- Concurrently did literature review, competitive analysis\n- Observed a monthly planning meeting\n\n\n###Involvement\n\n- Design of communication materials\n- Wireframe, design of prototype\n\n\nCTRL\n---\n\n###About the Project\n\n- To redesign a control \n\n###Design Rationale\n\n- Always wondered why some appliances which were so ubiquitous and used for only a small range of purposes have such convoluted interfaces\n- Wanted to see how far it could be simplified\n\n- Although never verified formally, microwaves are usually used to reheat food, which takes between 2 - 6 minutes\n- Power settings mean nothing to the person using it\n- Users don't need to know the time left in great precision\n\n###Design Process\n\n####Goals of design\n\n- User should be able to operate the microwave in one step\n- User should process a minimal amount of information to perform the task\n\n###Drawbacks\n\n- No defrost mode\n- More effort required for longer durations\n- Aesthetics look expensive\n- Hard to justify cost at the expense of features\n- Usability vs Feature-rich?\n\n\n\n\nHF\n---\n\n###About the Project\n\n- CMU's police department provides a bus service known as the Escort Buses dedicated to the safety of the students. These serve to transport students from the campus to the nearest intersection to their place of residence within a 1.5 mile radius, during the night time when transportation isn't as easily available.\n\n###Process\n\n- 2 Bus routes observations followed by interviews within 48 hours\n    + Measured sound level\n    + Tracked route taken via GPS\n    + Asked about the decisions they made\n\n- Application of human factors principles to better understand problem\n    + Cognition\n    + Displays\n    + Memory\n    + Perception\n\n- Issues\n    + Reliance on a paper-based memory aid\n        * Visibility at night is reduced\n        * Lack of illumination on paper\n        * Repeated photocopying resulted in diminished quality\n        * Time pressure\n\n- Design of prototype\n    + Tablet app\n    \n###Involvement\n\n\nTrace\n---\n\n###About the Project\n\n- Statistics here...\n\n###Process\n\n###Involvement\n\n\n\n\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 2830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Our team is currently working with UPMC\n\n\n\n\nThe University of Pittsburgh Medical Center (UPMC) is a $10 billion integrated global nonprofit health enterprise that has more than 62,000 employees, 22 hospitals with more than 4,700 licensed beds, 400 clinical locations including outpatient sites and doctors’ offices, a 2.2 million-member health insurance division, as well as commercial and international ventures.[3] UPMC is closely affiliated with its academic partner, the University of Pittsburgh.[4] It is considered a leading American health care provider, as its flagship facilities have ranked in US News & World Report \"Honor Roll\" of the approximately 15 to 20 best hospitals in America for well over a decade.[5][6] As of 2013, UPMC is ranked 10th nationally among the best hospitals (and first in Pennsylvania) by US News & World Report and ranked in 15 of 16 specialty areas, including eight specialties for which UPMC placed\n\n\nThe University of Pittsburgh Medical Center (UPMC) is an integrated global nonprofit health enterprise that has more than 62,000 employees and 22 hospitals, as well as a 2.2 million-member health insurance division. It is ranked among the best hospitals in America.\nAs part of the CMU MHCI Capstone Project, our team is working with UPMC to explore ways for patients to collaborate over their own health data with their clinicians, and following that, to design a patient-facing tool with the goals of deeper engagement with the health system and better health outcomes.\nWe are currently in the research phase of the project and are synthesizing our research findings obtained from our interviews, literature reviews and competitive analysis. Following that, we will create several visions that addresses the problem, create and user test our prototypes in summer.\n",
+			"settings":
+			{
+				"buffer_size": 1805,
+				"line_ending": "Unix",
+				"name": "Our team is currently working with UPMC"
+			}
+		},
+		{
+			"file": "sass/screen.sass",
+			"settings":
+			{
+				"buffer_size": 10448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio/upmc.html",
+			"settings":
+			{
+				"buffer_size": 2469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body {\n	background: blue;\n	color: red;\n}\n@media screen {\n	.grid {\n		float: left;\n		color: red;\n	}\n}",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
 			[
-				"ard",
-				"Set Syntax: Arduino"
+				"bookmark",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"go",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"bookma",
+				"SublimeBookmarks: Show Bookmarks Only In Current File "
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ever",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"bookmar",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"bookm",
+				"SublimeBookmarks: Goto Bookmark"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"ard",
+				"Set Syntax: Arduino"
 			],
 			[
 				"remo",
@@ -145,10 +253,6 @@
 			[
 				"update",
 				"Evernote: Update Evernote Note"
-			],
-			[
-				"ever",
-				"Evernote: Send to Evernote"
 			],
 			[
 				"ar",
@@ -179,10 +283,6 @@
 				"Markdown: Open with Erato"
 			],
 			[
-				"mark",
-				"Set Syntax: MultiMarkdown"
-			],
-			[
 				"titl",
 				"Convert Case: Title Case"
 			],
@@ -201,10 +301,6 @@
 			[
 				"projec",
 				"Project: Add Folder"
-			],
-			[
-				"sass",
-				"Set Syntax: Sass"
 			],
 			[
 				"save ",
@@ -243,13 +339,14 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 593.0
+		"width": 647.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
+			"cd ~/desktop",
 			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
 			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
 		]
@@ -265,8 +362,20 @@
 	},
 	"file_history":
 	[
+		"/Users/chinweiwong/Box Sync/Portfolio/www/sass/screen.sass",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/js/script.js",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ixd.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/index.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ixds.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/upmc.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/sourcesanspro-extralight-demo.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/stylesheet.css",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/js/hello.js",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/libs/jquery.js",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/web.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/photo.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/config.rb",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/specimen_files/specimen_stylesheet.css",
 		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/project1-part2.ino",
 		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/pingpong/pingpong.ino",
 		"/Users/chinweiwong/Box Sync/MHCI/spring/gadgets/projects/projects/project1-part2/pitches.h",
@@ -335,7 +444,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +458,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"touch",
+			"light-blu",
+			"h4",
+			"row",
+			"boxed",
+			"extend",
+			"color-2",
+			"h1",
+			"project-list",
+			"project-list ",
+			"transition",
+			"project",
+			"project-menu",
+			"$('#topbar')",
+			"topbar",
+			"$('#content')",
+			"$('#wrapper')",
+			"$('#work')",
+			"$('#work')\n$('#work')",
+			"$('.page')",
 			"1",
 			"timeCount",
 			"doubleBuffer",
@@ -456,19 +585,12 @@
 			"submit",
 			"input",
 			"form",
-			"comment",
-			"clear",
-			"switchPanel",
-			"menu",
-			"project",
-			"sub",
-			"switchPanel",
-			"media"
+			"comment"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 		],
@@ -481,8 +603,403 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"$evernote": true,
+							"$evernote_guid": "2e42ebfc-5e16-476e-b384-9981cecebeae",
+							"$evernote_title": "Portfolio Writeup",
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1804,
+								940
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "Our team is currently working with UPMC",
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"spell_check": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/screen.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8856,
+								8856
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10551.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "portfolio/upmc.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								769,
+								2202
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -557,6 +1074,10 @@
 	{
 		"height": 118.0
 	},
+	"output.uproject6":
+	{
+		"height": 118.0
+	},
 	"project": "portfolio.sublime-project",
 	"replace":
 	{
@@ -573,12 +1094,24 @@
 				"portfolio/upmc.html"
 			],
 			[
-				"scrip",
+				"sass",
+				"sass/screen.sass"
+			],
+			[
+				"js",
 				"js/script.js"
 			],
 			[
-				"sass",
+				"script",
+				"js/script.js"
+			],
+			[
+				"sas",
 				"sass/screen.sass"
+			],
+			[
+				"scrip",
+				"js/script.js"
 			],
 			[
 				"scr",
@@ -641,10 +1174,6 @@
 				"index.html"
 			],
 			[
-				"script",
-				"js/script.js"
-			],
-			[
 				"phoo",
 				"portfolio/photo.html"
 			],
@@ -662,7 +1191,7 @@
 		[
 			[
 				"",
-				"~/Box Sync/MHCI/spring/gadgets/projects/microprojects/gadgets.sublime-project"
+				"~/Box Sync/MHCI/spring/gadgets/projects/gadgets.sublime-project"
 			]
 		],
 		"width": 380.0
