@@ -384,10 +384,10 @@ var Site = {
 
 		})
 		
-			$(window).bind('mousemove', function(e){
+			$(document).bind('mousemove', function(e){
 				var ratio = e.clientY/$('#project-list').height();
-				var multiplier = ($('#project-list').height() - $(window).height()) * 5;
-				// console.log(multiplier);
+				var multiplier = ($('#project-list').height() - $(window).height()) + 100;
+				// console.log(multiplier * ratio);
 				if (!Site.isExpanded) {
 					// $('#project-menu-container').scrollTop(ratio * multiplier);
 					TweenLite.to($('#project-menu-container'), 0.5, {scrollTo:{y: ratio * multiplier}, ease:Power2.easeOut});
