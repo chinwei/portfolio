@@ -18,12 +18,13 @@ body
 	background: $medium-blue
 
 .light
-	font-family: 'source_sans_proextralight'	
+	// font-family: 'source_sans_proextralight'	
+	font-family: 'neristhin'
 	// font-family: -apple-system-font, 'source_sans_proextralight'
 
 .bold
-	font-family: 'source_sans_prosemibold'
-
+	// font-family: 'source_sans_prosemibold'
+	font-family: 'nerissemibold'
 h1
 	font-size: 22px
 	margin-bottom: 0.5em
@@ -86,7 +87,7 @@ input, label, textarea
 	transition: background 0.5s ease
 
 input, label 
-	width: 50%
+	width: 100%
 	height: 2em
 	min-width: 200px
 	
@@ -165,10 +166,13 @@ input:focus, textarea:focus
 
 .page
 	background: $medium-blue
-	width: 100%
+	// width: 100%
 	height: 100%
-
-
+	display: table
+		
+.page-container
+	display: table-cell
+	vertical-align: middle
 	
 
 
@@ -189,6 +193,7 @@ input:focus, textarea:focus
 #project-display-container
 	background: $dark-blue
 	overflow: hidden
+	padding-bottom: 100px
 
 
 #project-display-container.expanded
@@ -200,6 +205,7 @@ input:focus, textarea:focus
 
 #project-list 
 	padding-top: 100px
+	margin-bottom: 150px
 
 	> li
 		opacity: 0	// For intro animation
@@ -209,7 +215,7 @@ input:focus, textarea:focus
 
 
 .page-container
-	padding: 4%	20%
+	padding: 4%	15%
 	color: $light-blue
 	clear: both
 	padding-top: 50px
@@ -275,12 +281,13 @@ input:focus, textarea:focus
 	color: white
 	text-align: left
 	width: 100%
-	padding: 20px
+	padding: 40px
 
 	> h1
 		font-size: 35px
 		margin-bottom: 10px
 		margin-top: 30px
+		@extend .bold
 	> h2
 		margin-top: 0
 		font-size: 20px	
@@ -294,7 +301,7 @@ input:focus, textarea:focus
 		margin-top: 0	
 	p
 		margin-top: 10px	
-		font-size: 16px
+		font-size: 15px
 
 	p.hero
 		margin: 40px
@@ -452,13 +459,13 @@ input:focus, textarea:focus
 	> ul
 		> li
 			> a
-				font-size: 22px
+				font-size: 20px
 				text-decoration: none
 				background: $dark-grey
 				color: $medium-blue
 				position: relative
 				top: 13px
-				padding: 0 85px
+				padding: 0 75px
 				-webkit-transition: padding 0.3s ease
 				-moz-transition: padding 0.3s ease
 				transition: padding 0.3s ease
@@ -473,14 +480,14 @@ input:focus, textarea:focus
 			width: 100%
 			height: 100%
 			text-align: center
-			font-size: 55px
+			font-size: 45px
 			text-transform: uppercase
 			position: relative
 			top: 10px
 			transition: top 0.3s ease
 			> span
 				display: block
-				font-size: 16px	
+				font-size: 15px	
 				color: $light-blue
 	> li.disabled
 		> a:hover
@@ -551,14 +558,16 @@ input:focus, textarea:focus
 	.page-container.panel
 		padding-top: 80px	
 	.page-container
-		padding: 4% 10%	
+		padding: 4% 5%	
 		padding-top: 50px	
+	#project-detail
+		padding: 10px	
 	
 
 
 	
 // Tablet portrait		
-@media (min-width: 480px) and (max-width: 768px)
+@media (min-width: 480px) and (max-width: 1024px)
 	.page-container.panel
 		padding-top: 100px
 	#project-list
@@ -573,7 +582,7 @@ input:focus, textarea:focus
 
 	
 
-@media (max-width: 768px)
+@media (max-width: 1024px)
 	body
 		overflow: scroll
 	#sidebar
@@ -587,7 +596,8 @@ input:focus, textarea:focus
 	.centered
 		position: fixed	
 	.page
-		text-align: center
+		text-align: left
+		width: 100%
 	#project-detail
 		> p
 			padding: 0 4%	
@@ -604,14 +614,15 @@ input:focus, textarea:focus
 		width: 100%
 
 
-@media (min-width: 768px)
+@media (min-width: 1024px)
 	.page
 		height: 100%
 		display: table
-		padding-right: 255px
+		
 	.page-container
 		display: table-cell
 		vertical-align: middle
+		padding-right: 255px
 
 	#project-menu-container
 		border-bottom: 1px $dark-blue solid
@@ -653,7 +664,7 @@ input:focus, textarea:focus
 		-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5)			
 
 
-@media (max-width: 1024px)
+@media (max-width: 768px)
 	#project-detail
 		.col-1, .col-2
 			width: 100%
@@ -735,11 +746,11 @@ input.error::-webkit-input-placeholder, textarea.error::-webkit-input-placeholde
 
 
 .boxed
-	padding: 5px
+	padding: 7px
 	
 	background: $light-blue
 	color: $dark-grey
-	font-size: 18px
+	font-size: 16px
 	transition: color 0.3s ease, background 0.3s ease
 	display: inline-block
 	&:hover
@@ -756,6 +767,11 @@ input.error::-webkit-input-placeholder, textarea.error::-webkit-input-placeholde
 	float: right
 
 
+.page
+	h1
+		font-size: 30px
+	p
+		font-size: 17px	
 
 
 
