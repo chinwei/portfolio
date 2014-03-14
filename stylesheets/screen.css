@@ -104,9 +104,8 @@ h3 {
 /* line 40, ../sass/screen.sass */
 p {
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.6;
   margin-bottom: 1em;
-  letter-spacing: 0.5px;
 }
 
 /* line 46, ../sass/screen.sass */
@@ -391,23 +390,24 @@ input:focus, textarea:focus {
 }
 /* line 297, ../sass/screen.sass */
 #project-detail h4 {
-  margin-top: 10px;
+  margin: 20px 0 10px 0;
 }
-/* line 300, ../sass/screen.sass */
+/* line 301, ../sass/screen.sass */
 #project-detail h4:first-child {
   margin-top: 0;
 }
-/* line 302, ../sass/screen.sass */
+/* line 303, ../sass/screen.sass */
 #project-detail p {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.6;
 }
-/* line 306, ../sass/screen.sass */
+/* line 308, ../sass/screen.sass */
 #project-detail p.hero {
   margin: 40px;
   font-size: 20px;
 }
-/* line 310, ../sass/screen.sass */
+/* line 312, ../sass/screen.sass */
 #project-detail blockquote {
   background: #292e35;
   margin-bottom: 20px;
@@ -415,18 +415,17 @@ input:focus, textarea:focus {
   padding: 20px 20px 1px 20px;
   border-left: 5px #6c7a8c solid;
 }
-/* line 317, ../sass/screen.sass */
+/* line 319, ../sass/screen.sass */
 #project-detail blockquote > h4 {
   text-transform: none;
 }
-/* line 320, ../sass/screen.sass */
+/* line 322, ../sass/screen.sass */
 #project-detail blockquote > p {
   font-size: 20px;
 }
-/* line 326, ../sass/screen.sass */
+/* line 328, ../sass/screen.sass */
 #project-detail ul {
   width: 100%;
-  margin-top: 10px;
   padding: 10px;
   border-left: 5px #292e35 solid;
 }
