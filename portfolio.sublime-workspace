@@ -139,33 +139,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "Write Up\n===\n\nUPMC\n---\n\nProcess\n---\n\nAfter the kick off meeting with our client, we conducted a series of guerrilla interviews, literature review and competitive analysis to gain an overview of the health care landscape and used we found to inform more formal studies that were conducted subsequently.\n\n[Hunt Statement]\n\nAfter the initial phase of research, we redefined our focus and revised hunt statement to better reflect our new direction. In this new research phase, we recruited and interviewed participants.\n\nStory Sharing\n\n[Story sharing picture]\n\nAfter the interviews, we had story sharing sessions, where we shared our notes and experiences, and other members would write down insights on post its. \n\n[Affinity Diagram picture]\n\nOver the next few weeks, we worked on building our affinity diagram. As recurring themes emerged, we modified our interview questions to probe areas that seem promising.\n\n[Diary study picture]\n\nIn order to validate some of our findings, and to find out whether there was anything we missed during the interviews, we conducted a one week long diary study on some of the participants we interviewed.\n\nAfter collecting the diaries, we talked with the participants about what they wrote in the diary.\n\nWe also conducted a number of house visits to better understand the way these people live their lives.\n\nWe are currently synthesizing the research data and with that done, we will create a number of visions that are informed by our research. During summer, we will be building a prototype, conducting user tests and iterating and we look forward to delivering a feasible and meaningful solution.\n\n\nNEWG\n---\n\n\nThe goal of this project is to understand the goals and challenges of event planners in the New Economy and create an interactive tool to facilitate communication and empower the New Economy with more informed decision-making.\n\n[Lit review picture]\n\nIn order to acquaint ourselves with the domain, we did a number of literature reviews, a competitive analysis of other tools within the event planning and social media space. We also interviewed a number of event planners as well as some people who regularly attended New Economy events.\n\nIn order to understand how events were planned within the organization, we attended a monthly planning meeting where they were planning an upcoming event.\n\n[2 affinity diagram pictures]\n\nFrom the interview notes, we wrote each insight on a piece of post it and created an affinity diagram.\n\n[Visioning picture]\n\nWe conducted 2 visioning workshops with the clients and together we came up with over 40 solutions, of which we consolidated and short listed 3. \n\n[Wireframe picture]\n\nWe made a low-fi wireframe for a solution that we thought was most feasible and useful to the event planners.\n\nNext, we will be iterating on our design and finally deliver a working prototype.\n\n\n\nCTRL\n---\n\n###About the Project\n\n- To redesign a control \n\n###Design Rationale\n\n- Always wondered why some appliances which were so ubiquitous and used for only a small range of purposes have such convoluted interfaces\n- Wanted to see how far it could be simplified\n\n- Although never verified formally, microwaves are usually used to reheat food, which takes between 2 - 6 minutes\n- Power settings mean nothing to the person using it\n- Users don't need to know the time left in great precision\n\n###Design Process\n\n####Goals of design\n\n- User should be able to operate the microwave in one step\n- User should process a minimal amount of information to perform the task\n\n###Drawbacks\n\n- No defrost mode\n- More effort required for longer durations\n- Aesthetics look expensive\n- Hard to justify cost at the expense of features\n- Usability vs Feature-rich?\n\n\n\n\nHF\n---\n\n###About the Project\n\n- CMU's police department provides a bus service known as the Escort Buses dedicated to the safety of the students. These serve to transport students from the campus to the nearest intersection to their place of residence within a 1.5 mile radius, during the night time when transportation isn't as easily available.\n\n###Process\n\n- 2 Bus routes observations followed by interviews within 48 hours\n    + Measured sound level\n    + Tracked route taken via GPS\n    + Asked about the decisions they made\n\n- Application of human factors principles to better understand problem\n    + Cognition\n    + Displays\n    + Memory\n    + Perception\n\n- Issues\n    + Reliance on a paper-based memory aid\n        * Visibility at night is reduced\n        * Lack of illumination on paper\n        * Repeated photocopying resulted in diminished quality\n        * Time pressure\n\n- Design of prototype\n    + Tablet app\n    \n###Involvement\n\n\nTrace\n---\n\n###About the Project\n\n- Statistics here...\n\n###Process\n\n###Involvement\n\n\n\n\n\n\n\n\n",
-			"settings":
-			{
-				"buffer_size": 4753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<div id=\"project-detail\">\n	<h1>Trace App</h1>	\n\n	<h2>Mobile App Design</h2>\n	\n	<img src=\"portfolio/image/trace/cover.jpg\" alt=\"\">\n	\n\n	<div class=\"row\">\n		<div class=\"col-1\">\n			<h4 class=\"boxed\">\n				Team\n			</h4>\n			<ul>\n				<li>Fonda Chen</li>\n				<li>Adam Menz</li>\n				<li>Sean Ro</li>\n				<li>Chin Wei Wong</li>\n			</ul>\n			<h4 class=\"boxed\">\n				About the Project\n			</h4>\n			<p>\n				This project is an assignment from Interaction Design Studio (IxDS), conducted by John Zimmerman\n			</p>\n			<h4 class=\"boxed\">\n				Involvement\n			</h4>\n			<p>\n				I built the wireframe, designed the presentation slides used for the pitch as well as the visuals for the mobile app.\n			</p>\n			\n			\n			\n			\n			\n		</div>\n		<div class=\"col-2 right image\">\n		\nOVERVIEW\nTrace is a mobile app that allows teenagers to rediscover shared memories, and where they happened. A summary of our process and \nBACKGROUND RESEARCH\nTeens spend 7 hours on their smartphones each day, and photo sharing is a big part of their lives. Hundreds of millions of photos are uploaded to social networks each day. Large scale acquisitions like Instagram and more recently, the 19 billion dollars purchase of Whatsapp by Facebook highlighted the huge opportunity behind simple sharing of media and text messages.\nGUERILLA INTERVIEWS\nWe interviewed teenagers to find out how they interacted with their virtual possessions such as photos and music and found that photos in general hold special meaning to them. Most of them felt that if they were to lose their phones, photos would be what they would miss the most. We also found that while teenagers enjoy taking pictures and posting to social networks, they seldom look back at them. \nOpportunity\nTeenagers like sharing silly photos among close friends, and they love surprises. What if we can give them a reason to look back on their old photos, and make it enjoyable? About Trace\nTrace allows people to take photos of memorable events, and leave that as a Trace. When any of the people tagged re-visit the location, each of them will be notified that they have picked up the Trace. They then can comment and reminisce about the event with their friends for a duration before the Trace expires.\nPERSONA AND SCENARIO\nTo come up with this concept, we created a persona and a scenario to better help us identify with our target audience and how they might use the app. These also made it easier to communicate our users to the audience.\nDASHBOARD DESIGN\nWe also created a dashboard to help us monitor the usage patterns of the app, which could help us uncover interesting opportunities. It also acts as a health monitor. For example, if usage varies a lot within a short period of time or if we see something that is not planned for, we could act on it.\n\n		\n		<img src=\"portfolio/image/trace/numbers.jpg\" alt=\"\">\n<img src=\"portfolio/image/trace/remember.jpg\" alt=\"\">\n<img src=\"portfolio/image/trace/persona.jpg\" alt=\"\">\n<img src=\"portfolio/image/trace/dashboard.jpg\" alt=\"\">\n<img src=\"portfolio/image/trace/dashboard-midfi.jpg\" alt=\"\">\n\n		</div>\n	</div>\n\n\n\n\n</div>\n\n",
-			"file": "portfolio/trace.html",
-			"file_size": 3608,
-			"file_write_time": 130392092290000000,
-			"settings":
-			{
-				"buffer_size": 3075,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\n\n###Apple\n\n###Google\n\n###Microsoft\n\n###IBM\n\n###General Electric\n\n###Mercedes Benz\n\n###Philips\n\n###Boeing\n\n###eBay\n\n###Intel\n\n###Facebook\n\n###Accenture Interactive\n\n###Intuit\n\nAgencies\n---\n\n###Blink\n\n###HUGE Inc\n\n###RG/A\n\n###Frog\n\n###Barbarian\n\n###Adaptive Path\n\n###Effective UI\n\n###Cooper\n\n\nEstablished Start Ups\n---\n\n###Dropbox\n\n###Twitter\n\n###Evernote\n\n###Palantir\n\n###Etsy\n\n###Nest\n\n###Square\n\n\nEarly stage Startups\n---\n\n###Nexbit\n\n\n",
-			"settings":
-			{
-				"buffer_size": 437,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -174,12 +147,44 @@
 		"selected_items":
 		[
 			[
-				"title",
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pre",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ever",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"tit",
 				"Convert Case: Title Case"
 			],
 			[
-				"sass",
-				"Set Syntax: Sass"
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
 			],
 			[
 				"css",
@@ -188,14 +193,6 @@
 			[
 				"emmett",
 				"Emmet: Reflect CSS Value"
-			],
-			[
-				"mark",
-				"Set Syntax: MultiMarkdown"
-			],
-			[
-				"ever",
-				"Evernote: Send to Evernote"
 			],
 			[
 				"bookmark",
@@ -236,10 +233,6 @@
 			[
 				"bookm",
 				"SublimeBookmarks: Goto Bookmark"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"ard",
@@ -298,10 +291,6 @@
 				"Markdown: Open with Erato"
 			],
 			[
-				"titl",
-				"Convert Case: Title Case"
-			],
-			[
 				"UPPER",
 				"Convert Case: Upper Case"
 			],
@@ -348,10 +337,6 @@
 			[
 				"folder",
 				"Project: Add Folder"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			]
 		],
 		"width": 647.0
@@ -377,27 +362,31 @@
 	},
 	"file_history":
 	[
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/newg.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/upmc.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/index.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ux.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ctrl.html",
-		"/Users/chinweiwong/Desktop/livestyle",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/sass/screen.sass",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/trace.html",
+		"/Users/chinweiwong/Documents/UPMC-Bond/Research/Models/cultural-model-roles.md",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/act.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/human-factors.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/trace.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ucre.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ctrl.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/js/script.js",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/upmc.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/less/rotated-flipped.less",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/screen.css",
+		"/Users/chinweiwong/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/newg.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/ux.html",
+		"/Users/chinweiwong/Desktop/livestyle",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/hacks.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/request.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/fonts/FontAwesome.otf",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/neris_thin_macroman/stylesheet.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/photo.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/screen.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/print.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/ie.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/.sass-cache/aea3529cdaca2a1d296d5dc877bfac923561ce20/screen.sassc",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/mti.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/act.html",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/js/script.js",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/less/path.less",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/neris_semibold_macroman/stylesheet.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/neris_semibold_macroman/specimen_files/specimen_stylesheet.css",
@@ -409,7 +398,6 @@
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/neris_thin_macroman/Neris-Thin-demo.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/neris_semibold_macroman/specimen_files/easytabs.js",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/generator_config.txt",
-		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/less/rotated-flipped.less",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/libs/antiscroll/antiscroll.css",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/stylesheets/fonts/font-awesome-4.0.3/less/core.less",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/mint.html",
@@ -506,6 +494,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"patient",
+			"dietician",
+			"patient",
+			"indesign",
+			"nurse",
+			"patient",
+			"nurse",
+			"nurses",
+			"nutrition",
+			"pysio",
+			"ga",
+			"<h4",
+			"selection",
+			"find",
+			"selection",
+			"<img",
+			"h4",
 			"^[A-Z][A-Z]",
 			"^[A-Z]",
 			"<img",
@@ -615,25 +621,7 @@
 			"navigation",
 			"sideb",
 			"switchPanel",
-			"expanded",
-			"isExpanded",
-			"expand",
-			".panel",
-			"scroll",
-			"project-display-container",
-			"\\n",
-			"\\n«",
-			"\\n",
-			"currentPage",
-			"switchPanel",
-			"scrollto",
-			"scroll",
-			"page-con",
-			"scroll",
-			"topbar",
-			"project-de",
-			".full-width-bar",
-			"full-"
+			"expanded"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -651,234 +639,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								675,
-								675
-							]
-						],
-						"settings":
-						{
-							"$evernote": true,
-							"$evernote_guid": "2e42ebfc-5e16-476e-b384-9981cecebeae",
-							"$evernote_title": "Portfolio Writeup",
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"parser": "markdown",
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
-							"tab_size": 4,
-							"target": "browser",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 368.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "portfolio/trace.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3075,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2762,
-								745
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 651.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"$evernote": true,
-							"$evernote_guid": "aafb1b92-ed00-4272-8b11-0add98b1a33c",
-							"$evernote_title": "Job Hit List",
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 173.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -933,6 +695,10 @@
 	{
 		"height": 118.0
 	},
+	"output.project3":
+	{
+		"height": 118.0
+	},
 	"output.stino_log":
 	{
 		"height": 118.0
@@ -969,6 +735,50 @@
 		"selected_items":
 		[
 			[
+				"sass",
+				"sass/screen.sass"
+			],
+			[
+				"act",
+				"portfolio/act.html"
+			],
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"ucre",
+				"portfolio/ucre.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"ctr",
+				"portfolio/ctrl.html"
+			],
+			[
+				"ixd",
+				"index.html"
+			],
+			[
+				"tra",
+				"portfolio/trace.html"
+			],
+			[
+				"hf",
+				"portfolio/human-factors.html"
+			],
+			[
+				"ctt",
+				"portfolio/ctrl.html"
+			],
+			[
 				"trace",
 				"portfolio/trace.html"
 			],
@@ -985,28 +795,12 @@
 				"portfolio/hacks.html"
 			],
 			[
-				"hf",
-				"portfolio/human-factors.html"
-			],
-			[
-				"tra",
-				"portfolio/trace.html"
-			],
-			[
 				"newg",
 				"portfolio/newg.html"
 			],
 			[
 				"sas",
 				"sass/screen.sass"
-			],
-			[
-				"sass",
-				"sass/screen.sass"
-			],
-			[
-				"index",
-				"index.html"
 			],
 			[
 				"css",
@@ -1021,15 +815,7 @@
 				"portfolio/trace.html"
 			],
 			[
-				"scrip",
-				"js/script.js"
-			],
-			[
 				"ine",
-				"index.html"
-			],
-			[
-				"in",
 				"index.html"
 			],
 			[
@@ -1055,10 +841,6 @@
 			[
 				"requ",
 				"portfolio/request.html"
-			],
-			[
-				"act",
-				"portfolio/act.html"
 			],
 			[
 				"mti",
@@ -1154,7 +936,7 @@
 		[
 			[
 				"",
-				"~/Box Sync/MHCI/spring/gadgets/projects/gadgets.sublime-project"
+				"~/Box Sync/MHCI/spring/gadgets/projects/microprojects/gadgets.sublime-project"
 			]
 		],
 		"width": 380.0

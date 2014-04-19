@@ -234,7 +234,7 @@ var Site = {
 		$(window).scrollTop(0);
 		TweenLite.to(preloader, 0.2, {opacity: 1, ease:Power2.easeInOut});
 		var url = 'portfolio/'+content.replace('#', "") + '.html';
-		// ga('send', 'pageview', {'page': url}); // Individual page analytics
+		ga('send', 'pageview', {'page': url}); // Individual page analytics
 		
 		$(window).load( url, function(response, status, xhr ) {
 		  if (status == 'success') {
@@ -376,7 +376,7 @@ var Site = {
 			if ($('#topbar').hasClass('reveal')) $('#topbar').removeClass("reveal");
 			var href = $(this).attr('href');
 			
-			// console.log('/portfolio/'+href.replace("#","")+'.html');
+			
 			Site.currentSelected = $(this).parent().index();
 			Site.portfolioLength = Site.projectMenu.find('ul > li').length - 1;
 			Site.expandPanel(href);
@@ -402,15 +402,20 @@ var Site = {
 
 		})
 		
-			$(document).bind('mousemove', function(e){
-				var ratio = e.clientY/$(window).height();
-				var multiplier = $('#project-list').outerHeight(true)-$(window).height();
-				// console.log($('#project-list').outerHeight(true)-$(window).height());
-				if (!Site.isExpanded) {
-					// $('#project-menu-container').scrollTop(ratio * multiplier);
-					TweenLite.to($('#project-menu-container'), 0.5, {scrollTo:{y: ratio * multiplier}, ease:Power2.easeOut});
-				}
-			})
+            // $(document).bind('mousemove', function(e) {
+            //     var ratio = e.clientY / $(window).height();
+            //     var multiplier = $('#project-list').outerHeight(true) - $(window).height();
+            //     // console.log($('#project-list').outerHeight(true)-$(window).height());
+            //     if (!Site.isExpanded) {
+            //         // $('#project-menu-container').scrollTop(ratio * multiplier);
+            //         TweenLite.to($('#project-menu-container'), 0.5, {
+            //             scrollTo: {
+            //                 y: ratio * multiplier
+            //             },
+            //             ease: Power2.easeOut
+            //         });
+            //     }
+            // })
 
 		
 
