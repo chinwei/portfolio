@@ -573,7 +573,7 @@ body.disabled #project-list:hover li:hover .box {
 
 /* line 488, ../sass/screen.sass */
 .preloader {
-  color: #333333;
+  color: #aaaaaa;
   opacity: 0;
   line-height: 0;
 }
