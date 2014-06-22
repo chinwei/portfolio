@@ -97,6 +97,13 @@ img
 	max-width: 100%
 	margin-bottom: 10px
 
+
+figure
+	margin-bottom: 15px
+	figcaption
+		font-size: 12px
+		@extend .bold	
+
 .left
 	float: left
 
@@ -568,18 +575,19 @@ body.disabled
 				-webkit-transition: padding 0.3s ease
 				-moz-transition: padding 0.3s ease
 				transition: padding 0.3s ease
-		> li:nth-child(1):hover
+		> li:nth-child(1):hover, li:nth-child(1).active
 			.fa.fa-stop
 				color: $item-one
-		> li:nth-child(2):hover
+		> li:nth-child(2):hover, li:nth-child(2).active
 			.fa.fa-stop
 				color: $item-four
-		> li:nth-child(3):hover
+		> li:nth-child(3):hover, li:nth-child(3).active
 			.fa.fa-stop
 				color: $item-five
-		> li:nth-child(4):hover
+		> li:nth-child(4):hover, li:nth-child(4).active
 			.fa.fa-stop
 				color: $item-six		
+
 
 
 #project-list 

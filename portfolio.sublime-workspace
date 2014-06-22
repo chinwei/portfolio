@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"phase1-process.jpg	w:1200 h:913"
+			],
+			[
 				"ner",
 				"neris_thin_macroman/"
 			],
@@ -363,6 +367,7 @@
 	"file_history":
 	[
 		"/Users/chinweiwong/Box Sync/Portfolio/www/index.html",
+		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/uci.html",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/sass/screen.sass",
 		"/Users/chinweiwong/Documents/UPMC-Bond/Research/Models/cultural-model-roles.md",
 		"/Users/chinweiwong/Box Sync/Portfolio/www/portfolio/act.html",
@@ -735,6 +740,10 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.html"
+			],
+			[
 				"sass",
 				"sass/screen.sass"
 			],
@@ -829,10 +838,6 @@
 			[
 				"ner",
 				"stylesheets/fonts/neris_thin_macroman/stylesheet.css"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"srip",
@@ -936,7 +941,7 @@
 		[
 			[
 				"",
-				"~/Box Sync/MHCI/spring/gadgets/projects/microprojects/gadgets.sublime-workspace"
+				"~/Box Sync/Portfolio/www/portfolio.sublime-project"
 			]
 		],
 		"width": 380.0
