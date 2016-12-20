@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works-rsses on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/works/index.xml</link>
+    <description>Recent content in Works-rsses on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2016 15:14:53 -0800</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/works/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Intelligent Diary</title>
+      <link>http://replace-this-with-your-hugo-site.com/works/diary/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/works/diary/</guid>
+      <description>
+
+&lt;header class=&#34;app-header&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#diary&#34; class=&#34;text-logo&#34;&gt;
+        CHINWEI
+    &lt;/a&gt;
+&lt;/header&gt;
+
+&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Side Project&lt;/span&gt;
+&lt;span class=&#34;title&#34;&gt;Moment&lt;/span&gt;
+&lt;span class=&#34;byline&#34;&gt;Context Aware Diary&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Moment is an attempt to capture small pieces of information during informal interactions. Many kinds of information, like learning something interesting during a coffee meeting with a colleague not easily captured.&lt;/p&gt;
+
+&lt;p&gt;What if capturing a thought was as simple as sending a message to yourself, and what if it was as easy to associate that note with people, location and documents?&lt;/p&gt;
+
+&lt;p&gt;The idea for Moment came about when I realized how cumbersome it was to have to name each note in apps like Evernote or Google Docs.&lt;/p&gt;
+
+&lt;p&gt;Another drawback of organizing notes around documents was that it made it harder to link between them.&lt;/p&gt;
+
+&lt;p&gt;Reminders but not todos, no due date&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Had meeting with A and B today, decided to go with X&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;X mentioned that his boss prefers this, should explore in that direction&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;project-timeline&#34;&gt;Project Timeline&lt;/h3&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 60%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Invision&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 20%;     margin-left: 55%;&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Hyperdev&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 30%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UPMC</title>
+      <link>http://replace-this-with-your-hugo-site.com/works/mychoice/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/works/mychoice/</guid>
+      <description>
+
+&lt;header class=&#34;app-header&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#mychoice&#34; class=&#34;text-logo&#34;&gt;
+        CHINWEI
+    &lt;/a&gt;
+&lt;/header&gt;
+
+&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Carnegie Mellon University Capstone Project&lt;/span&gt;
+&lt;span class=&#34;title&#34;&gt;MyChoice&lt;/span&gt;
+&lt;span class=&#34;byline&#34;&gt;Extending healthcare beyond hospital walls&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;*Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process.&lt;/p&gt;
+
+&lt;h3 id=&#34;improve-patient-engagement&#34;&gt;Improve patient engagement&lt;/h3&gt;
+
+&lt;p&gt;As a culmination of Carnegie Mellon’s Master’s of HCI program, this 8-month project was sponsored by the University of Pittsburgh Medical Center (UPMC) to look into a patient-facing tool with the goals of deeper engagement with the health system and better health outcomes.&lt;/p&gt;
+
+&lt;h3 id=&#34;approach&#34;&gt;Approach&lt;/h3&gt;
+
+&lt;p&gt;Over the course of the project, we conducted user research, design, and development of a high fidelity technology solution.&lt;/p&gt;
+
+&lt;p&gt;We studied patient lives, behavior change strategies, spoke with clinicians, and developed key insights and visions toward this goal. Our numerous design visions were refined to one idea, which we developed into a mobile app prototype and concept video.&lt;/p&gt;
+
+&lt;p&gt;As the user experience lead, I played a key role in designing and building the various prototypes.&lt;/p&gt;
+
+&lt;h3 id=&#34;project-timeline&#34;&gt;Project Timeline&lt;/h3&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;React Native&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 40%;     margin-left: 30%;&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Swift&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;about-upmc&#34;&gt;About UPMC&lt;/h3&gt;
+
+&lt;p&gt;The University of Pittsburgh Medical Center (UPMC) is an integrated global non-profit health enterprise that has more than 62,000 employees, 22 hospitals, and a 2.2 million-member health insurance division. They are also ranked one of top ten hospitals in the United States.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UPMC</title>
+      <link>http://replace-this-with-your-hugo-site.com/works/splitbill/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/works/splitbill/</guid>
+      <description>
+
+&lt;header class=&#34;app-header&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#splitbill&#34; class=&#34;text-logo&#34;&gt;
+        CHINWEI
+    &lt;/a&gt;
+&lt;/header&gt;
+
+&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Side Project&lt;/span&gt;
+&lt;span class=&#34;title&#34;&gt;Split Bill&lt;/span&gt;
+&lt;span class=&#34;byline&#34;&gt;Split bills without signing in&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Splitbill attempts to address a common problem in a crowded space: splitting meal payments after a dinner.&lt;/p&gt;
+
+&lt;p&gt;I’ve looked at apps like Splitwise, which solves a similar problem but one thing I didn’t like was that everyone at the table also needed an account for it to work.&lt;/p&gt;
+
+&lt;p&gt;I’ve known about another app, SplitWise for a long time. One thing I disagreed with was that I had to have an account, along with everyone else at the table. Even though the UI was clean and presentable, the process of divvy up the payments was confusing.&lt;/p&gt;
+
+&lt;p&gt;My approach makes a few assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The identity of the food is not that important&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The app does not need to know the identity of the people in the transaction&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I’ve restricted to 6 diners due to screen size, that’s the trade off. In the future, if there is a popular use case, it should be possible to scale to support slightly more users.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the above are true, then it should be possible to streamline the flow to be much more efficient&lt;/p&gt;
+
+&lt;h3 id=&#34;timeline&#34;&gt;Timeline&lt;/h3&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;React Native&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 40%;     margin-left: 30%;&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;Swift&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>fluigdata</title>
+      <link>http://replace-this-with-your-hugo-site.com/works/fluigdata/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/works/fluigdata/</guid>
+      <description>
+
+&lt;header class=&#34;app-header&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#fluigdata&#34; class=&#34;text-logo&#34;&gt;
+        CHINWEI
+    &lt;/a&gt;
+&lt;/header&gt;
+
+&lt;div class=&#34;article-header&#34;&gt;
+    &lt;span class=&#34;label&#34;&gt;TOTVS Labs&lt;/span&gt;
+    &lt;span class=&#34;title&#34;&gt;Fluig Data&lt;/span&gt;
+    &lt;span class=&#34;byline&#34;&gt;End-to-end Data Discovery Platform&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;data-in-silos&#34;&gt;Data in Silos&lt;/h3&gt;
+
+&lt;p&gt;Large enterprises use multiple software to store different parts of information about people, products and other entities.&lt;/p&gt;
+
+&lt;p&gt;Most of these software are not interconnected which makes assembling a complete picture difficult.&lt;/p&gt;
+
+&lt;h3 id=&#34;explore&#34;&gt;Explore&lt;/h3&gt;
+
+&lt;p&gt;Fluig Data allows analysts, operational staff and business leaders in an organization to access information about their customers and products on demand and generate dashboards to track performance metrics.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-quality&#34;&gt;Data Quality&lt;/h3&gt;
+
+&lt;p&gt;Having clean, accurate data is a prerequisite to having meaningful and actionable insights. Fluig Data makes it easy to onboard data sources via connectors to internal and public data sources.&lt;/p&gt;
+
+&lt;p&gt;It structures, normalizes, cleanses and validates the data to create a reliable source of truth for an record.&lt;/p&gt;
+
+&lt;h3 id=&#34;involvement&#34;&gt;Involvement&lt;/h3&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;UI Dev&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-1 width-50&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;UI&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-2&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;UX&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-3&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;timeline-label&#34;&gt;PM&lt;/div&gt;
+        &lt;div class=&#34;timeline-bar-container&#34;&gt;
+            &lt;div class=&#34;timeline-bar color-4 width-50 u-pull-right&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;nice-words-from-team&#34;&gt;Nice words from team&lt;/h3&gt;
+
+&lt;p&gt;I’m just happy that after, I don’t know, 9 months working here, I can finally agree with a project management change&lt;/p&gt;
+
+&lt;p&gt;have I told you I miss you as “project leader”? ‘cause I do&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

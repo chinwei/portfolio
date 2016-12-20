@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/works/diary/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/works/mychoice/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/works/splitbill/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/works/fluigdata/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+</urlset>
