@@ -83,6 +83,12 @@ h3 {
   font-size: 18px;
   font-weight: bold; }
 
+video {
+  max-width: 343px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 32px; }
+
 .sans, body {
   font-family: "Noto Sans", sans-serif; }
 

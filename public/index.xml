@@ -147,6 +147,13 @@
 &lt;span class=&#34;title&#34;&gt;Split Bill&lt;/span&gt;
 &lt;span class=&#34;byline&#34;&gt;Split bills without signing in&lt;/span&gt;&lt;/p&gt;
 
+&lt;!-- Simple video example --&gt;
+
+&lt;video autoplay&gt;  
+   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill2x.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt; 
+&lt;/video&gt;
+
 &lt;p&gt;Splitbill attempts to address a common problem in a crowded space: splitting meal payments after a dinner.&lt;/p&gt;
 
 &lt;p&gt;I’ve looked at apps like Splitwise, which solves a similar problem but one thing I didn’t like was that everyone at the table also needed an account for it to work.&lt;/p&gt;

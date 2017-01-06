@@ -15,6 +15,14 @@ date = "2016-12-18T15:14:53-08:00"
 <span class="title">Split Bill</span>
 <span class="byline">Split bills without signing in</span>
 
+
+<!-- Simple video example -->
+<video autoplay>  
+   <source type='video/mp4' src='/assets/splitbill/splitbill2x.mp4' media='(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)'> 
+   <source type='video/mp4' src='/assets/splitbill/splitbill.mp4' media='(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)'> 
+</video>
+
+
 Splitbill attempts to address a common problem in a crowded space: splitting meal payments after a dinner.
 
 I’ve looked at apps like Splitwise, which solves a similar problem but one thing I didn’t like was that everyone at the table also needed an account for it to work.

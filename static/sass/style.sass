@@ -7,6 +7,13 @@ html
 	-ms-touch-action: manipulation
 	touch-action: manipulation
 
+svg 
+	rect, polygon, path, g
+		fill: inherit
+
+use.color-primary
+	fill: #00ccff
+
 header.app-header
 	height: 50px
 	display: flex
@@ -36,7 +43,7 @@ header.app-header
 	// height: 100%
 	width: 100%
 	&.intro
-		justify-content: flex-end
+		justify-content: center
 	&.article-list
 		justify-content: center
 		position: relative
@@ -75,10 +82,9 @@ h3:first-of-type
 	margin: 0 auto
 
 
-.intro-content-block
-	border-top: 1px #f3f3f3 solid
-
-
+.byline .icon
+	position: relative
+	top: 12px
 
 
 // Text Styles
@@ -99,6 +105,12 @@ h3
 	font-weight: bold
 	@extend .serif
 
+video
+	max-width: 343px
+	display: block
+	margin: 0 auto
+	margin-bottom: 32px
+
 .sans
 	font-family: 'Noto Sans', sans-serif
 
@@ -107,20 +119,30 @@ h3
 
 .label
 	font-size: 12px
-	margin-bottom: 4px
+	margin-bottom: 16px
 	text-transform: uppercase
 	display: block
 
 .title
-	font-size: 32px
+	font-size: 112px
 	font-weight: bold
 	display: block
-	margin-bottom: 16px
+	margin-bottom: 24px
+	letter-spacing: -8px
+
+.intro
+	.title
+		font-size: 160px
+	.byline
+		margin-bottom: 80px
 
 .byline
-	font-size: 18px
+	font-size: 24px
+	line-height: 1.5
 	margin-bottom: 32px
 	display: block
+	color: #939493
+	@extend .serif
 
 .body-copy, p
 	font-size: 18px
@@ -201,8 +223,11 @@ ul>li
 .u-d-block
 	display: block
 
-.text-center
+.u-text-center
 	text-align: center
+
+.u-margin-right-m
+	margin-right: 32px
 
 .u-pull-right
 	float: right
