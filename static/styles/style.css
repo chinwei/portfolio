@@ -5,12 +5,6 @@ html {
   -ms-touch-action: manipulation;
   touch-action: manipulation; }
 
-svg rect, svg polygon, svg path, svg g {
-  fill: inherit; }
-
-use.color-primary {
-  fill: #00ccff; }
-
 header.app-header {
   height: 50px;
   display: flex;
@@ -79,6 +73,15 @@ h3:first-of-type {
   position: relative;
   top: 12px; }
 
+svg.dot {
+  fill: #ccc;
+  stroke: #ccc;
+  stroke-width: 8; }
+  svg.dot.is-selected {
+    stroke-width: 0; }
+svg.is-selected, svg .accent {
+  fill: #FF4400; }
+
 body {
   color: #333333; }
 
@@ -146,6 +149,15 @@ ul > li {
   line-height: 28px;
   margin-bottom: 8px;
   list-style-type: disc; }
+
+nav.pagination {
+  width: 14px;
+  position: fixed;
+  right: 24px;
+  top: 40%;
+  text-align: center; }
+  nav.pagination svg {
+    margin-bottom: 30px; }
 
 .button-group {
   margin-bottom: 32px;

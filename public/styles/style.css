@@ -5,6 +5,15 @@ html {
   -ms-touch-action: manipulation;
   touch-action: manipulation; }
 
+svg {
+  transition: margin-left 0.5s ease; }
+
+svg:hover {
+  margin-left: 100px; }
+
+use.color-primary {
+  fill: #00ccff; }
+
 header.app-header {
   height: 50px;
   display: flex;
@@ -31,7 +40,7 @@ header.app-header {
   flex-direction: column;
   width: 100%; }
   .content.intro {
-    justify-content: flex-end; }
+    justify-content: center; }
   .content.article-list {
     justify-content: center;
     position: relative;
@@ -69,8 +78,9 @@ h3:first-of-type {
 .margin-auto {
   margin: 0 auto; }
 
-.intro-content-block {
-  border-top: 1px #f3f3f3 solid; }
+.byline .icon {
+  position: relative;
+  top: 12px; }
 
 body {
   color: #333333; }
@@ -92,25 +102,33 @@ video {
 .sans, body {
   font-family: "Noto Sans", sans-serif; }
 
-.serif, h3, .body-copy, p, ul > li {
+.serif, h3, .byline, .body-copy, p, ul > li {
   font-family: "Noto Serif", serif; }
 
 .label {
   font-size: 12px;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   display: block; }
 
 .title {
-  font-size: 32px;
+  font-size: 112px;
   font-weight: bold;
   display: block;
-  margin-bottom: 16px; }
+  margin-bottom: 24px;
+  letter-spacing: -8px; }
+
+.intro .title {
+  font-size: 160px; }
+.intro .byline {
+  margin-bottom: 80px; }
 
 .byline {
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 1.5;
   margin-bottom: 32px;
-  display: block; }
+  display: block;
+  color: #939493; }
 
 .body-copy, p {
   font-size: 18px;
@@ -178,8 +196,11 @@ ul > li {
 .u-d-block {
   display: block; }
 
-.text-center {
+.u-text-center {
   text-align: center; }
+
+.u-margin-right-m {
+  margin-right: 32px; }
 
 .u-pull-right {
   float: right; }

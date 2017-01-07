@@ -5,23 +5,52 @@
 	</head>
 	<body>
 
+		<nav class="pagination">
+			<svg data-target="intro" class="dot" viewBox="0 0 100 100" width="10" height="10">
+				<use xlink:href="assets/images/sprites.svg#circle"></use>
+			</svg>
+
+			<svg data-target="fluigdata" class="dot" viewBox="0 0 100 100" width="10" height="10">
+				<use xlink:href="assets/images/sprites.svg#circle"></use>
+			</svg>
+
+			<svg data-target="pensieve" class="dot" viewBox="0 0 100 100" width="10" height="10">
+				<use xlink:href="assets/images/sprites.svg#circle"></use>
+			</svg>
+
+			<svg data-target="divvy" class="dot" viewBox="0 0 100 100" width="10" height="10">
+				<use xlink:href="assets/images/sprites.svg#circle"></use>
+			</svg>
+
+			<svg data-target="mychoice" viewBox="0 0 100 100" width="14" height="14">
+				<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
+			</svg>
+
+			<svg data-target="experience" viewBox="0 0 100 100" width="14" height="14">
+				<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
+			</svg>
+		</nav>
+
 		<div class="full-page">
 			<div class="content intro">
 				<div>
-					<div class="constrain-width margin-auto u-text-center intro">
+					<div class="constrain-width margin-auto u-text-center intro" id="intro">
 						<span class="title">Chinwei</span>
 						<span class="byline">I care about designing useful and delightful products</span>
 						<span class="button-group">
 							<a href="#" class="u-margin-right-m">
 								<svg viewBox="0 0 100 100" width="18" height="18">
-									<use xlink:href="assets/images/linkedInIcon.svg#Page-1"></use>
+									<use xlink:href="assets/images/sprites.svg#linkedin"></use>
 								</svg>
 							</a>
 							<a href="#">
 								<svg viewBox="0 0 100 100" width="18" height="18">
-									<use xlink:href="assets/images/docIcon.svg#Page-1"></use>
+									<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
 								</svg>
 							</a>
+
+							
+
 						</span>
 						
 					</div>
@@ -37,8 +66,9 @@
 							<span class="title">Fluig Data</span>
 							<span class="byline">An end-to-end data exploration platform
 							
-								<svg class="icon" viewBox="0 0 100 100" width="40" height="40">
-									<use class="color-primary" xlink:href="assets/images/arrowRightIcon.svg#Page-1"></use>
+								<svg class="icon" width="40" height="40">
+									<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+								</svg>
 								</span>
 							
 
@@ -51,14 +81,16 @@
 		</div>
 
 
-		<div class="full-page" id="diary">
+		<div class="full-page" id="pensieve">
 			<div class="content article-list">
 				<div class="constrain-width margin-auto">
 						<span class="label">Side Project</span>
 						<span class="title">Pensieve</span>
 						<span class="byline">Write notes that relate to people
-							<svg class="icon" viewBox="0 0 100 100" width="40" height="40">
-								<use class="color-primary" xlink:href="assets/images/arrowRightIcon.svg#Page-1"></use>
+							<svg class="icon" width="40" height="40">
+								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+							</span>
+							
 							</span>
 						</span>
 						
@@ -68,14 +100,15 @@
 		</div>
 
 
-		<div class="full-page" id="splitbill">
+		<div class="full-page" id="divvy">
 			<div class="content article-list">
 				<div class="constrain-width margin-auto">
 						<span class="label">Side Project</span>
 						<span class="title">Divvy</span>
 						<span class="byline">The fastest way to split bills at the table
-							<svg class="icon" viewBox="0 0 100 100" width="40" height="40">
-								<use class="color-primary" xlink:href="assets/images/arrowRightIcon.svg#Page-1"></use>
+							<svg class="icon" width="40" height="40">
+								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+							</svg>
 							</span>
 						</span>
 					</div>
@@ -89,10 +122,11 @@
 				<div class="constrain-width margin-auto">
 						<span class="label">Capstone Project</span>
 						<span class="title">MyChoice</span>
-						<span class="byline">Extending healthcare beyond hospital walls</span>
-						<a href="works/mychoice/" class="button">
-							Explore Work
-						</a>
+						<span class="byline">Extending healthcare beyond hospital walls
+							<svg class="icon" width="40" height="40">
+								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+							</svg>
+						</span>
 					</div>
 				
 			</div>
@@ -181,8 +215,26 @@
 		</div>
 
 		{{ partial "footer.html" . }}
+		<script src="js/bower_components/zepto/zepto.min.js"></script>
+		<script src="js/bower_components/waypoints/lib/zepto.waypoints.min.js"></script>
+		<script src="js/scripts.js"></script>
 		
 	</body>
 </html>
 
 
+
+
+   
+
+<!-- 
+
+CSS page transitions
+Waypoints
+Experience write up
+
+
+
+
+
+ -->
