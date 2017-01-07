@@ -39,6 +39,29 @@ header.app-header {
   .content.detail {
     padding-top: 80px; }
 
+.sidepanel {
+  width: 34px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  right: 16px; }
+
+nav.pagination {
+  width: inherit;
+  text-align: center;
+  z-index: 9999; }
+  nav.pagination a {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block; }
+    nav.pagination a:hover svg {
+      fill: #FF4400; }
+      nav.pagination a:hover svg.dot {
+        stroke-width: 0; }
+
 footer {
   border-top: 1px #f3f3f3 solid; }
 
@@ -71,7 +94,8 @@ h3:first-of-type {
 
 .byline .icon {
   position: relative;
-  top: 12px; }
+  top: 4px;
+  height: 24px; }
 
 svg {
   fill: #ccc; }
@@ -80,8 +104,11 @@ svg {
     stroke-width: 8; }
     svg.dot.is-selected {
       stroke-width: 0; }
-  svg.is-selected, svg .accent, svg.link:hover {
+  svg.is-selected, svg .accent {
     fill: #FF4400; }
+
+a:hover svg {
+  fill: #FF4400; }
 
 body {
   color: #333333; }
@@ -100,7 +127,7 @@ video {
   margin: 0 auto;
   margin-bottom: 32px; }
 
-.sans, body {
+.sans, body, [class*=hint--]:after {
   font-family: "Noto Sans", sans-serif; }
 
 .serif, h3, .byline, .body-copy, p, ul > li {
@@ -151,21 +178,6 @@ ul > li {
   margin-bottom: 8px;
   list-style-type: disc; }
 
-nav.pagination {
-  width: 14px;
-  position: fixed;
-  right: 24px;
-  top: 40%;
-  text-align: center;
-  z-index: 9999; }
-  nav.pagination svg {
-    margin-bottom: 30px;
-    cursor: pointer; }
-    nav.pagination svg:hover {
-      fill: #FF4400; }
-      nav.pagination svg:hover.dot {
-        stroke-width: 0; }
-
 .button-group {
   margin-bottom: 32px;
   display: inline-block; }
@@ -180,6 +192,16 @@ nav.pagination {
     background: #F5F5F5;
     border-radius: 5px;
     color: #333333; }
+
+[class*=hint--]:before {
+  content: none; }
+
+[class*=hint--]:after {
+  background: none;
+  color: #939493; }
+
+.hint--left:after {
+  padding-right: 0; }
 
 .timeline {
   padding: 24px 0; }
@@ -220,5 +242,22 @@ nav.pagination {
 
 .u-pull-right {
   float: right; }
+
+@media screen and (max-device-width: 750px) {
+  .intro .title {
+    font-size: 80px; }
+
+  .byline {
+    font-size: 22px; }
+
+  .title {
+    font-size: 64px;
+    letter-spacing: -6px; }
+
+  .constrain-width {
+    padding-right: 48px; }
+
+  .sidepanel {
+    right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

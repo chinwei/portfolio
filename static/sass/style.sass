@@ -44,6 +44,30 @@ header.app-header
 	&.detail
 		padding-top: 80px
 
+.sidepanel
+	width: 34px
+	justify-content: center
+	display: flex
+	flex-direction: column
+	height: 100%
+	position: fixed
+	z-index: 9999
+	right: 16px
+
+nav.pagination
+	width: inherit
+	text-align: center
+	z-index: 9999
+	a
+		padding: 10px
+		margin-bottom: 10px
+		display: inline-block
+		&:hover
+			svg
+				fill: $primary-color
+				&.dot
+					stroke-width: 0
+
 footer
 	border-top: 1px #f3f3f3 solid
 
@@ -77,7 +101,8 @@ h3:first-of-type
 
 .byline .icon
 	position: relative
-	top: 12px
+	top: 4px
+	height: 24px
 
 svg
 	fill: #ccc
@@ -86,7 +111,7 @@ svg
 		stroke-width: 8
 		&.is-selected
 			stroke-width: 0
-	&.is-selected, .accent, &.link:hover
+	&.is-selected, .accent
 		fill: $primary-color
 	
 
@@ -179,22 +204,7 @@ ul>li
 
 
 
-nav.pagination
-	width: 34px
-	position: fixed
-	right: 24px
-	top: 35%
-	text-align: center
-	z-index: 9999
-	a
-		padding: 10px
-		margin-bottom: 10px
-		display: inline-block
-		&:hover
-			svg
-				fill: $primary-color
-				&.dot
-					stroke-width: 0
+
 
 
 
@@ -277,3 +287,23 @@ nav.pagination
 
 .u-pull-right
 	float: right
+
+
+@media screen and (max-device-width: 750px)
+	.intro .title 
+		font-size: 80px
+	.byline
+		font-size: 22px
+	.title
+		font-size: 64px
+		letter-spacing: -6px
+	.constrain-width
+		padding-right: 48px 
+	.sidepanel
+		right: 0
+
+
+
+// @media only screen and (max-width: 320px)
+// 	body
+// 		background: red
