@@ -73,14 +73,15 @@ h3:first-of-type {
   position: relative;
   top: 12px; }
 
-svg.dot {
-  fill: #ccc;
-  stroke: #ccc;
-  stroke-width: 8; }
-  svg.dot.is-selected {
-    stroke-width: 0; }
-svg.is-selected, svg .accent {
-  fill: #FF4400; }
+svg {
+  fill: #ccc; }
+  svg.dot {
+    stroke: #ccc;
+    stroke-width: 8; }
+    svg.dot.is-selected {
+      stroke-width: 0; }
+  svg.is-selected, svg .accent, svg.link:hover {
+    fill: #FF4400; }
 
 body {
   color: #333333; }
@@ -155,9 +156,15 @@ nav.pagination {
   position: fixed;
   right: 24px;
   top: 40%;
-  text-align: center; }
+  text-align: center;
+  z-index: 9999; }
   nav.pagination svg {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    cursor: pointer; }
+    nav.pagination svg:hover {
+      fill: #FF4400; }
+      nav.pagination svg:hover.dot {
+        stroke-width: 0; }
 
 .button-group {
   margin-bottom: 32px;

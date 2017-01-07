@@ -28,14 +28,12 @@ header.app-header
 	display: flex
 	flex-direction: row
 	height: 100vh
-	// background: yellow
 	justify-content: center
 	
 
 .content
 	display: flex
 	flex-direction: column
-	// height: 100%
 	width: 100%
 	&.intro
 		justify-content: center
@@ -82,14 +80,17 @@ h3:first-of-type
 	top: 12px
 
 svg
+	fill: #ccc
 	&.dot
-		fill: #ccc
 		stroke: #ccc 
 		stroke-width: 8
 		&.is-selected
 			stroke-width: 0
-	&.is-selected, .accent
+	&.is-selected, .accent, &.link:hover
 		fill: $primary-color
+	
+
+
 
 		
 
@@ -182,8 +183,15 @@ nav.pagination
 	right: 24px
 	top: 40%
 	text-align: center
+	z-index: 9999
 	svg
 		margin-bottom: 30px
+		cursor: pointer
+		&:hover
+			fill: $primary-color
+			&.dot
+				stroke-width: 0
+
 
 
 
