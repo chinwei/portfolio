@@ -1,4 +1,5 @@
 $body-copy: #333333
+$primary-color: #FF4400
 
 *
 	box-sizing: border-box
@@ -7,15 +8,6 @@ html
 	-ms-touch-action: manipulation
 	touch-action: manipulation
 
-svg
-	transition: margin-left 0.5s ease 
-
-svg:hover
-	margin-left: 100px
-
-
-use.color-primary
-	fill: #00ccff
 
 header.app-header
 	height: 50px
@@ -36,14 +28,12 @@ header.app-header
 	display: flex
 	flex-direction: row
 	height: 100vh
-	// background: yellow
 	justify-content: center
 	
 
 .content
 	display: flex
 	flex-direction: column
-	// height: 100%
 	width: 100%
 	&.intro
 		justify-content: center
@@ -88,6 +78,21 @@ h3:first-of-type
 .byline .icon
 	position: relative
 	top: 12px
+
+svg
+	fill: #ccc
+	&.dot
+		stroke: #ccc 
+		stroke-width: 8
+		&.is-selected
+			stroke-width: 0
+	&.is-selected, .accent, &.link:hover
+		fill: $primary-color
+	
+
+
+
+		
 
 
 // Text Styles
@@ -169,6 +174,26 @@ ul>li
 	margin-bottom: 8px
 	list-style-type: disc
 	@extend .serif
+
+
+
+nav.pagination
+	width: 14px
+	position: fixed
+	right: 24px
+	top: 40%
+	text-align: center
+	z-index: 9999
+	svg
+		margin-bottom: 30px
+		cursor: pointer
+		&:hover
+			fill: $primary-color
+			&.dot
+				stroke-width: 0
+
+
+
 
 
 // Button

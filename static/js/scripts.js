@@ -16,7 +16,7 @@ $('.pagination .scroll-link').each(function(i, classname){
 $('a.scroll-link').on('click', function(){
 	var target = $(this).attr('href')
 
-	if (target == "intro") {
+	if (target == "#intro") {
 		TweenLite.to(window, 1, {scrollTo: 0});
 	} else {
 		TweenLite.to(window, 1, {scrollTo: $(target).position().top});	

@@ -83,6 +83,9 @@ svg {
   svg.is-selected, svg .accent, svg.link:hover {
     fill: #FF4400; }
 
+a:hover svg {
+  fill: #FF4400; }
+
 body {
   color: #333333; }
 
@@ -100,7 +103,7 @@ video {
   margin: 0 auto;
   margin-bottom: 32px; }
 
-.sans, body {
+.sans, body, [class*=hint--]:after {
   font-family: "Noto Sans", sans-serif; }
 
 .serif, h3, .byline, .body-copy, p, ul > li {
@@ -152,18 +155,19 @@ ul > li {
   list-style-type: disc; }
 
 nav.pagination {
-  width: 14px;
+  width: 34px;
   position: fixed;
   right: 24px;
-  top: 40%;
+  top: 35%;
   text-align: center;
   z-index: 9999; }
-  nav.pagination svg {
-    margin-bottom: 30px;
-    cursor: pointer; }
-    nav.pagination svg:hover {
+  nav.pagination a {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block; }
+    nav.pagination a:hover svg {
       fill: #FF4400; }
-      nav.pagination svg:hover.dot {
+      nav.pagination a:hover svg.dot {
         stroke-width: 0; }
 
 .button-group {
@@ -180,6 +184,16 @@ nav.pagination {
     background: #F5F5F5;
     border-radius: 5px;
     color: #333333; }
+
+[class*=hint--]:before {
+  content: none; }
+
+[class*=hint--]:after {
+  background: none;
+  color: #939493; }
+
+.hint--left:after {
+  padding-right: 0; }
 
 .timeline {
   padding: 24px 0; }
