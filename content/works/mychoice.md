@@ -6,7 +6,7 @@ date = "2016-12-18T15:14:53-08:00"
 +++
 
 <header class="app-header">
-	<a href="/#mychoice" class="text-logo">
+	<a href="/" class="text-logo">
 		CHINWEI
 	</a>
 </header>

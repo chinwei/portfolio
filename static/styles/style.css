@@ -108,7 +108,9 @@ svg {
     stroke-width: 8; }
     svg.dot.is-selected {
       stroke-width: 0; }
-  svg.is-selected, svg.accent {
+  svg.is-selected {
+    fill: #FF4400; }
+  svg .accent {
     fill: #FF4400; }
 
 a:hover svg {
@@ -181,6 +183,15 @@ ul > li {
   line-height: 28px;
   margin-bottom: 8px;
   list-style-type: disc; }
+
+.barba-container {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: 0.3s left ease, 0.3s opacity ease; }
+  .barba-container.is-hidden {
+    left: -10px;
+    opacity: 0; }
 
 .button-group {
   margin-bottom: 32px;

@@ -59,20 +59,61 @@ var init = function() {
 
 $(document).ready(function(){
 
-
 	init()
+
+
 	
 
+	var HideShowTransition = Barba.BaseTransition.extend({
+	  start: function() {
+	    
+	    // this.finish.bind(this)
+	    // console.log(this.newContainerLoading)
 
-	Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container) {
-		init()
+	    Promise
+	          .all([this.newContainerLoading, this.fadeOut()])
+	          .then(this.fadeIn.bind(this));
+	    // this.newContainerLoading.then(this.finish.bind(this));
+
+	    $(this.newContainer).addClass('is-hidden');
+	  },
+	  fadeOut: function() {
+	  	console.log('fade out!')
+	  	$(this.oldContainer).addClass('is-hidden');
+
+	  },
+	  fadeIn: function() {
+	  	
+	  	var _this = this
+	  	$(this.newContainer).addClass('is-hidden')
+
+	  	setTimeout(function(){
+	  		_this.done();
+	  		document.body.scrollTop = 0;
+	  		$('.barba-container').removeClass('is-hidden')
+	  		// 	
+	  	},400);
+	  	
+	  },
+
+
+
+	  finish: function() {
+	  	console.log('finished!')
+	    document.body.scrollTop = 0;
+	    this.done();
+	  }
 	});
 
+
+	Barba.Pjax.getTransition = function() {
+	  return HideShowTransition;
+	};
+
+	Barba.Dispatcher.on('transitionCompleted', function() {
+	  init();
+	});
+
+
 	Barba.Pjax.start();
-
-	
-
-	
-
-
 })

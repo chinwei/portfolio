@@ -1,18 +1,18 @@
 +++
-title = "UPMC"
+title = "Divvy"
 draft = false
 date = "2016-12-18T15:14:53-08:00"
 
 +++
 
 <header class="app-header">
-    <a href="/#splitbill" class="text-logo">
+    <a href="/" class="text-logo">
         CHINWEI
     </a>
 </header>
 
 <span class="label">Side Project</span>
-<span class="title">Split Bill</span>
+<span class="title">Divvy</span>
 <span class="byline">Split bills without signing in</span>
 
 
