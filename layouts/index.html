@@ -2,14 +2,16 @@
 	<head>
 		{{ partial "head.html" . }}
 	</head>
-	<body>
-
+	<body id="barba-wrapper">
+		<div class="barba-container">
 		<div class="sidepanel">
 			<nav class="pagination">
 				<a class="scroll-link hint--left" aria-label="Back to top" href="#intro">
 					<svg class="dot is-selected" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="assets/images/sprites.svg#circle"></use>
+						<!-- <use xlink:href="assets/images/sprites.svg#circle"></use> -->
+						{{ partial "circle"}}
 					</svg>
+
 				</a>
 
 				<a class="scroll-link hint--left" aria-label="Fluig Data" href="#fluigdata">
@@ -51,6 +53,9 @@
 					<div class="constrain-width margin-auto u-text-center intro" id="intro">
 						<span class="title">Chinwei</span>
 						<span class="byline">I care about designing useful and delightful products</span>
+
+
+
 						<span class="button-group">
 							<a href="#" class="u-margin-right-m scroll-link hint--bottom" aria-label="Reach out on linkedIn">
 								<svg class="link" viewBox="0 0 100 100" width="18" height="18">
@@ -74,15 +79,14 @@
 			</div>
 		</div>
 		<div class="full-page" id="fluigdata">
-			<div class="content article-list">
+			<a href="works/fluigdata/" class="content article-list page-link">
 				<div class="row">
 					<div class="constrain-width margin-auto">
 							<span class="label">TOTVS Labs</span>
 							<span class="title">Fluig Data</span>
 							<span class="byline">An end-to-end data exploration platform
-							
-								<svg class="icon" width="40" height="40">
-									<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+								<svg class="icon accent" width="41" height="24">
+									{{ partial "arrow-right-icon"}}
 								</svg>
 								</span>
 							
@@ -92,26 +96,23 @@
 					
 				</div>
 				
-			</div>
+			</a>
 		</div>
 
 
 		<div class="full-page" id="pensieve">
-			<div class="content article-list">
+			<a href="works/pensieve/" class="content article-list page-link">
 				<div class="constrain-width margin-auto">
-						<span class="label">Side Project</span>
-						<span class="title">Pensieve</span>
-						<span class="byline">Write notes that relate to people
-							<svg class="icon" width="40" height="40">
-								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
-							</span>
-							
-							</span>
-						</span>
+					<span class="label">Side Project</span>
+					<span class="title">Pensieve</span>
+					<span class="byline">Write notes that relate to people
+						<svg class="icon" width="40" height="40">
+							<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+						</svg>
+					</span>
+				</div>
+			</a>
 						
-					</div>
-				
-			</div>
 		</div>
 
 
@@ -230,11 +231,8 @@
 		</div>
 
 		{{ partial "footer.html" . }}
-		<script src="js/bower_components/zepto/zepto.min.js"></script>
-		<script src="js/bower_components/waypoints/lib/zepto.waypoints.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
-		<script src="js/scripts.js"></script>
+		
+		</div>
 		
 	</body>
 </html>
@@ -247,10 +245,10 @@
 <!-- 
 
 
-Responsive text
+giant button
 CSS page transitions
-Waypoints OK!
 Experience write up
+
 
 
 

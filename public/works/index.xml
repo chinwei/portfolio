@@ -11,10 +11,10 @@
     
     <item>
       <title>Intelligent Diary</title>
-      <link>http://replace-this-with-your-hugo-site.com/works/diary/</link>
+      <link>http://replace-this-with-your-hugo-site.com/works/pensieve/</link>
       <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/works/diary/</guid>
+      <guid>http://replace-this-with-your-hugo-site.com/works/pensieve/</guid>
       <description>
 
 &lt;header class=&#34;app-header&#34;&gt;
@@ -206,7 +206,7 @@
       <description>
 
 &lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#fluigdata&#34; class=&#34;text-logo&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/&#34; class=&#34;text-logo&#34;&gt;
         CHINWEI
     &lt;/a&gt;
 &lt;/header&gt;

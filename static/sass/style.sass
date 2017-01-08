@@ -101,7 +101,13 @@ h3:first-of-type
 .byline .icon
 	position: relative
 	top: 4px
+	left: 0
 	height: 24px
+	transition: 0.3s left ease
+
+a.page-link:hover
+	.icon
+		left: 5px
 
 svg
 	fill: #ccc
@@ -110,7 +116,7 @@ svg
 		stroke-width: 8
 		&.is-selected
 			stroke-width: 0
-	&.is-selected, .accent
+	&.is-selected, &.accent
 		fill: $primary-color
 	
 
@@ -200,6 +206,7 @@ ul>li
 	margin-bottom: 8px
 	list-style-type: disc
 	@extend .serif
+
 
 
 

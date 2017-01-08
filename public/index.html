@@ -4,18 +4,22 @@
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="/styles/reset.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700" rel="stylesheet">
-<link rel="stylesheet" href="js/bower_components/hint.css/hint.base.min.css">
+<link rel="stylesheet" href="/js/bower_components/hint.css/hint.base.min.css">
 <link rel="stylesheet" href="/styles/style.css">
 
-	</head>
-	<body>
 
+	</head>
+	<body id="barba-wrapper">
+		<div class="barba-container">
 		<div class="sidepanel">
 			<nav class="pagination">
 				<a class="scroll-link hint--left" aria-label="Back to top" href="#intro">
 					<svg class="dot is-selected" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="assets/images/sprites.svg#circle"></use>
+						
+						<circle cx="50" cy="50" r="40"/>
+
 					</svg>
+
 				</a>
 
 				<a class="scroll-link hint--left" aria-label="Fluig Data" href="#fluigdata">
@@ -57,6 +61,9 @@
 					<div class="constrain-width margin-auto u-text-center intro" id="intro">
 						<span class="title">Chinwei</span>
 						<span class="byline">I care about designing useful and delightful products</span>
+
+
+
 						<span class="button-group">
 							<a href="#" class="u-margin-right-m scroll-link hint--bottom" aria-label="Reach out on linkedIn">
 								<svg class="link" viewBox="0 0 100 100" width="18" height="18">
@@ -80,15 +87,14 @@
 			</div>
 		</div>
 		<div class="full-page" id="fluigdata">
-			<div class="content article-list">
+			<a href="works/fluigdata/" class="content article-list page-link">
 				<div class="row">
 					<div class="constrain-width margin-auto">
 							<span class="label">TOTVS Labs</span>
 							<span class="title">Fluig Data</span>
 							<span class="byline">An end-to-end data exploration platform
-							
-								<svg class="icon" width="40" height="40">
-									<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+								<svg class="icon accent" width="41" height="24">
+									<path d="M0,12.0051432 C0,12.2245875 0.048,12.4440317 0.133714286,12.6531895 C0.216,12.8554897 0.339428571,13.0372169 0.490285714,13.1915137 C0.493714286,13.1983713 0.497142857,13.2052289 0.500571429,13.2120866 L10.7862857,23.4985356 C11.4548571,24.1671548 12.5417143,24.1671548 13.2102857,23.4985356 C13.8788571,22.8299164 13.8788571,21.7429816 13.2102857,21.0743625 L5.85257143,13.7126938 L39.4285714,13.7126938 C40.3748571,13.7126938 41.1428571,12.9446389 41.1428571,11.9982856 C41.1428571,11.0519323 40.3748571,10.2838774 39.4285714,10.2838774 L5.85257143,10.2838774 L13.2102857,2.92563755 C13.8788571,2.25701836 13.8788571,1.17008358 13.2102857,0.50146439 C12.5417143,-0.167154797 11.4548571,-0.167154797 10.7862857,0.50146439 L0.500571429,10.7879134 C0.497142857,10.7913422 0.493714286,10.8016287 0.490285714,10.8050575 C0.339428571,10.9593542 0.216,11.1410815 0.133714286,11.3433817 C0.0445714286,11.5525395 0,11.7754125 0,11.9982856 L0,11.9982856 L0,12.0051432 Z" id="Shape" transform="translate(20.571429, 12.000000) rotate(-180.000000) translate(-20.571429, -12.000000) "></path>
 								</svg>
 								</span>
 							
@@ -98,26 +104,23 @@
 					
 				</div>
 				
-			</div>
+			</a>
 		</div>
 
 
 		<div class="full-page" id="pensieve">
-			<div class="content article-list">
+			<a href="works/pensieve/" class="content article-list page-link">
 				<div class="constrain-width margin-auto">
-						<span class="label">Side Project</span>
-						<span class="title">Pensieve</span>
-						<span class="byline">Write notes that relate to people
-							<svg class="icon" width="40" height="40">
-								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
-							</span>
-							
-							</span>
-						</span>
+					<span class="label">Side Project</span>
+					<span class="title">Pensieve</span>
+					<span class="byline">Write notes that relate to people
+						<svg class="icon" width="40" height="40">
+							<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+						</svg>
+					</span>
+				</div>
+			</a>
 						
-					</div>
-				
-			</div>
 		</div>
 
 
@@ -243,13 +246,19 @@
 	</div>
 </footer>
 
-<script src="/js/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-		<script src="js/bower_components/zepto/zepto.min.js"></script>
-		<script src="js/bower_components/waypoints/lib/zepto.waypoints.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
-		<script src="js/scripts.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+<script src="/js/barba.min.js"></script>
+
+<script src="/js/bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+		
+		</div>
 		
 	</body>
 </html>
