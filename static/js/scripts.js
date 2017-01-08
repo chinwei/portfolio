@@ -1,10 +1,9 @@
 console.log("ready!")
 
 // $(document).on('ready', function() {
-$(document).ready(function(){
 
 
-
+var init = function() {
 	// Remove hover states for touch devices
 
 	var touch = 'ontouchstart' in document.documentElement
@@ -56,8 +55,24 @@ $(document).ready(function(){
 		return false;
 		
 	})
+}
 
-	// Barba.Pjax.start();
+$(document).ready(function(){
+
+
+	init()
+	
+
+
+	Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container) {
+		init()
+	});
+
+	Barba.Pjax.start();
+
+	
+
+	
 
 
 })
