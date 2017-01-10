@@ -67,15 +67,10 @@
       <guid>http://replace-this-with-your-hugo-site.com/works/mychoice/</guid>
       <description>
 
-&lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/&#34; class=&#34;text-logo&#34;&gt;
-        CHINWEI
-    &lt;/a&gt;
-&lt;/header&gt;
-
-&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Carnegie Mellon University Capstone Project&lt;/span&gt;
-&lt;span class=&#34;title&#34;&gt;MyChoice&lt;/span&gt;
-&lt;span class=&#34;byline&#34;&gt;Extending healthcare beyond hospital walls&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;article-header&#34;&gt;
+    &lt;span class=&#34;title&#34;&gt;MyChoice&lt;/span&gt;
+    &lt;span class=&#34;byline&#34;&gt;Extending healthcare beyond hospital walls&lt;/span&gt;
+&lt;/div&gt;
 
 &lt;p&gt;*Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process.&lt;/p&gt;
 
@@ -90,29 +85,6 @@
 &lt;p&gt;We studied patient lives, behavior change strategies, spoke with clinicians, and developed key insights and visions toward this goal. Our numerous design visions were refined to one idea, which we developed into a mobile app prototype and concept video.&lt;/p&gt;
 
 &lt;p&gt;As the user experience lead, I played a key role in designing and building the various prototypes.&lt;/p&gt;
-
-&lt;h3 id=&#34;project-timeline&#34;&gt;Project Timeline&lt;/h3&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;React Native&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 40%;     margin-left: 30%;&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Swift&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 
 &lt;h3 id=&#34;about-upmc&#34;&gt;About UPMC&lt;/h3&gt;
 
@@ -148,41 +120,6 @@
 &lt;p&gt;Having clean, accurate data is a prerequisite to having meaningful and actionable insights. Fluig Data makes it easy to onboard data sources via connectors to internal and public data sources.&lt;/p&gt;
 
 &lt;p&gt;It structures, normalizes, cleanses and validates the data to create a reliable source of truth for an record.&lt;/p&gt;
-
-&lt;h3 id=&#34;involvement&#34;&gt;Involvement&lt;/h3&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;UI Dev&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-1 width-50&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;UI&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-2&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;UX&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-3&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;PM&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-4 width-50 u-pull-right&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;nice-words-from-team&#34;&gt;Nice words from team&lt;/h3&gt;
-
-&lt;p&gt;I’m just happy that after, I don’t know, 9 months working here, I can finally agree with a project management change&lt;/p&gt;
-
-&lt;p&gt;have I told you I miss you as “project leader”? ‘cause I do&lt;/p&gt;
 </description>
     </item>
     
