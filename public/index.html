@@ -15,9 +15,7 @@
 			<nav class="pagination">
 				<a class="scroll-link hint--left" aria-label="Back to top" href="#intro">
 					<svg class="dot is-selected" viewBox="0 0 100 100" width="10" height="10">
-						
-						<circle cx="50" cy="50" r="40"/>
-
+						<use xlink:href="assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
@@ -89,11 +87,11 @@
 			<a href="works/fluigdata/" class="content article-list page-link">
 				<div class="row">
 					<div class="constrain-width margin-auto">
-							<span class="label">TOTVS Labs</span>
+							
 							<span class="title">Fluig Data</span>
 							<span class="byline">An end-to-end data exploration platform
-								<svg class="icon accent" width="41" height="24">
-									<path d="M0,12.0051432 C0,12.2245875 0.048,12.4440317 0.133714286,12.6531895 C0.216,12.8554897 0.339428571,13.0372169 0.490285714,13.1915137 C0.493714286,13.1983713 0.497142857,13.2052289 0.500571429,13.2120866 L10.7862857,23.4985356 C11.4548571,24.1671548 12.5417143,24.1671548 13.2102857,23.4985356 C13.8788571,22.8299164 13.8788571,21.7429816 13.2102857,21.0743625 L5.85257143,13.7126938 L39.4285714,13.7126938 C40.3748571,13.7126938 41.1428571,12.9446389 41.1428571,11.9982856 C41.1428571,11.0519323 40.3748571,10.2838774 39.4285714,10.2838774 L5.85257143,10.2838774 L13.2102857,2.92563755 C13.8788571,2.25701836 13.8788571,1.17008358 13.2102857,0.50146439 C12.5417143,-0.167154797 11.4548571,-0.167154797 10.7862857,0.50146439 L0.500571429,10.7879134 C0.497142857,10.7913422 0.493714286,10.8016287 0.490285714,10.8050575 C0.339428571,10.9593542 0.216,11.1410815 0.133714286,11.3433817 C0.0445714286,11.5525395 0,11.7754125 0,11.9982856 L0,11.9982856 L0,12.0051432 Z" id="Shape" transform="translate(20.571429, 12.000000) rotate(-180.000000) translate(-20.571429, -12.000000) "></path>
+								<svg class="icon" width="40" height="40">
+									<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 								</svg>
 								</span>
 							
@@ -110,9 +108,9 @@
 		<div class="full-page" id="pensieve">
 			<a href="works/pensieve/" class="content article-list page-link">
 				<div class="constrain-width margin-auto">
-					<span class="label">Side Project</span>
+					
 					<span class="title">Pensieve</span>
-					<span class="byline">Write notes that relate to people
+					<span class="byline">Write notes and associate them with people
 						<svg class="icon" width="40" height="40">
 							<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 						</svg>
@@ -124,24 +122,24 @@
 
 
 		<div class="full-page" id="divvy">
-			<div class="content article-list">
+			<a href="works/divvy/" class="content article-list page-link">
 				<div class="constrain-width margin-auto">
-						<span class="label">Side Project</span>
+						
 						<span class="title">Divvy</span>
 						<span class="byline">The fastest way to split bills at the table
 							<svg class="icon" width="40" height="40">
 								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 							</svg>
 							</span>
-						</span>
-					</div>
+						</div>
+					</a>
 				
 			</div>
-		</div>
+		
 
 
 		<div class="full-page" id="mychoice">
-			<div class="content article-list">
+			<a href="works/mychoice/" class="content article-list page-link">
 				<div class="constrain-width margin-auto">
 						<span class="label">Capstone Project</span>
 						<span class="title">MyChoice</span>
@@ -152,7 +150,7 @@
 						</span>
 					</div>
 				
-			</div>
+			</a>
 		</div>
 
 
@@ -241,11 +239,10 @@
 
 
 
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="/js/barba.min.js"></script>
 
-<script src="/js/bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="/js/barba.min.js"></script>
+<script src="/js/bower_components/zepto/zepto.min.js"></script>
+<script src="/js/bower_components/waypoints/lib/zepto.waypoints.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
 <script src="/js/scripts.js"></script>

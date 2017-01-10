@@ -246,6 +246,13 @@ ul > li {
   .timeline-bar.width-50 {
     width: 50%; }
 
+.article-header {
+  height: 300px;
+  text-align: center; }
+
+.detail .constrain-width {
+  width: 50%; }
+
 .u-d-block {
   display: block; }
 

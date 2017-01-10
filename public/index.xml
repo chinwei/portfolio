@@ -10,61 +10,52 @@
     <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Intelligent Diary</title>
+      <title>Divvy</title>
+      <link>http://replace-this-with-your-hugo-site.com/works/divvy/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/works/divvy/</guid>
+      <description>&lt;div class=&#34;article-header&#34;&gt;
+    &lt;span class=&#34;title&#34;&gt;Divvy&lt;/span&gt;
+    &lt;span class=&#34;byline&#34;&gt;The fastest way to split bills at the table&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;video controls&gt;  
+   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Divvy is a quick, no frills way of splitting bills with friends at the table.&lt;/p&gt;
+
+&lt;p&gt;No need to get all your friends to sign up for an account just so you can split a bill. Divvy works on the device, so it is always quickly accessible.&lt;/p&gt;
+
+&lt;p&gt;Skip the naming. Mentally associate an animal to each friend you are chilling out with (temporarily!) for a more streamlined and enjoyable flow.&lt;/p&gt;
+
+&lt;p&gt;This is an ongoing personal project that I am doing for fun. Do reach out if you would like to provide feedback, or want to help out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pensieve</title>
       <link>http://replace-this-with-your-hugo-site.com/works/pensieve/</link>
       <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
       
       <guid>http://replace-this-with-your-hugo-site.com/works/pensieve/</guid>
-      <description>
-
-&lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#diary&#34; class=&#34;text-logo&#34;&gt;
-        CHINWEI
-    &lt;/a&gt;
-&lt;/header&gt;
-
-&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Side Project&lt;/span&gt;
-&lt;span class=&#34;title&#34;&gt;Moment&lt;/span&gt;
-&lt;span class=&#34;byline&#34;&gt;Context Aware Diary&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Moment is an attempt to capture small pieces of information during informal interactions. Many kinds of information, like learning something interesting during a coffee meeting with a colleague not easily captured.&lt;/p&gt;
-
-&lt;p&gt;What if capturing a thought was as simple as sending a message to yourself, and what if it was as easy to associate that note with people, location and documents?&lt;/p&gt;
-
-&lt;p&gt;The idea for Moment came about when I realized how cumbersome it was to have to name each note in apps like Evernote or Google Docs.&lt;/p&gt;
-
-&lt;p&gt;Another drawback of organizing notes around documents was that it made it harder to link between them.&lt;/p&gt;
-
-&lt;p&gt;Reminders but not todos, no due date&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Had meeting with A and B today, decided to go with X&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;X mentioned that his boss prefers this, should explore in that direction&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;project-timeline&#34;&gt;Project Timeline&lt;/h3&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 60%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Invision&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 20%;     margin-left: 55%;&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Hyperdev&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 30%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+      <description>&lt;div class=&#34;article-header&#34;&gt;
+    &lt;span class=&#34;title&#34;&gt;Pensieve&lt;/span&gt;
+    &lt;span class=&#34;byline&#34;&gt;Write notes and associate them with your contacts&lt;/span&gt;
 &lt;/div&gt;
+
+&lt;video autoplay controls&gt;  
+   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/pensieve.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Pensieve is a place where you can write notes and associate them with people. When you take a note, it captures the date and location to help you better recall the ideas that has to do with a context and person.&lt;/p&gt;
+
+&lt;p&gt;With Pensieve, you can record pieces of information during informal interactions, like an idea during coffee break with a colleague. Or if you&amp;rsquo;re working on a project for a client, you can use it to take note of important things, like when you expect a document, without having to create and name a document on Google Drive for each interaction.&lt;/p&gt;
+
+&lt;p&gt;Because your notes live on a timeline, it is super easy to look back at the notes and thoughts relating to a person.&lt;/p&gt;
 </description>
     </item>
     
@@ -77,7 +68,7 @@
       <description>
 
 &lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#mychoice&#34; class=&#34;text-logo&#34;&gt;
+    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/&#34; class=&#34;text-logo&#34;&gt;
         CHINWEI
     &lt;/a&gt;
 &lt;/header&gt;
@@ -130,74 +121,6 @@
     </item>
     
     <item>
-      <title>UPMC</title>
-      <link>http://replace-this-with-your-hugo-site.com/works/splitbill/</link>
-      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/works/splitbill/</guid>
-      <description>
-
-&lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/#splitbill&#34; class=&#34;text-logo&#34;&gt;
-        CHINWEI
-    &lt;/a&gt;
-&lt;/header&gt;
-
-&lt;p&gt;&lt;span class=&#34;label&#34;&gt;Side Project&lt;/span&gt;
-&lt;span class=&#34;title&#34;&gt;Split Bill&lt;/span&gt;
-&lt;span class=&#34;byline&#34;&gt;Split bills without signing in&lt;/span&gt;&lt;/p&gt;
-
-&lt;!-- Simple video example --&gt;
-
-&lt;video autoplay&gt;  
-   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill2x.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
-   &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt; 
-&lt;/video&gt;
-
-&lt;p&gt;Splitbill attempts to address a common problem in a crowded space: splitting meal payments after a dinner.&lt;/p&gt;
-
-&lt;p&gt;I’ve looked at apps like Splitwise, which solves a similar problem but one thing I didn’t like was that everyone at the table also needed an account for it to work.&lt;/p&gt;
-
-&lt;p&gt;I’ve known about another app, SplitWise for a long time. One thing I disagreed with was that I had to have an account, along with everyone else at the table. Even though the UI was clean and presentable, the process of divvy up the payments was confusing.&lt;/p&gt;
-
-&lt;p&gt;My approach makes a few assumptions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The identity of the food is not that important&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The app does not need to know the identity of the people in the transaction&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I’ve restricted to 6 diners due to screen size, that’s the trade off. In the future, if there is a popular use case, it should be possible to scale to support slightly more users.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If the above are true, then it should be possible to streamline the flow to be much more efficient&lt;/p&gt;
-
-&lt;h3 id=&#34;timeline&#34;&gt;Timeline&lt;/h3&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Sketch&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-1&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;React Native&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-2&#34; style=&#34;width: 40%;     margin-left: 30%;&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;timeline-label&#34;&gt;Swift&lt;/div&gt;
-        &lt;div class=&#34;timeline-bar-container&#34;&gt;
-            &lt;div class=&#34;timeline-bar color-3 u-pull-right&#34; style=&#34;width: 40%&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>fluigdata</title>
       <link>http://replace-this-with-your-hugo-site.com/works/fluigdata/</link>
       <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
@@ -205,16 +128,9 @@
       <guid>http://replace-this-with-your-hugo-site.com/works/fluigdata/</guid>
       <description>
 
-&lt;header class=&#34;app-header&#34;&gt;
-    &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/&#34; class=&#34;text-logo&#34;&gt;
-        CHINWEI
-    &lt;/a&gt;
-&lt;/header&gt;
-
 &lt;div class=&#34;article-header&#34;&gt;
-    &lt;span class=&#34;label&#34;&gt;TOTVS Labs&lt;/span&gt;
     &lt;span class=&#34;title&#34;&gt;Fluig Data&lt;/span&gt;
-    &lt;span class=&#34;byline&#34;&gt;End-to-end Data Discovery Platform&lt;/span&gt;
+    &lt;span class=&#34;byline&#34;&gt;An end-to-end data exploration platform&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;data-in-silos&#34;&gt;Data in Silos&lt;/h3&gt;
