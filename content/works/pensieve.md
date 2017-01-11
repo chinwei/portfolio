@@ -18,7 +18,9 @@ date = "2016-12-18T15:14:53-08:00"
 
 Pensieve is a place where you can write notes and associate them with people. When you take a note, it captures the date and location to help you better recall the ideas that has to do with a context and person.
 
-With Pensieve, you can record pieces of information during informal interactions, like an idea during coffee break with a colleague. Or if you're working on a project for a client, you can use it to take note of important things, like when you expect a document, without having to create and name a document on Google Drive for each interaction.
+With Pensieve, you can record pieces of information about during informal interactions and because your notes live on a timeline, it is easy to look back at the notes and thoughts you recorded relating to a person. 
 
-Because your notes live on a timeline, it is super easy to look back at the notes and thoughts relating to a person. 
+For instance, you may have discussed an idea during coffee break with a colleague. Or if you're working on a project for a client, you can use it to take note of important details, like when you expect a document, without having to create and name a document using apps like Google Docs or Evernote for each entry.
+
+
 

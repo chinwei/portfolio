@@ -35,20 +35,40 @@ var init = function() {
 		new Waypoint({
 			element: $(targetID),
 			handler: function(direction) {
-			$($this).siblings().children('svg').removeClass('is-selected')
-				$($this).children('svg').addClass('is-selected')
+				$($this).siblings().children('svg').removeClass('is-selected')
+				$($this).children('svg').addClass('is-selected')	
+				// not sure why there are 2 dots highlighted at the same time
+				if (direction == 'up') {
+					
+					if (targetID == "#intro") {
+						$($this).children('svg').addClass('is-selected')
+					} else {
+						$($this).prev().children('svg').addClass('is-selected')
+						$($this).children('svg').removeClass('is-selected')
+					}
+					
+
+
+					console.log($($this).prev())
+				} else {
+					$($this).children('svg').addClass('is-selected')	
+					console.log('down')
+				}
+
+
+				
 			}
 		})
 	})
 
 
 	$('a.scroll-link').on('click', function(){
-		console.log('animate scroll')
 		var target = $(this).attr('href')
 
 		if (target == "#intro") {
 			TweenLite.to(window, 1, {scrollTo: 0});
 		} else {
+			console.log($(target).position().top);
 			TweenLite.to(window, 1, {scrollTo: $(target).position().top});	
 		}	
 
@@ -61,47 +81,27 @@ $(document).ready(function(){
 
 	init()
 
-
-	
-
 	var HideShowTransition = Barba.BaseTransition.extend({
 	  start: function() {
-	    
-	    // this.finish.bind(this)
-	    // console.log(this.newContainerLoading)
 
 	    Promise
 	          .all([this.newContainerLoading, this.fadeOut()])
 	          .then(this.fadeIn.bind(this));
-	    // this.newContainerLoading.then(this.finish.bind(this));
-
 	    $(this.newContainer).addClass('is-hidden');
 	  },
 	  fadeOut: function() {
-	  	console.log('fade out!')
 	  	$(this.oldContainer).addClass('is-hidden');
 
 	  },
 	  fadeIn: function() {
-	  	
 	  	var _this = this
 	  	$(this.newContainer).addClass('is-hidden')
 
 	  	setTimeout(function(){
-	  		_this.done();
+	  		_this.done();	
 	  		document.body.scrollTop = 0;
 	  		$('.barba-container').removeClass('is-hidden')
-	  		// 	
 	  	},400);
-	  	
-	  },
-
-
-
-	  finish: function() {
-	  	console.log('finished!')
-	    document.body.scrollTop = 0;
-	    this.done();
 	  }
 	});
 

@@ -71,15 +71,11 @@ p + h3 {
 h3:first-of-type {
   margin-top: 0; }
 
-.experience-block {
-  margin-bottom: 24px; }
-
 .constrain-width {
   width: 90%;
   min-width: 375px;
   padding: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px; }
+  padding-top: 32px; }
 
 .width-25 {
   width: 25%; }
@@ -127,10 +123,21 @@ h3 {
   font-size: 18px;
   font-weight: bold; }
 
+h4 {
+  font-weight: 400;
+  margin-bottom: 32px;
+  padding-left: 16px; }
+
 video {
   max-width: 343px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 32px; }
+
+blockquote {
+  color: #777;
+  padding-left: 16px;
+  border-left: 3px #eee solid;
   margin-bottom: 32px; }
 
 .sans, body, [class*=hint--]:after {
@@ -141,9 +148,8 @@ video {
 
 .label {
   font-size: 12px;
-  margin-bottom: 16px;
-  text-transform: uppercase;
-  display: block; }
+  display: block;
+  color: #777; }
 
 .title {
   font-size: 112px;
@@ -151,6 +157,10 @@ video {
   display: block;
   margin-bottom: 24px;
   letter-spacing: -8px; }
+
+.title.small {
+  font-size: 72px;
+  letter-spacing: -6px; }
 
 .intro .title {
   font-size: 160px; }
@@ -250,7 +260,7 @@ ul > li {
   height: 300px;
   text-align: center; }
 
-.detail .constrain-width {
+.constrain-width.half-width {
   width: 50%; }
 
 .u-d-block {

@@ -53,9 +53,9 @@
 
 &lt;p&gt;Pensieve is a place where you can write notes and associate them with people. When you take a note, it captures the date and location to help you better recall the ideas that has to do with a context and person.&lt;/p&gt;
 
-&lt;p&gt;With Pensieve, you can record pieces of information during informal interactions, like an idea during coffee break with a colleague. Or if you&amp;rsquo;re working on a project for a client, you can use it to take note of important things, like when you expect a document, without having to create and name a document on Google Drive for each interaction.&lt;/p&gt;
+&lt;p&gt;With Pensieve, you can record pieces of information about during informal interactions and because your notes live on a timeline, it is easy to look back at the notes and thoughts you recorded relating to a person.&lt;/p&gt;
 
-&lt;p&gt;Because your notes live on a timeline, it is super easy to look back at the notes and thoughts relating to a person.&lt;/p&gt;
+&lt;p&gt;For instance, you may have discussed an idea during coffee break with a colleague. Or if you&amp;rsquo;re working on a project for a client, you can use it to take note of important details, like when you expect a document, without having to create and name a document using apps like Google Docs or Evernote for each entry.&lt;/p&gt;
 </description>
     </item>
     
@@ -72,7 +72,9 @@
     &lt;span class=&#34;byline&#34;&gt;Extending healthcare beyond hospital walls&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;*Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&#34;improve-patient-engagement&#34;&gt;Improve patient engagement&lt;/h3&gt;
 
@@ -80,11 +82,11 @@
 
 &lt;h3 id=&#34;approach&#34;&gt;Approach&lt;/h3&gt;
 
-&lt;p&gt;Over the course of the project, we conducted user research, design, and development of a high fidelity technology solution.&lt;/p&gt;
+&lt;p&gt;Over the course of the project, we conducted user research, ideated, refined and iterated our designs until we arrived at a high fidelity solution that was validated by our users.&lt;/p&gt;
 
-&lt;p&gt;We studied patient lives, behavior change strategies, spoke with clinicians, and developed key insights and visions toward this goal. Our numerous design visions were refined to one idea, which we developed into a mobile app prototype and concept video.&lt;/p&gt;
+&lt;p&gt;During the research phase of the project, we studied patient lives, behavior change strategies, spoke with clinicians, and developed key insights which informed our ideas toward this goal.&lt;/p&gt;
 
-&lt;p&gt;As the user experience lead, I played a key role in designing and building the various prototypes.&lt;/p&gt;
+&lt;p&gt;Following that, we validated our ideas with our users, by getting them to interact with prototypes of increasing fidelity. At the end of the prototyping phase, we built a mobile app prototype using PhoneGap and Cordova that could track the location of our users.&lt;/p&gt;
 
 &lt;h3 id=&#34;about-upmc&#34;&gt;About UPMC&lt;/h3&gt;
 
