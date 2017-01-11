@@ -20,7 +20,7 @@
     &lt;span class=&#34;byline&#34;&gt;The fastest way to split bills at the table&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;video controls&gt;  
+&lt;video controls poster=&#39;/assets/divvy-poster.jpg&#39;&gt;  
    &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
   &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 &lt;/video&gt;
@@ -46,7 +46,7 @@
     &lt;span class=&#34;byline&#34;&gt;Write notes and associate them with your contacts&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;video autoplay controls&gt;  
+&lt;video controls poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
    &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/pensieve.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
   &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://replace-this-with-your-hugo-site.com/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 &lt;/video&gt;

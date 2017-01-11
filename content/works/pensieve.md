@@ -10,7 +10,7 @@ date = "2016-12-18T15:14:53-08:00"
     <span class="byline">Write notes and associate them with your contacts</span>
 </div>
 
-<video autoplay controls>  
+<video controls poster="/assets/pensieve-poster.jpg">  
    <source type='video/mp4' src='/assets/pensieve.mp4' media='(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)'> 
   <!--  <source type='video/mp4' src='/assets/splitbill/splitbill.mp4' media='(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)'>  -->
 </video>

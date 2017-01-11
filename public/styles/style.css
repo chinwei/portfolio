@@ -74,7 +74,8 @@ h3:first-of-type {
 .constrain-width {
   width: 90%;
   min-width: 375px;
-  padding: 16px; }
+  padding: 16px;
+  padding-top: 32px; }
 
 .width-25 {
   width: 25%; }
@@ -93,8 +94,10 @@ h3:first-of-type {
   height: 24px;
   transition: 0.3s left ease; }
 
-a.page-link:hover .icon {
-  left: 5px; }
+a.page-link {
+  cursor: pointer; }
+  a.page-link > div:hover .icon {
+    left: 5px; }
 
 svg {
   fill: #ccc; }
@@ -121,6 +124,11 @@ a {
 h3 {
   font-size: 18px;
   font-weight: bold; }
+
+h4 {
+  font-weight: 400;
+  margin-bottom: 32px;
+  padding-left: 16px; }
 
 video {
   max-width: 343px;
