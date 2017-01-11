@@ -10,26 +10,6 @@ var init = function() {
 			handler: function(direction) {
 				$($this).siblings().children('svg').removeClass('is-selected')
 				$($this).children('svg').addClass('is-selected')	
-				// not sure why there are 2 dots highlighted at the same time
-				if (direction == 'up') {
-					
-					if (targetID == "#intro") {
-						$($this).children('svg').addClass('is-selected')
-					} else {
-						$($this).prev().children('svg').addClass('is-selected')
-						$($this).children('svg').removeClass('is-selected')
-					}
-					
-
-
-					console.log($($this).prev())
-				} else {
-					$($this).children('svg').addClass('is-selected')	
-					console.log('down')
-				}
-
-
-				
 			}
 		})
 	})
@@ -37,12 +17,28 @@ var init = function() {
 
 	$('a.scroll-link').on('click', function(){
 		var target = $(this).attr('href')
+		var targetPos = $(target).position().top
+		var direction = function() {
+			if (targetPos - $(window).scrollTop() >= 0) {
+				// console.log('down');
+				return 'down'
+			} else {
+				// console.log('up');
+				return 'up'
+			}
+		}
+
+		direction()
 
 		if (target == "#intro") {
 			TweenLite.to(window, 1, {scrollTo: 0});
 		} else {
-			console.log($(target).position().top);
-			TweenLite.to(window, 1, {scrollTo: $(target).position().top});	
+			if (direction() == 'down') {
+				TweenLite.to(window, 1, {scrollTo: targetPos});	
+			} else if (direction() == 'up') {
+				TweenLite.to(window, 1, {scrollTo: targetPos - 1});	
+				// console.log('going up!')
+			}
 		}	
 
 		return false;
