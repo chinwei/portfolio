@@ -12,8 +12,6 @@ date = "2016-12-18T15:14:53-08:00"
 	<span class="byline">An end-to-end data exploration platform</span>
 </div>
 
-
-
 ### Data in Silos
 
 Large enterprises use multiple software to store different parts of information about people, products and other entities.
