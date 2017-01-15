@@ -281,6 +281,9 @@ ul > li {
   float: right; }
 
 @media screen and (max-device-width: 750px) {
+  .full-page {
+    width: 100%; }
+
   .intro .title {
     font-size: 80px; }
 
