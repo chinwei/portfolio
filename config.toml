@@ -1,4 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+baseurl = "http://chinwei.me"
+title = "Chinwei: Design Portfolio"
 languageCode = "en-us"
 theme = "cocoa"
+publishDir = "docs"
