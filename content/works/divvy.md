@@ -10,10 +10,15 @@ date = "2016-12-18T15:14:53-08:00"
     <span class="byline">The fastest way to split bills at the table</span>
 </div>
 
-<video controls poster='/assets/divvy-poster.jpg'>  
+<video class="mobile" controls poster='/assets/divvy-poster.jpg'>  
    <source type='video/mp4' src='/assets/divvy.mp4' media='(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)'> 
   <!--  <source type='video/mp4' src='/assets/splitbill/splitbill.mp4' media='(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)'>  -->
 </video>
+
+<div class="caption">
+    Divvy-ing meal bills is much quicker without having to deal with names. Prototype built and recorded with Adobe XD.    
+</div>
+
 
 
 

@@ -156,10 +156,13 @@ h4
 	padding-left: 16px
 
 video
-	max-width: 343px
 	display: block
 	margin: 0 auto
 	margin-bottom: 32px
+	width: 100%
+	&.mobile
+		max-width: 343px
+	
 
 blockquote
 	color: #777
@@ -210,6 +213,15 @@ blockquote
 	line-height: 28px
 	margin-bottom: 16px
 	@extend .serif
+
+.caption
+	font-size: 12px
+	margin: 0 auto 64px auto
+	width: 60%
+	text-align: center
+	line-height: 1.5
+	color: #939493
+
 
 .text-logo
 	font-size: 16px
