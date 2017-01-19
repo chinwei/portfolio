@@ -8,7 +8,13 @@ var init = function() {
 		new Waypoint({
 			element: $(targetID),
 			handler: function(direction) {
-				window.Intercom("trackEvent", "scrolled to "+ targetID);
+				
+				ga('send', {
+				  hitType: 'pageview',
+				  eventAction: 'scroll',
+				  eventLabel: targetID
+				});
+
 				$($this).siblings().children('svg').removeClass('is-selected')
 				$($this).children('svg').addClass('is-selected')	
 			}
