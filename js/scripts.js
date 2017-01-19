@@ -8,6 +8,7 @@ var init = function() {
 		new Waypoint({
 			element: $(targetID),
 			handler: function(direction) {
+				window.Intercom("trackEvent", "scrolled to "+ targetID);
 				$($this).siblings().children('svg').removeClass('is-selected')
 				$($this).children('svg').addClass('is-selected')	
 			}
@@ -39,7 +40,9 @@ var init = function() {
 				TweenLite.to(window, 1, {scrollTo: targetPos - 1});	
 				// console.log('going up!')
 			}
-		}	
+		}
+
+		// window.Intercom("trackEvent", "trigger scroll to "+ target);
 
 		return false;
 		
