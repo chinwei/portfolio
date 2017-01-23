@@ -58,10 +58,14 @@
     &lt;span class=&#34;byline&#34;&gt;Write notes and associate them with your contacts&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;video class=&#34;mobile&#34; controls poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
-   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
-  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
-&lt;/video&gt;
+&lt;div class=&#34;img-container&#34;&gt;
+	&lt;video class=&#34;mobile&#34; controls poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
+	&lt;/video&gt;
+	
+&lt;/div&gt;
+
 
 &lt;div class=&#34;caption&#34;&gt;
     A messaging flow should be familiar to many people. Here I am exploring to see whether it makes sense to repurpose the flow to reference people instead. Built using Sketch and Framer.  
@@ -110,9 +114,16 @@
     &lt;span class=&#34;byline&#34;&gt;Extending healthcare beyond hospital walls&lt;/span&gt;
 &lt;/div&gt;
 
+
+&lt;div class=&#34;img-container&#34;&gt;
+	&lt;img src=&#34;http://chinwei.me/assets/mychoice1%402x.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/div&gt;
+
 &lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
 
 &lt;blockquote&gt;Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process.&lt;/blockquote&gt;
+
+
 
 &lt;h3&gt;Improve patient engagement&lt;/h3&gt;
 
@@ -122,7 +133,26 @@
 
 &lt;p&gt;Over the course of the project, we conducted user research, ideated, refined and iterated our designs until we arrived at a high fidelity solution that was validated by our users.&lt;/p&gt;
 
+&lt;/div&gt;
+
+&lt;div class=&#34;img-container&#34;&gt;
+	&lt;img src=&#34;http://chinwei.me/assets/mychoice2%402x.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;caption&#34;&gt;Diary studies and home visits gave us an intimate understanding of the challenges that hypertension patients deal with day-to-day which ultimately helped us design a better solution&lt;/div&gt;
+
+
+&lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
 &lt;p&gt;During the research phase of the project, we studied patient lives, behavior change strategies, spoke with clinicians, and developed key insights which informed our ideas toward this goal.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;img-container&#34;&gt;
+	&lt;img src=&#34;http://chinwei.me/assets/mychoice3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
 
 &lt;p&gt;Following that, we validated our ideas with our users, by getting them to interact with prototypes of increasing fidelity. At the end of the prototyping phase, we built a mobile app prototype using PhoneGap and Cordova that could track the location of our users.&lt;/p&gt;
 
@@ -165,14 +195,14 @@
     &lt;img src=&#34;http://chinwei.me/assets/fluigdata-2.jpg&#34;/&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;caption&#34;&gt;After processing, a dashboard gives an overview of the outcome of processing&lt;/div&gt;
+&lt;div class=&#34;caption&#34;&gt;After the records are processed, a dashboard gives an overview of the outcome&lt;/div&gt;
 
 
 &lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
 
 	&lt;h3&gt;Involvement&lt;/h3&gt;
 
-	&lt;p&gt;As part of a team of about 15, and with only two UX designers, I have been broadly involved in the development of Fluig Data from the beginning and in varying capacities. My contributions have been mostly in the area of designing the user interface, flows and interactions, conducting interviews and usability studies, but I have touched on several other areas as well.&lt;/p&gt;
+	&lt;p&gt;As part of a team of about 15, and as one of two UX designers, I have been broadly involved in the development of Fluig Data from the beginning and in various capacities. My contributions have been mostly in the area of designing the user interface, flows and interactions, conducting interviews and usability studies, but I have touched on several other areas as well.&lt;/p&gt;
 
 	&lt;p&gt;Some highlights:&lt;/p&gt;
 

@@ -139,7 +139,8 @@ video {
   margin: 0px auto;
   width: 100%; }
   video.mobile {
-    max-width: 343px; }
+    max-width: 343px;
+    border: 1px #f3f3f3 solid; }
 
 blockquote {
   color: #777;
