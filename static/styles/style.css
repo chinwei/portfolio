@@ -69,7 +69,7 @@ footer {
   border-top: 1px #f3f3f3 solid; }
 
 p + h3 {
-  margin-top: 32px; }
+  margin-top: 48px; }
 
 h3:first-of-type {
   margin-top: 0; }
@@ -125,8 +125,9 @@ a {
   text-decoration: none; }
 
 h3 {
-  font-size: 18px;
-  font-weight: bold; }
+  font-size: 24px;
+  margin-bottom: 1em;
+  color: #333; }
 
 h4 {
   font-weight: 400;
@@ -135,11 +136,8 @@ h4 {
 
 video {
   display: block;
-  margin: 32px auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  width: 100%;
-  border: 1px #f3f3f3 solid; }
+  margin: 0px auto;
+  width: 100%; }
   video.mobile {
     max-width: 343px; }
 
@@ -147,7 +145,8 @@ blockquote {
   color: #777;
   padding-left: 16px;
   border-left: 3px #eee solid;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  line-height: 2em; }
 
 .sans, body, [class*=hint--]:after {
   font-family: "Noto Sans", sans-serif; }
@@ -185,13 +184,14 @@ blockquote {
 
 .body-copy, p {
   font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 16px; }
+  line-height: 2em;
+  margin-bottom: 2em; }
 
 .caption {
   font-size: 12px;
-  margin: 0 auto 64px auto;
+  margin: 0 auto 32px auto;
   width: 60%;
+  max-width: 660px;
   text-align: center;
   line-height: 1.5;
   color: #939493; }
@@ -278,7 +278,8 @@ ul > li {
   text-align: center; }
 
 .constrain-width.half-width {
-  width: 50%; }
+  width: 50%;
+  max-width: 660px; }
 
 .u-d-block {
   display: block; }
@@ -291,6 +292,13 @@ ul > li {
 
 .u-pull-right {
   float: right; }
+
+.img-container {
+  max-width: 960px;
+  margin: 0 auto 32px auto;
+  border: 1px #f3f3f3 solid; }
+  .img-container > img {
+    width: 100%; }
 
 @media screen and (max-device-width: 750px) {
   .full-page {
