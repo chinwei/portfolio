@@ -35,10 +35,21 @@
 
 
 &lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
-	&lt;p&gt;Divvy is a quick, no frills way of splitting bills with friends at the table. &lt;/p&gt;
-	&lt;p&gt;No need to get all your friends to sign up for an account just so you can split a bill. Divvy works on the device, so it is always quickly accessible.&lt;/p&gt;
-	&lt;p&gt;Skip the naming. Mentally associate an animal to each friend you are chilling out with (temporarily!) for a more streamlined and enjoyable flow.&lt;/p&gt;
-	&lt;p&gt;This is an ongoing personal project that I am doing for fun. Do reach out if you would like to provide feedback, or want to help out!&lt;/p&gt;
+
+	&lt;p&gt;Divvy is a quick, no frills way of splitting bills with friends at the table. Just enter the price of each item and decide who to split it with. Instead of typing the name of your friends, assign them each an animal for the duration of the transaction.&lt;/p&gt;
+
+	&lt;p&gt;It is an idea I an toying with during my free time. It came about when I came across similar situations and thought there should be a quick and straightforward way to handle it.&lt;/p&gt;
+
+	&lt;h3&gt;My thoughts on the current iteration&lt;/h3&gt;
+
+	&lt;p&gt;I currently like that the entire flow is contained within one view, and at this point it seems to be efficient for certain cases. At the moment I like the ideas of using animals to reference people. They can be easily made attractive while being neutral and effective as long as they are visually distinct. It could also potentially be fun, given the context, to address your friends using animals. 🐔🐼🐙🐳&lt;/p&gt;
+	
+	&lt;p&gt;One issue that should be considered is that currently the flow revolves around itemization, which works well for smaller number of items. For larger bills it would probably be more efficient to start with the total amount and isolate items that are not equally split.&lt;/p&gt;
+
+	&lt;p&gt;Another point to be looked into is identifying the situations where the host is expected to split the bill equally (or not). In some cases it is obvious, for instance, if a vegetarian participates in a (meat heavy) barbeque, my understanding of social norms tell me that the participants should not expect the vegetarian to pay for the meat. Aside from this, there are many other situations in which it is not as obvious.&lt;/p&gt;
+
+	&lt;p&gt;This is an ongoing personal project that I am planning to build as I learn Swift. Check back for future iterations!&lt;/p&gt;
+
 &lt;/div&gt;
 
 
