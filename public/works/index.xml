@@ -21,7 +21,7 @@
 &lt;/div&gt;
 
 &lt;div class=&#34;img-container&#34;&gt;
-	&lt;video class=&#34;mobile&#34; controls poster=&#39;/assets/divvy-poster.jpg&#39;&gt;  
+	&lt;video class=&#34;mobile&#34; autoplay loop controls poster=&#39;/assets/divvy-poster.jpg&#39;&gt;  
 	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
 	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 	&lt;/video&gt;
@@ -40,7 +40,7 @@
 
 	&lt;p&gt;It is an idea I an toying with during my free time. It came about when I came across similar situations and thought there should be a quick and straightforward way to handle it.&lt;/p&gt;
 
-	&lt;h3&gt;My thoughts on the current iteration&lt;/h3&gt;
+	&lt;h3&gt;Thoughts&lt;/h3&gt;
 
 	&lt;p&gt;I currently like that the entire flow is contained within one view, and at this point it seems to be efficient for certain cases. At the moment I like the ideas of using animals to reference people. They can be easily made attractive while being neutral and effective as long as they are visually distinct. It could also potentially be fun, given the context, to address your friends using animals. 🐔🐼🐙🐳&lt;/p&gt;
 	
@@ -70,7 +70,7 @@
 &lt;/div&gt;
 
 &lt;div class=&#34;img-container&#34;&gt;
-	&lt;video class=&#34;mobile&#34; controls poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
+	&lt;video class=&#34;mobile&#34; autoplay controls loop poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
 	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
 	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 	&lt;/video&gt;
@@ -90,7 +90,7 @@
 
 &lt;div class=&#34;img-container&#34;&gt;
 
-	&lt;video controls&gt;  
+	&lt;video controls autoplay loop&gt;  
 	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve-gomix.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
 	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 	&lt;/video&gt;
@@ -108,6 +108,10 @@
 &lt;p&gt;With Pensieve, you can record pieces of information about during informal interactions and because your notes live on a timeline, it is easy to look back at the notes and thoughts you recorded relating to a person. &lt;/p&gt;
 
 &lt;p&gt;For instance, you may have discussed an idea during coffee break with a colleague. Or if you&#39;re working on a project for a client, you can use it to take note of important details, like when you expect a document, without having to create and name a document using apps like Google Docs or Evernote for each entry.&lt;/p&gt;
+
+&lt;h3&gt;Thoughts&lt;/h3&gt;
+
+
 
 &lt;/div&gt;
 
