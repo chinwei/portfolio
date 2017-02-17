@@ -193,7 +193,7 @@ blockquote {
 .caption {
   font-size: 12px;
   margin: 0 auto 64px auto;
-  width: 35%;
+  width: 100%;
   max-width: 660px;
   text-align: center;
   line-height: 1.5;
@@ -303,7 +303,7 @@ ul > li {
   .img-container > img {
     width: 100%; }
 
-@media screen and (max-device-width: 750px) {
+@media screen and (max-device-width: 800px) {
   .full-page {
     width: 100%; }
 
