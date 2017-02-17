@@ -171,7 +171,15 @@ blockquote
 	margin-bottom: 32px
 	line-height: 2em
 
+ul 
+	padding: 16px
 
+ul>li
+	font-size: 14px
+	line-height: 28px
+	margin-bottom: 8px
+	list-style-type: disc
+	@extend .serif
 
 .sans
 	font-family: 'Noto Sans', sans-serif
@@ -235,16 +243,14 @@ blockquote
 .bold
 	font-weight: bold
 
-ul 
-	padding: 16px
 
-ul>li
-	font-size: 14px
-	line-height: 28px
-	margin-bottom: 8px
-	list-style-type: disc
-	@extend .serif
 
+.img-container
+	max-width: 960px
+	margin: 0 auto 32px auto
+	border: 1px #f3f3f3 solid
+	> img
+		width: 100%
 
 
 .barba-container
@@ -289,38 +295,6 @@ ul>li
 	padding-right: 0
 
 
-
-// Timeline
-
-.timeline
-	padding: 24px 0
-	.row
-		margin-bottom: 8px
-
-.timeline-label
-	font-size: 12px
-	width: 90px
-
-.timeline-bar-container
-	width: calc(100% - 90px)
-
-.timeline-bar
-	height: 12px
-	width: 100%
-	background: #f3f3f3
-	border-radius: 6px
-	&.color-1
-		background: #F8C236
-	&.color-2
-		background: #00CDCB
-	&.color-3
-		background: #FF7E7E
-	&.color-4
-		background: #B472EF
-	&.width-50
-		width: 50%
-
-
 // Detail page
 
 .article-header
@@ -345,16 +319,11 @@ ul>li
 .u-pull-right
 	float: right
 
-.img-container
-	max-width: 960px
-	margin: 0 auto 32px auto
-	border: 1px #f3f3f3 solid
-	> img
-		width: 100%
+
 
 
 @media screen and (max-device-width: 750px)
-	.full-page
+	.full-page, .caption
 		width: 100%
 	.intro .title 
 		font-size: 80px
@@ -370,11 +339,11 @@ ul>li
 
 
 // Debug content area
-// *
-// 	background: #000 !important
-// 	color: #0f0 !important
-// 	outline: solid #f00 1px !important
+*
+	background: #000 !important
+	color: #0f0 !important
+	outline: solid #f00 1px !important
 
-// @media only screen and (max-width: 320px)
-// 	body
-// 		background: red
+@media only screen and (max-width: 320px)
+	body
+		background: red
