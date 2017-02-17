@@ -221,6 +221,8 @@
 
 	&lt;h3&gt;User Interface and Prototyping&lt;/h3&gt;
 
+	&lt;p&gt;Building consistent, reusable and flexible user interface patterns help to build users&#39; familiarity with the application. It also makes it easier to build new pages with a more maintainable codebase.&lt;/p&gt;
+
 &lt;/div&gt;
 
 
@@ -231,16 +233,21 @@
 	&lt;/video&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;caption&#34;&gt;Building consistent, reusable and flexible user interface patterns help to build users&#39; familiarity with the application. It also makes it easier to build new pages with a more maintainable codebase.&lt;/div&gt;
+&lt;div class=&#34;caption&#34;&gt;Having components that are flexible, like the headers with replaceable icons, and responsive makes it easier to adapt them to support a variety of flows.&lt;/div&gt;
 
 &lt;div class=&#34;img-container&#34;&gt;
     &lt;img src=&#34;http://chinwei.me/assets/fluigdata/states.jpg&#34;/&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;caption&#34;&gt;Having read&lt;a href=&#34;https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85#.dqmcbf9y6&#34;&gt; this awesome article by Vince Speelman&lt;/a&gt;
+ certainly made me consider the various states of UI in more detail.&lt;/div&gt;
+
+
+
 &lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
 
 
-	&lt;p&gt;Building a product is an extremely involved process with many levels of UI, flows, states and interactions. Different prototyping tools help communicate details of a variety of flows and interactions to stakeholders.&lt;/p&gt;
+	&lt;p&gt;Building a product is an extremely involved process with many levels of UI, flows, states and interactions. Each prototyping tool is suited to express a specific aspect of the design. Tools like Invision and Adobe XD are great at expressing flows, whereas others, like Framer, Origami Studio excell in expressing details in interaction and motion&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -250,7 +257,7 @@
 	&lt;/video&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;caption&#34;&gt;Framer is generally more suited for mobile prototypes at the moment, but one benefit it provides is to be able to write logic to allow parallel flows within the same prototype.&lt;/div&gt;
+&lt;div class=&#34;caption&#34;&gt;Framer is generally more suited for mobile prototypes at the moment, but one benefit it provides even for web prototypes is to be able to write logic to allow parallel flows within the same prototype.&lt;/div&gt;
 
 
 
@@ -260,7 +267,7 @@
 	&lt;/video&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;caption&#34;&gt;Prototyping on the web provides several benefits. You benefit from the HTML layout behavior, are able to reuse existing styles from the application, and can be extremely flexible by using Javascript frameworks and libraries like Angular and Greensock (used in this prototype).&lt;/div&gt;
+&lt;div class=&#34;caption&#34;&gt;Prototyping on the web can be extremely flexible with the help of frameworks and libraries like Angular (easy two-way state binding) and Greensock, for interactivity and animation.&lt;/div&gt;
 
 
 
