@@ -248,34 +248,6 @@ ul > li {
 .hint--left:after {
   padding-right: 0; }
 
-.timeline {
-  padding: 24px 0; }
-  .timeline .row {
-    margin-bottom: 8px; }
-
-.timeline-label {
-  font-size: 12px;
-  width: 90px; }
-
-.timeline-bar-container {
-  width: calc(100% - 90px); }
-
-.timeline-bar {
-  height: 12px;
-  width: 100%;
-  background: #f3f3f3;
-  border-radius: 6px; }
-  .timeline-bar.color-1 {
-    background: #F8C236; }
-  .timeline-bar.color-2 {
-    background: #00CDCB; }
-  .timeline-bar.color-3 {
-    background: #FF7E7E; }
-  .timeline-bar.color-4 {
-    background: #B472EF; }
-  .timeline-bar.width-50 {
-    width: 50%; }
-
 .article-header {
   height: 300px;
   text-align: center; }
