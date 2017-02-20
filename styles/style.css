@@ -252,7 +252,7 @@ ul > li {
   text-align: center; }
 
 .constrain-width.half-width {
-  width: 50%;
+  width: 80%;
   max-width: 660px; }
 
 .u-d-block {
@@ -275,6 +275,9 @@ ul > li {
     width: 100%; }
 
 @media screen and (max-width: 401px) {
+  p {
+    font-size: 18px; }
+
   .full-page {
     width: 100%; }
 
@@ -294,6 +297,9 @@ ul > li {
   .constrain-width.half-width {
     width: 100%; }
 
+  .constrain-width {
+    padding: 0; }
+
   .content-container {
     padding-left: 16px;
     padding-right: 16px; }
@@ -304,11 +310,11 @@ ul > li {
   .home .constrain-width {
     padding-right: 36px;
     padding-left: 16px; } }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 401px) and (max-width: 1000px) {
   .constrain-width.half-width {
-    width: 90%; }
+    width: 100%; }
 
   p {
-    font-size: 18px; } }
+    font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
