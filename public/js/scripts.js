@@ -1,7 +1,6 @@
 var init = function() {
 	// Remove hover states for touch devices
 
-	$('video')[0].playbackRate = 2.0
 	$('.pagination .scroll-link').each(function(i, classname){
 		var targetID = $(this).attr('href')
 		var $this = this
