@@ -141,7 +141,7 @@
 
 &lt;h3&gt;Improve patient engagement&lt;/h3&gt;
 
-&lt;p&gt;As a culmination of Carnegie Mellon’s Master’s of HCI program, this 8-month project was sponsored by the University of Pittsburgh Medical Center (UPMC) to look into a patient-facing tool with the goals of deeper engagement with the health system and better health outcomes.&lt;/p&gt; 
+&lt;p&gt;As a culmination of Carnegie Mellon&amp;rsquo;s Master&amp;rsquo;s of HCI program, this 8-month project was sponsored by the University of Pittsburgh Medical Center (UPMC) to look into a patient-facing tool with the goals of deeper engagement with the health system and better health outcomes.&lt;/p&gt; 
 
 &lt;p&gt;Over the course of the project, we conducted user research, ideated, refined and iterated our designs until we arrived at a high fidelity solution that was validated by our users.&lt;/p&gt;
 
@@ -280,7 +280,7 @@
 	&lt;img src=&#34;http://chinwei.me/assets/mychoice/interactive-prototype.jpg&#34; alt=&#34;&#34;&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;constrain-width half-width margin-auto&#34;&gt;
+&lt;div class=&#34;constrain-width&#34;&gt;
 
 &lt;p&gt;&lt;span class=&#34;bold&#34;&gt;A working prototype&lt;/span&gt; to validate prolonged usage. We built a prototype using HTML/Cordova/PhoneGap and deployed it as an Android App so that our participants could use it in real-world settings. We tracked their locations in real-time and used the Parse service to send push notifications at appropriate moments.&lt;/p&gt;
 
