@@ -296,7 +296,7 @@ ul>li
 	text-align: center
 
 .constrain-width.half-width
-	width: 50%
+	width: 80%
 	max-width: 660px
 
 // Utilities
@@ -322,7 +322,9 @@ ul>li
 
 
 @media screen and (max-width: 401px)
-	.full-page, 
+	p
+		font-size: 18px
+	.full-page
 		width: 100%
 	.intro .title 
 		font-size: 80px
@@ -335,9 +337,12 @@ ul>li
 		width: 100%
 	.constrain-width.half-width
 		width: 100%
+	.constrain-width
+		padding: 0
 	.content-container
 		padding-left: 16px
 		padding-right: 16px
+		// padding: 0
 	.sidepanel
 		right: 0
 	.home
@@ -345,11 +350,12 @@ ul>li
 			padding-right: 36px
 			padding-left: 16px
 
-@media screen and (max-width: 1000px)
+@media screen and (min-width: 401px) and (max-width: 1000px)
 	.constrain-width.half-width
-		width: 90%
+		width: 100%
 	p
-		font-size: 18px
+		font-size: 10px
+
 
 // *
 // 	background: #000 !important
