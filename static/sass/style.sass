@@ -82,7 +82,7 @@ h3:first-of-type
 
 .constrain-width
 	width: 90%
-	min-width: 375px
+	// min-width: 375px
 	padding: 16px
 	// padding-top: 32px
 	// padding-bottom: 32px 
@@ -146,6 +146,7 @@ h3
 	font-size: 24px
 	margin-bottom: 1em
 	color: #333
+	line-height: 1.5
 	@extend .serif
 
 h4 
@@ -291,7 +292,7 @@ ul>li
 // Detail page
 
 .article-header
-	height: 300px
+	// height: 300px
 	text-align: center
 
 .constrain-width.half-width
@@ -320,7 +321,7 @@ ul>li
 		width: 100%
 
 
-@media screen and (max-device-width: 800px)
+@media screen and (max-width: 401px)
 	.full-page, 
 		width: 100%
 	.intro .title 
@@ -330,19 +331,28 @@ ul>li
 	.title
 		font-size: 64px
 		letter-spacing: -6px
-	.constrain-width
-		padding-right: 48px 
+	.content.detail
+		width: 100%
+	.constrain-width.half-width
+		width: 100%
+	.content-container
+		padding-left: 16px
+		padding-right: 16px
 	.sidepanel
 		right: 0
+	.home
+		.constrain-width
+			padding-right: 36px
+			padding-left: 16px
 
+@media screen and (max-width: 1000px)
+	.constrain-width.half-width
+		width: 90%
+	p
+		font-size: 18px
 
-
-// Debug content area
 // *
 // 	background: #000 !important
 // 	color: #0f0 !important
 // 	outline: solid #f00 1px !important
 
-// @media only screen and (max-width: 320px)
-// 	body
-// 		background: red
