@@ -47,6 +47,11 @@ header.app-header
 	&.detail
 		padding-top: 80px
 
+.content-container
+	max-width: 1280px
+
+
+
 .sidepanel
 	width: 34px
 	justify-content: center
@@ -56,6 +61,8 @@ header.app-header
 	position: fixed
 	z-index: 9999
 	right: 16px
+
+
 
 nav.pagination
 	width: inherit
@@ -82,10 +89,7 @@ h3:first-of-type
 
 .constrain-width
 	width: 90%
-	// min-width: 375px
 	padding: 16px
-	// padding-top: 32px
-	// padding-bottom: 32px 
 
 .width-25
 	width: 25%
@@ -93,6 +97,23 @@ h3:first-of-type
 .row
 	display: flex
 	flex-direction: row
+
+.row__two-col
+	div:first-child
+		flex: 1
+		display: flex
+		flex-direction: column
+		justify-content: center
+		padding: 32px
+
+	div:last-child
+		flex: 2
+
+.row__two-col--flipped
+	div:first-child
+		order: 2
+
+
 
 .margin-auto
 	margin: 0 auto
@@ -298,6 +319,12 @@ ul>li
 	// height: 300px
 	text-align: center
 
+
+
+.constrain-width.full-width
+	width: 100%
+	max-width: 1280px
+
 .constrain-width.half-width
 	width: 80%
 	max-width: 660px
@@ -316,10 +343,13 @@ ul>li
 .u-pull-right
 	float: right
 
+.u-width-100
+	width: 100%
+
 .img-container
 	max-width: 960px
 	margin: 0 auto 32px auto
-	border: 1px #f3f3f3 solid
+	// border: 1px #f3f3f3 solid
 	> img
 		width: 100%
 
@@ -348,6 +378,10 @@ ul>li
 		// padding: 0
 	.sidepanel
 		right: 0
+	.row
+		display: block
+	.row__two-col div:first-child
+		padding: 0
 	.home
 		.constrain-width
 			padding-right: 36px
@@ -356,6 +390,8 @@ ul>li
 @media screen and (min-width: 401px) and (max-width: 1000px)
 	.constrain-width.half-width
 		width: 100%
+	.row
+		display: block
 	p
 		font-size: 10px
 

@@ -42,6 +42,9 @@ header.app-header {
   .content.detail {
     padding-top: 80px; }
 
+.content-container {
+  max-width: 1280px; }
+
 .sidepanel {
   width: 34px;
   justify-content: center;
@@ -84,6 +87,18 @@ h3:first-of-type {
 .row {
   display: flex;
   flex-direction: row; }
+
+.row__two-col div:first-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px; }
+.row__two-col div:last-child {
+  flex: 2; }
+
+.row__two-col--flipped div:first-child {
+  order: 2; }
 
 .margin-auto {
   margin: 0 auto; }
@@ -254,6 +269,10 @@ ul > li {
 .article-header {
   text-align: center; }
 
+.constrain-width.full-width {
+  width: 100%;
+  max-width: 1280px; }
+
 .constrain-width.half-width {
   width: 80%;
   max-width: 660px; }
@@ -270,10 +289,12 @@ ul > li {
 .u-pull-right {
   float: right; }
 
+.u-width-100 {
+  width: 100%; }
+
 .img-container {
   max-width: 960px;
-  margin: 0 auto 32px auto;
-  border: 1px #f3f3f3 solid; }
+  margin: 0 auto 32px auto; }
   .img-container > img {
     width: 100%; }
 
@@ -310,12 +331,21 @@ ul > li {
   .sidepanel {
     right: 0; }
 
+  .row {
+    display: block; }
+
+  .row__two-col div:first-child {
+    padding: 0; }
+
   .home .constrain-width {
     padding-right: 36px;
     padding-left: 16px; } }
 @media screen and (min-width: 401px) and (max-width: 1000px) {
   .constrain-width.half-width {
     width: 100%; }
+
+  .row {
+    display: block; }
 
   p {
     font-size: 10px; } }
