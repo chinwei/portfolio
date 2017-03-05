@@ -71,7 +71,7 @@
 
 &lt;div class=&#34;img-container&#34;&gt;
 	&lt;video class=&#34;mobile&#34; autoplay controls loop poster=&#34;/assets/pensieve-poster.jpg&#34;&gt;  
-	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve.mp4&#39;&gt; 
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve/pensieve.mp4&#39;&gt; 
 	&lt;/video&gt;
 &lt;/div&gt;
 
@@ -89,8 +89,7 @@
 &lt;div class=&#34;img-container&#34;&gt;
 
 	&lt;video controls autoplay loop&gt;  
-	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve-gomix.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
-	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/pensieve/pensieve-gomix.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
 	&lt;/video&gt;
 
 &lt;/div&gt;
@@ -106,9 +105,6 @@
 &lt;p&gt;With Pensieve, you can record pieces of information about during informal interactions and because your notes live on a timeline, it is easy to look back at the notes and thoughts you recorded relating to a person. &lt;/p&gt;
 
 &lt;p&gt;For instance, you may have discussed an idea during coffee break with a colleague. Or if you&#39;re working on a project for a client, you can use it to take note of important details, like when you expect a document, without having to create and name a document using apps like Google Docs or Evernote for each entry.&lt;/p&gt;
-
-&lt;!-- &lt;h3&gt;Thoughts&lt;/h3&gt; --&gt;
-
 
 
 &lt;/div&gt;
@@ -354,8 +350,15 @@
 
 &lt;div class=&#34;row row__two-col row__two-col--flipped u-width-100&#34;&gt;
 	&lt;div&gt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Visual Hierarchy&lt;/h3&gt;
 		&lt;p&gt;Managing clutter for a complex data-centric interface is a constant challenge. I addressed it with the sparing use of colors, and being disciplined about only showing relevant information at a given time.&lt;/p&gt;
+=======
+		&lt;h3&gt;Visual Clarity&lt;/h3&gt;
+		&lt;p&gt;Managing clutter for a complex data-centric interface is a constant challenge. I addressed it with the sparing use of colors, and being disciplined about only showing relevant information at a given time.&lt;/p&gt;
+
+		
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -366,10 +369,15 @@
 
 &lt;div class=&#34;row row__two-col u-width-100&#34;&gt;
 	&lt;div&gt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Cross-platform Consistency&lt;/h3&gt;
 		&lt;p&gt;
 			In order to maintain consistency across the web and mobile companion app, I extended the design system to include mobile patterns for Android and iOS.
 		&lt;/p&gt;
+=======
+		&lt;h3&gt;Cross-Platform Consistency&lt;/h3&gt;
+		&lt;p&gt;In order to maintain consistency across the web and mobile companion app, I extended the design system to include mobile patterns for Android and iOS.&lt;/p&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -380,8 +388,15 @@
 
 &lt;div class=&#34;row row__two-col row__two-col--flipped u-width-100&#34;&gt;
 	&lt;div&gt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Reusable and Compostable Elements&lt;/h3&gt;
 		&lt;p&gt;In order to build users’ familarity with the product, I strived to use consistent UI and interaction patterns. The UI is also designed to be compostable within other elements for maximum re-use.&lt;/p&gt;
+=======
+		&lt;h3&gt;Re-usable and Compostable Elements&lt;/h3&gt;
+		&lt;p&gt;In order to build users’ familarity with the product, I strived to use consistent UI and interaction patterns. The UI is also designed to be compostable within other elements for maximum re-use.
+
+&lt;/p&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -395,10 +410,16 @@
 &lt;div class=&#34;row row__two-col u-width-100&#34;&gt;
 	&lt;div&gt;
 		&lt;h3&gt;Prototyping from Paper to Pixels&lt;/h3&gt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;p&gt;
 			Prototypes are essential from getting feedback from other designers, engineers, product managers, stakeholders and users. I prototyped across the range of fidelities, ranging from click-through prototypes in Invision, interactive and functional prototypes in Framer and HTML.
 		&lt;/p&gt;
 		
+=======
+		&lt;p&gt;Prototypes are essential from getting feedback from other designers, engineers, product managers, stakeholders and users. I prototyped across the range of fidelities, ranging from click-through prototypes in Invision, interactive and functional prototypes in Framer and HTML.
+
+&lt;/p&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -409,8 +430,11 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 
 
+=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 
 </description>
     </item>
