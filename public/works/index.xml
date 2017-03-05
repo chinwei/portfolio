@@ -350,15 +350,8 @@
 
 &lt;div class=&#34;row row__two-col row__two-col--flipped u-width-100&#34;&gt;
 	&lt;div&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Visual Hierarchy&lt;/h3&gt;
 		&lt;p&gt;Managing clutter for a complex data-centric interface is a constant challenge. I addressed it with the sparing use of colors, and being disciplined about only showing relevant information at a given time.&lt;/p&gt;
-=======
-		&lt;h3&gt;Visual Clarity&lt;/h3&gt;
-		&lt;p&gt;Managing clutter for a complex data-centric interface is a constant challenge. I addressed it with the sparing use of colors, and being disciplined about only showing relevant information at a given time.&lt;/p&gt;
-
-		
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -369,15 +362,10 @@
 
 &lt;div class=&#34;row row__two-col u-width-100&#34;&gt;
 	&lt;div&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Cross-platform Consistency&lt;/h3&gt;
 		&lt;p&gt;
 			In order to maintain consistency across the web and mobile companion app, I extended the design system to include mobile patterns for Android and iOS.
 		&lt;/p&gt;
-=======
-		&lt;h3&gt;Cross-Platform Consistency&lt;/h3&gt;
-		&lt;p&gt;In order to maintain consistency across the web and mobile companion app, I extended the design system to include mobile patterns for Android and iOS.&lt;/p&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -388,15 +376,8 @@
 
 &lt;div class=&#34;row row__two-col row__two-col--flipped u-width-100&#34;&gt;
 	&lt;div&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;h3&gt;Reusable and Compostable Elements&lt;/h3&gt;
 		&lt;p&gt;In order to build users’ familarity with the product, I strived to use consistent UI and interaction patterns. The UI is also designed to be compostable within other elements for maximum re-use.&lt;/p&gt;
-=======
-		&lt;h3&gt;Re-usable and Compostable Elements&lt;/h3&gt;
-		&lt;p&gt;In order to build users’ familarity with the product, I strived to use consistent UI and interaction patterns. The UI is also designed to be compostable within other elements for maximum re-use.
-
-&lt;/p&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -410,16 +391,10 @@
 &lt;div class=&#34;row row__two-col u-width-100&#34;&gt;
 	&lt;div&gt;
 		&lt;h3&gt;Prototyping from Paper to Pixels&lt;/h3&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 		&lt;p&gt;
 			Prototypes are essential from getting feedback from other designers, engineers, product managers, stakeholders and users. I prototyped across the range of fidelities, ranging from click-through prototypes in Invision, interactive and functional prototypes in Framer and HTML.
 		&lt;/p&gt;
 		
-=======
-		&lt;p&gt;Prototypes are essential from getting feedback from other designers, engineers, product managers, stakeholders and users. I prototyped across the range of fidelities, ranging from click-through prototypes in Invision, interactive and functional prototypes in Framer and HTML.
-
-&lt;/p&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 	&lt;/div&gt;
 	&lt;div&gt;
 		&lt;div class=&#34;img-container&#34;&gt;
@@ -430,11 +405,8 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 
 
-=======
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 69a99f1fa81be051e0637be30296154ae7196ad6
 
 </description>
     </item>
