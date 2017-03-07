@@ -6,7 +6,7 @@ draft = true
 
 Dear Hiring Manager,
 
-I am writing to express my interest in applying for the position of User Experience Designer at MobileIron. I am currently working on an end-to-end discovery platform at TOTVS Labs. Prior to this, I graduated with a Masters in Human-Computer Interaction from Carnegie Mellon, and in a previous life built web experiences for global brands like UPS, Allergen, Legrand and Fuji Xerox.
+I am writing to express my interest in applying for the position of Product Designer at Vida. I am currently working on an end-to-end discovery platform at TOTVS Labs. Prior to this, I graduated with a Masters in Human-Computer Interaction from Carnegie Mellon, and in a previous life built web experiences for global brands like UPS, Allergen, Legrand and Fuji Xerox.
 
 As part of a team at TOTVS Labs that built our product from the ground up, I have been involved in every user-facing aspect of the product. I helped define how the product works, looks and feels and took on other roles ranging from frontend development and product management. As part of a small team, I've had the opportunity to contribute in a wide variety of areas.
 
@@ -17,3 +17,6 @@ At various points, I did frontend development and product management work as wel
 I built my portfolio at http://chinwei.me to demonstrate the breath and depth of my work, as well as my aesthetic sensibilities. I hope you will find my skill set to be a relevant and worthwhile addition to your team.
 
 Thank you in advance for your consideration.
+
+Sincerely,
+Chinwei
