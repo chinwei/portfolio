@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Works-rsses on Chinwei: Design Portfolio</title>
+    <title>Works on Chinwei: Design Portfolio</title>
     <link>http://chinwei.me/works/index.xml</link>
-    <description>Recent content in Works-rsses on Chinwei: Design Portfolio</description>
+    <description>Recent content in Works on Chinwei: Design Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Dec 2016 15:14:53 -0800</lastBuildDate>
@@ -21,8 +21,8 @@
 &lt;/div&gt;
 
 &lt;div class=&#34;img-container&#34;&gt;
-	&lt;video class=&#34;mobile&#34; autoplay loop controls poster=&#39;/assets/divvy-poster.jpg&#39;&gt;  
-	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+	&lt;video class=&#34;mobile&#34; autoplay loop controls poster=&#39;/assets/divvy/divvy-poster.jpg&#39;&gt;  
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/divvy/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
 	  &lt;!--  &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/splitbill/splitbill.mp4&#39; media=&#39;(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)&#39;&gt;  --&gt;
 	&lt;/video&gt;
 &lt;/div&gt;
