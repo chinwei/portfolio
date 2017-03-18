@@ -8,6 +8,11 @@ html
 	-ms-touch-action: manipulation
 	touch-action: manipulation
 
+
+body
+	@extend .sans
+	color: $body-copy
+
 body
 	-webkit-tap-highlight-color: rgba(0,0,0,0)
 
@@ -27,6 +32,62 @@ header.app-header
 	background: rgba(255,255,255,0.9)
 	z-index: 9999
 
+footer
+	border-top: 1px #f3f3f3 solid
+
+p + h3
+	margin-top: 48px
+
+h3:first-of-type
+	margin-top: 0	
+
+
+
+
+a
+	color: $body-copy
+	text-decoration: none
+
+h3
+	font-size: 24px
+	margin-bottom: 1em
+	color: #333
+	line-height: 1.5
+	@extend .serif
+
+h4 
+	font-weight: 400
+	margin-bottom: 32px
+	padding-left: 16px
+
+video
+	display: block
+	margin: 0px auto
+	width: 100%
+	&.mobile
+		max-width: 343px
+		border: 1px #f3f3f3 solid
+	
+
+blockquote
+	color: #777
+	padding-left: 16px
+	border-left: 3px #eee solid
+	margin-bottom: 32px
+	line-height: 2em
+
+
+ul 
+	padding: 16px
+
+ul>li
+	font-size: 14px
+	line-height: 28px
+	margin-bottom: 8px
+	list-style-type: disc
+	@extend .serif
+
+
 .full-page
 	display: flex
 	flex-direction: row
@@ -38,18 +99,20 @@ header.app-header
 	display: flex
 	flex-direction: column
 	width: 100%
-	&.intro
-		justify-content: center
-	&.article-list
-		justify-content: center
-		position: relative
-		bottom: 10%
-	&.detail
-		padding-top: 80px
 
-.content-container
+.content--intro
+	justify-content: center
+
+.content--article-list
+	justify-content: center
+	position: relative
+	bottom: 10%
+
+.content--detail
+	padding-top: 80px
+
+.content__container
 	max-width: 1280px
-
 
 
 .sidepanel
@@ -63,29 +126,21 @@ header.app-header
 	right: 16px
 
 
-
-nav.pagination
+.sidepanel__links
 	width: inherit
 	text-align: center
 	z-index: 9999
-	a
-		padding: 10px
-		margin-bottom: 10px
-		display: inline-block
-		&:hover
-			svg
-				fill: $primary-color
-				&.dot
-					stroke-width: 0
 
-footer
-	border-top: 1px #f3f3f3 solid
+.sidepanel__link
+	padding: 10px
+	margin-bottom: 10px
+	display: inline-block
+	&:hover
+		svg
+			fill: $primary-color
+			&.dot
+				stroke-width: 0
 
-p + h3
-	margin-top: 48px
-
-h3:first-of-type
-	margin-top: 0	
 
 .constrain-width
 	width: 90%
@@ -150,49 +205,6 @@ a:hover
 
 
 // Text Styles
-
-
-// Base classes
-
-body
-	@extend .sans
-	color: $body-copy
-
-a
-	color: $body-copy
-	text-decoration: none
-
-h3
-	font-size: 24px
-	margin-bottom: 1em
-	color: #333
-	line-height: 1.5
-	@extend .serif
-
-h4 
-	font-weight: 400
-	margin-bottom: 32px
-	padding-left: 16px
-
-video
-	display: block
-	margin: 0px auto
-	// margin-top: 32px
-	// margin-bottom: 32px
-	width: 100%
-	&.mobile
-		max-width: 343px
-		border: 1px #f3f3f3 solid
-	
-
-blockquote
-	color: #777
-	padding-left: 16px
-	border-left: 3px #eee solid
-	margin-bottom: 32px
-	line-height: 2em
-
-
 
 .sans
 	font-family: 'Noto Sans', sans-serif
@@ -264,17 +276,6 @@ blockquote
 
 .u-color-accent
 	color: $primary-color
-
-ul 
-	padding: 16px
-
-ul>li
-	font-size: 14px
-	line-height: 28px
-	margin-bottom: 8px
-	list-style-type: disc
-	@extend .serif
-
 
 
 .barba-container
@@ -354,7 +355,6 @@ ul>li
 .img-container
 	max-width: 960px
 	margin: 0 auto 32px auto
-	// border: 1px #f3f3f3 solid
 	> img
 		width: 100%
 
@@ -364,14 +364,14 @@ ul>li
 		font-size: 18px
 	.full-page
 		width: 100%
-	.intro .title 
+	.content--intro .title 
 		font-size: 80px
 	.byline
 		font-size: 22px
 	.title
 		font-size: 64px
 		letter-spacing: -6px
-	.content.detail
+	.content--detail
 		width: 100%
 	.constrain-width.half-width
 		width: 100%
@@ -380,7 +380,6 @@ ul>li
 	.content-container
 		padding-left: 16px
 		padding-right: 16px
-		// padding: 0
 	.sidepanel
 		right: 0
 	.row

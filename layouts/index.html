@@ -5,39 +5,39 @@
 	<body id="barba-wrapper">
 		<div class="barba-container home">
 		<div class="sidepanel">
-			<nav class="pagination">
-				<a class="scroll-link hint--left" aria-label="Back to top" href="#intro">
+			<nav class="sidepanel__links">
+				<a class="sidepanel__link hint--left" aria-label="Back to top" href="#intro">
 					<svg class="is-selected" viewBox="0 0 100 100" width="10" height="10">
 						<use xlink:href="assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
-				<a class="scroll-link hint--left" aria-label="Carol.ai" href="#carol">
+				<a class="sidepanel__link hint--left" aria-label="Carol.ai" href="#carol">
 					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
 						<use xlink:href="assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
-				<a class="scroll-link hint--left" aria-label="MyChoice" href="#mychoice">
+				<a class="sidepanel__link hint--left" aria-label="MyChoice" href="#mychoice">
 					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
 						<use xlink:href="/assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
-				<a class="scroll-link hint--left" aria-label="Pensieve" href="#pensieve">
+				<a class="sidepanel__link hint--left" aria-label="Pensieve" href="#pensieve">
 					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
 						<use xlink:href="/assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
-				<a class="scroll-link hint--left" aria-label="Divvy" href="#divvy">
+				<a class="sidepanel__link hint--left" aria-label="Divvy" href="#divvy">
 					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
 						<use xlink:href="/assets/images/sprites.svg#circle"></use>
 					</svg>
 				</a>
 
 
-				<a class="scroll-link hint--left" aria-label="Experience" href="#experience">
+				<a class="sidepanel__link hint--left" aria-label="Experience" href="#experience">
 					<svg viewBox="0 0 100 100" width="14" height="14">
 						<use xlink:href="/assets/images/sprites.svg#doc-icon"></use>
 					</svg>
@@ -47,7 +47,7 @@
 		
 
 		<div class="full-page">
-			<div class="content intro">
+			<div class="content content--intro">
 				<div>
 					<div class="constrain-width margin-auto half-width intro" id="intro">
 						<span class="title">Chinwei</span>
@@ -55,12 +55,12 @@
 
 						<div class="row u-justify-center">
 							<span class="button-group">
-								<a href="https://www.linkedin.com/in/chinweiw" class="u-margin-right-m scroll-link hint--bottom" aria-label="Reach out on linkedIn" target="_blank">
+								<a href="https://www.linkedin.com/in/chinweiw" class="u-margin-rsidepanel__link hint--bottom" aria-label="Reach out on linkedIn" target="_blank">
 									<svg class="link" viewBox="0 0 100 100" width="18" height="18">
 										<use xlink:href="assets/images/sprites.svg#linkedin"></use>
 									</svg>
 								</a>
-								<a class="scroll-link hint--bottom" href="#experience" aria-label="View my experience">
+								<a class="sidepanel__link hint--bottom" href="#experience" aria-label="View my experience">
 									<svg class="link" viewBox="0 0 100 100" width="18" height="18">
 										<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
 									</svg>
@@ -76,7 +76,7 @@
 		</div>
 		
 		<div class="full-page" id="carol">
-			<a href="/works/carol/" class="content article-list page-link">
+			<a href="/works/carol/" class="content content--article-list page-link">
 				<div class="row">
 					<div class="constrain-width margin-auto">
 							<span class="title">Carol.ai</span>
@@ -96,7 +96,7 @@
 		</div>
 
 		<div class="full-page" id="mychoice">
-			<a href="/works/mychoice/" class="content article-list page-link">
+			<a href="/works/mychoice/" class="content content--article-list page-link">
 				<div class="constrain-width margin-auto">
 						<span class="title">MyChoice</span>
 						<span class="byline">Extending healthcare beyond hospital walls
@@ -110,11 +110,9 @@
 		</div>
 
 
-		
-
-		<!-- <div class="row two-col"> -->
+	
 			<div class="full-page" id="pensieve">
-				<a href="/works/pensieve/" class="content article-list page-link">
+				<a href="/works/pensieve/" class="content content--article-list page-link">
 					<div class="constrain-width margin-auto">
 						<span class="title">Pensieve</span>
 						<span class="byline">Write notes and associate them with people
@@ -126,7 +124,7 @@
 				</a>
 			</div>
 			<div class="full-page" id="divvy">
-				<a href="/works/divvy/" class="content article-list page-link">
+				<a href="/works/divvy/" class="content content--article-list page-link">
 					<div class="constrain-width margin-auto">
 					<span class="title">Divvy</span>
 					<span class="byline">The fastest way to split bills at the table
@@ -137,7 +135,6 @@
 					</div>
 				</a>
 			</div>
-		<!-- </div> -->
 		
 		<div>
 			<div class="margin-auto constrain-width" id="experience">
@@ -227,9 +224,6 @@
 						</ul>
 					</div>
 
-
-					<!-- <h4>Education</h4> -->
-
 					<div class="experience-block constrain-width half-width">
 						<span class="label">
 							Carnegie Mellon University, 2014
@@ -281,28 +275,3 @@
 </script>
 	</body>
 </html>
-
-
-
-
-   
-
-<!--  
-
-
-
-
-ico
-add download pdf button
-Home icon
-hover over video to play
-scale videos
-scale images
-Improve write up for FD
-figure out how to minify everything
-refactor css
-
-
-
-
- -->

@@ -1,20 +1,13 @@
 var init = function() {
 	// Remove hover states for touch devices
 
-	$('.pagination .scroll-link').each(function(i, classname){
+	$('.sidepanel__link').each(function(i, classname){
 		var targetID = $(this).attr('href')
 		var $this = this
 
 		new Waypoint({
 			element: $(targetID),
 			handler: function(direction) {
-				
-				ga('send', {
-				  hitType: 'pageview',
-				  eventAction: 'scroll',
-				  eventLabel: targetID
-				});
-
 				$($this).siblings().children('svg').removeClass('is-selected')
 				$($this).children('svg').addClass('is-selected')	
 			}
@@ -22,7 +15,7 @@ var init = function() {
 	})
 
 
-	$('a.scroll-link').on('click', function(){
+	$('.sidepanel__link').on('click', function(){
 		var target = $(this).attr('href')
 		var targetPos = $(target).position().top
 		var direction = function() {
