@@ -1,0 +1,69 @@
+$header-sizes: (
+	1: 160px, 
+	2: 112px, 
+	3: 72px, 
+	4: 24px
+);
+
+
+
+@each $selector, $value in $header-sizes {
+	.t-size-h#{$selector} {
+		font-size: $value
+	}
+}
+
+$body-sizes: (
+	1: 12px, 
+	2: 14px, 
+	3: 18px
+);
+
+@each $selector, $value in $body-sizes	{
+	.t-size-b#{$selector} {
+		font-size: $value;
+	}
+}
+
+
+
+
+
+
+
+
+.byline {
+	@extend .t-size-h4;
+	line-height: 1.5;
+	margin-bottom: 32px;
+	@extend .l-display-b;
+	@extend .serif;
+	color: $muted;
+}
+
+.caption {
+	@extend .t-size-b1;
+	@extend .l-width-100;
+	@extend .l-max-width-text;
+	@extend .u-text-center;
+	margin: 0 auto 64px auto;
+	line-height: 1.5;
+	color: $muted;
+}
+// Text Styles
+
+.sans {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.serif {
+	font-family: 'Noto Serif', serif
+}
+
+.t-weight-bold {
+	font-weight: bold
+}
+
+.t-color-body {
+	color: $body
+}

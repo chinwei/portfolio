@@ -1,0 +1,54 @@
+.l-width-80 {
+	width: 80%;
+}
+
+.l-width-100 {
+	width: 100%;
+}
+
+.l-max-width-text {
+	max-width: 660px;
+}
+
+.l-max-width-display {
+	max-width: 1280px;
+}
+
+.l-display-b {
+	display: block;
+}
+
+.l-display-ib {
+	display: inline-block;
+}
+
+.l-width-80 {
+	width: 80%;
+}
+
+.l-width-90 {
+	width: 90%;
+}
+
+.l-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.l-row--full-height {
+	height: 100vh;
+	justify-content: center;
+}
+
+.l-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.l-col--expand {
+	width: 100%;
+}
+
+.l-col--centered {
+	justify-content: center;
+}

@@ -1,0 +1,28 @@
+.story-block {
+	@extend .u-margin-auto;
+	@extend .l-max-width-text;
+	@extend .l-width-100;
+}
+
+.story-block--two-col {
+	@extend .l-width-100;
+	@extend .l-row;
+
+	div:first-child {
+		@extend .l-col;
+		@extend .u-spacing-p-l;
+		flex: 1;
+	}
+
+	div:last-child {
+		flex: 2;
+	}
+
+	&.is-flipped {
+		div:first-child {
+			order: 2
+		}
+	}
+
+
+}

@@ -1,0 +1,82 @@
+$spacing-sizes: (s: 8px, m: 16px, l: 48px, xl: 80);
+
+@each $selector, $value in $spacing-sizes {
+	.u-spacing-m-#{$selector} {
+		margin: $value;
+	}
+}
+
+.u-d-block {
+	display: block;
+}
+
+.u-text-center {
+	text-align: center;
+}
+
+.u-margin-right-l {
+	margin-right: 32px;
+}
+
+.u-spacing-mb-s {
+	margin-bottom: 8px;
+}
+
+.u-pull-right {
+	float: right;
+}
+
+.u-width-100 {
+	width: 100%;
+}
+
+.u-spacing-p-m {
+	padding: 16px;
+}
+
+.u-spacing-mb-0 {
+	margin-bottom: 0;
+}
+
+.u-spacing-mt-0	 {
+	margin-top: 0;
+}
+
+.u-spacing-mt-xl {
+	margin-top: 48px;
+}
+
+.u-spacing-pt-xxl {
+	padding-top: 80px;
+}
+
+.u-spacing-p-l {
+	padding: 32px;
+}
+
+
+.u-spacing-pl-m {
+	padding-left: 16px;
+}
+
+.u-margin-auto {
+	margin: 0 auto;
+}
+
+.u-text-center {
+	text-align: center;
+}
+
+.u-justify-center {
+	justify-content: center;
+}
+
+.u-color-body {
+	color: $body;
+}
+
+.u-color-accent {
+	color: $primary-color;
+}
+
+

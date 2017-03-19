@@ -1,0 +1,11 @@
+footer {
+	border-top: 1px #f3f3f3 solid;
+}
+
+.footer__content {
+	@extend .u-margin-auto;
+	@extend .u-text-center;
+	@extend .t-size-b3;
+	@extend .serif;
+	@extend .u-spacing-p-m;
+}

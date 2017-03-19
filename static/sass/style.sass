@@ -1,260 +1,106 @@
-$body-copy: #333333
-$primary-color: #FF4400
+@import "headings";
 
-@import base
-@import sidepanel
-@import intro
-@import "work-block"
-@import "exp-section"
-@import "exp-block"
-@import page
-@import story
-@import tooltip
-@import button
-@import utilities
-@import mobile
+@import "colors";
+@import "typography";
+@import "layout";
 
 
-video
-	display: block
-	margin: 0px auto
-	width: 100%
-	&.mobile
-		max-width: 343px
-		border: 1px #f3f3f3 solid
-	
+@import "base";
 
 
-.row
-	display: flex
-	flex-direction: row
+// Components
+@import "sidepanel";
+@import "app-header";
+@import "intro";
+@import "page";
+@import "header";
+@import "footer";
+@import "work-block";
+@import "exp-section";
+@import "exp-block";
+@import "story";
+@import "hint";
+@import "button";
+@import "utilities";
+// @import mobile;
 
-.row--full-height
-	height: 100vh
-	justify-content: center
 
-
-
-
-
-
-.col
-	display: flex
-	flex-direction: column
-
-.col--expand
-	width: 100%
-
-.col--centered
-	justify-content: center
+video {
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	&.mobile {
+		max-width: 343px;
+		border: 1px #f3f3f3 solid;
+	}
+}
 
 
 
 
-
-
-.content__container
-	max-width: 1280px
-
-.content--centered
-	justify-content: center
-
-.content--article-list
-	justify-content: center
-	position: relative
-	bottom: 10%
-
-
-
-.u-spacing-pt-xxl
-	padding-top: 80px	
-
-.u-spacing-p-l
-	padding: 32px
-
-
-
-.constrain-width
-	width: 90%
-	padding: 16px
-
-.l-width-80
-	width: 80%
-
-.l-width-90
-	width: 90%
-
-.u-width-90
-	width: 90%
-
-.u-spacing-p-m
-	padding: 16px
-
-.width-25
-	width: 25%
-
-
-
-.u-margin-auto
-	margin: 0 auto
-
-.margin-auto
-	margin: 0 auto
-
-
-svg
-	fill: #ccc
-	&.dot
-		stroke: #ccc 
-		stroke-width: 8
-		&.is-selected
-			stroke-width: 0
-	&.is-selected, 
+svg {
+	fill: #ccc;
+	&.dot {
+		stroke: #ccc;
+		stroke-width: 8;
+		&.is-selected {
+			stroke-width: 0;
+		}
+	}
+	&.is-selected {
 		fill: $primary-color
-	.accent
+	}
+
+
+	.accent {
 		fill: $primary-color
-a:hover
-	svg
+	}
+
+}
+
+a:hover {
+	svg {
 		fill: $primary-color
+	}
+}
 
 		
 
-
-// Text Styles
-
-.sans
-	font-family: 'Noto Sans', sans-serif
-
-.serif
-	font-family: 'Noto Serif', serif
-
-.label
-	font-size: 12px
-	display: block
-	color: #777
-
-.header
-	font-size: 112px
-	font-weight: bold
-	display: block
-	margin-bottom: 40px
-	letter-spacing: -8px
-
-.header--large
-	font-size: 160px
-
-
-
-.title.small
-	font-size: 72px
-	letter-spacing: -6px
-
-
-
-.byline
-	font-size: 24px
-	line-height: 1.5
-	margin-bottom: 32px
-	display: block
-	color: #939493
-	@extend .serif
-
-.body-copy, p
-	font-size: 18px
-	line-height: 2em
-	margin-bottom: 2em
-	@extend .serif
-
-#experience p
-	margin-bottom: 0	
-
-.caption
-	font-size: 12px
-	margin: 0 auto 64px auto
-	width: 100%
-	max-width: 660px
-	text-align: center
-	line-height: 1.5
-	color: #939493
-
-
-.text-logo
+.text-logo {
 	font-size: 16px
+}
 
 
-.bold
-	font-weight: bold
-
-.u-text-center
-	text-align: center
-
-.u-justify-center
-	justify-content: center
-
-.u-color-accent
-	color: $primary-color
 
 
-.barba-container
-	position: relative
-	left: 0
-	opacity: 1
-	transition: 0.3s left ease, 0.3s opacity ease
 
-	&.is-hidden
-		left: -10px
-		opacity: 0
+.barba-container {
+	position: relative;
+	left: 0;
+	opacity: 1;
+	transition: 0.3s left ease, 0.3s opacity ease;
 
+	&.is-hidden {
+		left: -10px;
+		opacity: 0;
+	}
+}
 
 // Button
 
-.button-group
-	margin-bottom: 32px
-	display: inline-block
+.button-group {
+	margin-bottom: 32px;
+	display: inline-block;
+}
 
 
-
-
-// Detail page
-
-.article-header
-	text-align: center
-
-
-
-.l-width-80
-	width: 80%
-
-.l-width-100
-	width: 100%
-
-.l-max-width-text
-	max-width: 660px
-
-.l-max-width-display
-	max-width: 1280px
-
-
-.l-display-ib
-	display: inline-block
-
-
-.constrain-width.full-width
-	width: 100%
-	max-width: 1280px
-
-.constrain-width.half-width
-	width: 80%
-	max-width: 660px
-
-// Utilities
-
-.img-container
-	max-width: 960px
-	margin: 0 auto 32px auto
-	> img
-		width: 100%
-
+.img-container {
+	max-width: 960px;
+	margin: 0 auto 32px auto;
+	> img {
+		width: 100%;
+	}
+}
 
 
 // *

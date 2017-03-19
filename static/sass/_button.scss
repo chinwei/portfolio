@@ -1,0 +1,13 @@
+.button {
+	@extend .t-size-b2;
+}
+	
+.button--filled {
+	@extend .l-display-ib;
+	@extend .t-size-b1;
+	@extend .t-weight-bold;
+	padding: 10px 10px;
+	background: #F5F5F5;
+	border-radius: 5px;
+	color: $body;
+}

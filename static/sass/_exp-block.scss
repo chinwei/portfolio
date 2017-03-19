@@ -1,0 +1,16 @@
+.exp-block {
+ 	@extend .l-width-80;
+	@extend .l-max-width-text;
+	@extend .u-spacing-p-m;
+}
+
+.exp-block__company {
+	@extend .t-size-b1;
+	@extend .l-display-b;
+	color: $muted;
+}
+
+.exp-block__position {
+	@extend .t-weight-bold;
+	@extend .u-spacing-mb-0;
+}

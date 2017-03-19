@@ -1,0 +1,13 @@
+[class*=hint--]:before {
+	content: none;
+}
+
+[class*=hint--]:after {
+	background: none;
+	color: $muted;
+	@extend .sans;
+}
+
+.hint--left:after {
+	padding-right: 0;
+}
