@@ -1,11 +1,15 @@
 .story-block {
 	@extend .u-margin-auto;
 	@extend .l-max-width-text;
-	@extend .l-width-100;
+	@extend .u-width-100;
+
+	@include phone {
+		padding: 0 16px;
+	}
 }
 
 .story-block--two-col {
-	@extend .l-width-100;
+	@extend .u-width-100;
 	@extend .l-row;
 
 	div:first-child {

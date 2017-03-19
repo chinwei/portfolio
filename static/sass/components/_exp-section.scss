@@ -1,0 +1,31 @@
+.exp-section__content {
+	@extend .u-width-90;
+	@extend .u-margin-auto;
+	@extend .u-spacing-p-m;
+
+	@include tablet {
+		width: 100%;
+	}
+
+	@include phone {
+		width: 100%;
+	}
+}
+
+.exp-section__header {
+	@extend .header;
+	@extend .t-size-h2;
+
+	@include tablet {
+		font-size: 90px;
+	}
+
+	@include phone {
+		font-size: 72px
+	}
+}
+
+.exp-section__controls {
+	@extend .u-d-inline-block;
+	@extend .u-spacing-mb-l;
+}

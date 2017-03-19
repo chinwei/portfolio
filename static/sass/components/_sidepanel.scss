@@ -1,0 +1,36 @@
+.sidepanel {
+	@extend .u-justify-center;
+	@extend .l-col;
+	@include position (fixed, $right: 16px);
+	width: 34px;
+	height: 100%;
+	z-index: 9999;
+
+	@include tablet {
+		right: 0;
+	}
+
+	@include phone {
+		right: 0;
+	}
+}
+
+.sidepanel__links {
+	@extend .u-text-center;
+	width: inherit;
+	z-index: 9999;
+}
+
+.sidepanel__link {
+	@extend .u-spacing-p-s;
+	@extend .u-spacing-mb-s;
+	@extend .u-d-inline-block;
+	&:hover {
+		svg {
+			fill: $primary-color;
+			&.dot {
+				stroke-width: 0;	
+			}
+		}
+	}
+}

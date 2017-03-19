@@ -1,0 +1,49 @@
+.intro{
+	@extend .l-row;
+	@extend .l-row--full-height;
+
+	@include tablet {
+		width: 100%;
+	}
+
+	@include phone {
+		width: 100%;
+	}
+}
+
+.intro__content {
+	@extend .l-max-width-text;
+	@extend .u-spacing-p-m;
+	@extend .l-col;
+	@extend .u-justify-center;
+
+	@include tablet {
+		width: 100%;
+		padding-right: 36px;
+	}
+
+	@include phone {
+		width: 100%;
+		padding-right: 36px;
+	}
+}
+
+.intro__header {
+	@extend .header;
+	@extend .t-size-h1;
+	@extend .t-weight-bold;
+
+	@include tablet {
+		font-size: 112px;
+		text-align: center
+	}
+
+	@include phone {
+		font-size: 72px
+	}
+}
+
+.intro__controls {
+	@extend .l-row;
+	@extend .u-justify-center;
+}

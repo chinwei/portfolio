@@ -1,12 +1,17 @@
 .exp-block {
- 	@extend .l-width-80;
+ 	@extend .u-width-80;
 	@extend .l-max-width-text;
 	@extend .u-spacing-p-m;
+
+	@include phone {
+		width: 100%;
+		padding-right: 34px;
+	}
 }
 
 .exp-block__company {
 	@extend .t-size-b1;
-	@extend .l-display-b;
+	@extend .u-d-block;
 	color: $muted;
 }
 

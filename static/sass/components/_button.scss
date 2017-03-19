@@ -3,11 +3,11 @@
 }
 	
 .button--filled {
-	@extend .l-display-ib;
+	@extend .u-d-inline-block;
 	@extend .t-size-b1;
 	@extend .t-weight-bold;
-	padding: 10px 10px;
-	background: #F5F5F5;
+	@extend .u-spacing-p-s;
+	background: $faint;
 	border-radius: 5px;
 	color: $body;
 }

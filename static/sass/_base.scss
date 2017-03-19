@@ -41,7 +41,6 @@ li {
 	@extend .t-size-b2;
 	@extend .u-spacing-mb-s;
 	line-height: 28px;
-	margin-bottom: 8px;
 	list-style-type: disc;
 	@extend .serif;
 }
@@ -49,8 +48,8 @@ li {
 blockquote {
 	color: $muted;
 	@extend .u-spacing-pl-m;
-	border-left: 3px #eee solid;
-	margin-bottom: 32px;
+	@extend .u-spacing-mb-l;
+	@include border(3px solid, $faint, left);
 	line-height: 2em;
 }
 

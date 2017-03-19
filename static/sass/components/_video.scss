@@ -1,0 +1,10 @@
+.video {
+	@extend .u-d-block;
+	@extend .u-margin-auto;
+	@extend .u-width-100;
+}
+
+.video--mobile {
+	max-width: 343px;
+	@include border (1px solid, $faint, "");
+}

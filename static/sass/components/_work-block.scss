@@ -1,0 +1,55 @@
+.work-block {
+	@extend .l-row;
+	@extend .l-row--full-height;
+
+}
+
+.work-block__link {
+	@extend .l-col;
+	@extend .l-col--expand;
+	@extend .l-col--centered;
+	@include position(relative, $bottom: 10%);
+	cursor: pointer;
+
+}
+
+.work-block__content {
+	@extend .u-width-90;
+	@extend .u-spacing-p-m;
+	@extend .u-margin-auto;
+
+	@include phone {
+		width: 100%;
+		padding-right: 36px;
+	}
+
+}
+
+.work-block__title {
+	@extend .t-size-h2;
+	@extend .u-d-block;
+	@extend .u-spacing-mb-l;
+	@extend .t-weight-bold;
+	letter-spacing: -8px;
+
+	@include phone {
+		font-size: 72px;
+	}
+
+}
+
+.work-block__byline {
+	@extend .u-d-block;
+	@extend .u-spacing-mb-l;
+	@extend .t-size-h4;
+	@extend .serif;
+	color: $muted;
+	line-height: 1.5;
+
+
+}
+
+.work-block__inline-icon {
+	@include position(relative, $top: 4px, $left: 0);
+	height: 24px;
+}

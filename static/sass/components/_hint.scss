@@ -3,11 +3,11 @@
 }
 
 [class*=hint--]:after {
+	@extend .sans;
 	background: none;
 	color: $muted;
-	@extend .sans;
 }
 
 .hint--left:after {
-	padding-right: 0;
+	@extend .u-spacing-pr-0;
 }
