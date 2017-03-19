@@ -1,7 +1,7 @@
 var init = function() {
 	// Remove hover states for touch devices
 
-	$('.sidepanel__link').each(function(i, classname){
+	$('.sidepanel__links > .sidepanel__link').each(function(i, classname){
 		var targetID = $(this).attr('href')
 		var $this = this
 
@@ -20,10 +20,8 @@ var init = function() {
 		var targetPos = $(target).position().top
 		var direction = function() {
 			if (targetPos - $(window).scrollTop() >= 0) {
-				// console.log('down');
 				return 'down'
 			} else {
-				// console.log('up');
 				return 'up'
 			}
 		}
@@ -37,12 +35,8 @@ var init = function() {
 				TweenLite.to(window, 1, {scrollTo: targetPos});	
 			} else if (direction() == 'up') {
 				TweenLite.to(window, 1, {scrollTo: targetPos - 1});	
-				// console.log('going up!')
 			}
 		}
-
-		// window.Intercom("trackEvent", "trigger scroll to "+ target);
-
 		return false;
 		
 	})

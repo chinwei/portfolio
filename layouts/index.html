@@ -4,103 +4,55 @@
 	</head>
 	<body id="barba-wrapper">
 		<div class="barba-container home">
-		<div class="sidepanel">
-			<nav class="sidepanel__links">
-				<a class="sidepanel__link hint--left" aria-label="Back to top" href="#intro">
-					<svg class="is-selected" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="assets/images/sprites.svg#circle"></use>
-					</svg>
-				</a>
-
-				<a class="sidepanel__link hint--left" aria-label="Carol.ai" href="#carol">
-					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="assets/images/sprites.svg#circle"></use>
-					</svg>
-				</a>
-
-				<a class="sidepanel__link hint--left" aria-label="MyChoice" href="#mychoice">
-					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="/assets/images/sprites.svg#circle"></use>
-					</svg>
-				</a>
-
-				<a class="sidepanel__link hint--left" aria-label="Pensieve" href="#pensieve">
-					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="/assets/images/sprites.svg#circle"></use>
-					</svg>
-				</a>
-
-				<a class="sidepanel__link hint--left" aria-label="Divvy" href="#divvy">
-					<svg class="dot" viewBox="0 0 100 100" width="10" height="10">
-						<use xlink:href="/assets/images/sprites.svg#circle"></use>
-					</svg>
-				</a>
-
-
-				<a class="sidepanel__link hint--left" aria-label="Experience" href="#experience">
-					<svg viewBox="0 0 100 100" width="14" height="14">
-						<use xlink:href="/assets/images/sprites.svg#doc-icon"></use>
-					</svg>
-				</a>
-			</nav>
-		</div>
 		
+		{{ partial "sidepanel.html" . }}
 
-		<div class="full-page">
-			<div class="content content--intro">
-				<div>
-					<div class="constrain-width margin-auto half-width intro" id="intro">
-						<span class="title">Chinwei</span>
-						<p>Hi! I'm a product designer based in Mountain View, California. I believe design helps everyone works more efficiently. I'm currently building an <a href="/works/carol/" class="u-color-accent">end-to-end data discovery platform</a> at <a target="_blank" href="http://totvslabs.com/" class="u-color-accent">TOTVS Labs</a>. I graduated with a Masters in Human-Computer Interaction from Carnegie Mellon, and in a previous life <a target="_blank" href="http://mintinteractive.sg" class="u-color-accent">built web experiences</a> for global brands like UPS, Allergen, Legrand and Fuji Xerox.</p>
+		<div class="intro">
+			<div class="intro__content" id="intro">
 
-						<div class="row u-justify-center">
-							<span class="button-group">
-								<a href="https://www.linkedin.com/in/chinweiw" class="u-margin-rsidepanel__link hint--bottom" aria-label="Reach out on linkedIn" target="_blank">
-									<svg class="link" viewBox="0 0 100 100" width="18" height="18">
-										<use xlink:href="assets/images/sprites.svg#linkedin"></use>
-									</svg>
-								</a>
-								<a class="sidepanel__link hint--bottom" href="#experience" aria-label="View my experience">
-									<svg class="link" viewBox="0 0 100 100" width="18" height="18">
-										<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
-									</svg>
-								</a>
-							</span>
-							
-						</div>
+				<div class="intro__header">Chinwei</div>
+
+				<p>Hi! I'm a product designer based in Mountain View, California. I believe design helps everyone works more efficiently. I'm currently building an <a href="/works/carol/" class="u-color-accent">end-to-end data discovery platform</a> at <a target="_blank" href="http://totvslabs.com/" class="u-color-accent">TOTVS Labs</a>. I graduated with a Masters in Human-Computer Interaction from Carnegie Mellon, and in a previous life <a target="_blank" href="http://mintinteractive.sg" class="u-color-accent">built web experiences</a> for global brands like UPS, Allergen, Legrand and Fuji Xerox.</p>
+					
+				<div class="intro__controls">
+					<span class="button-group">
+						<a href="https://www.linkedin.com/in/chinweiw" class="u-margin-r sidepanel__link hint--bottom" aria-label="Reach out on linkedIn" target="_blank">
+							<svg class="link" viewBox="0 0 100 100" width="18" height="18">
+								<use xlink:href="assets/images/sprites.svg#linkedin"></use>
+							</svg>
+						</a>
+						<a class="sidepanel__link hint--bottom" href="#experience" aria-label="View my experience">
+							<svg class="link" viewBox="0 0 100 100" width="18" height="18">
+								<use xlink:href="assets/images/sprites.svg#doc-icon"></use>
+							</svg>
+						</a>
+					</span>
+					
+				</div>
 						
 					</div>
-				</div>		
-				
-			</div>
 		</div>
 		
-		<div class="full-page" id="carol">
-			<a href="/works/carol/" class="content content--article-list page-link">
-				<div class="row">
-					<div class="constrain-width margin-auto">
-							<span class="title">Carol.ai</span>
-							<span class="byline">An end-to-end data exploration platform
-								<svg class="icon" width="40" height="40">
-									<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
-								</svg>
-								</span>
-							
-
-							
-						</div>
-					
+		<div class="work-block" id="carol">
+			<a href="/works/carol/" class="work-block__link">
+				<div class="work-block__content">
+					<span class="work-block__title">Carol.ai</span>
+					<span class="work-block__byline">An end-to-end data exploration platform
+						<svg class="work-block__inline-icon" width="40" height="40">
+							<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
+						</svg>
+					</span>
 				</div>
 				
 			</a>
 		</div>
 
-		<div class="full-page" id="mychoice">
-			<a href="/works/mychoice/" class="content content--article-list page-link">
-				<div class="constrain-width margin-auto">
-						<span class="title">MyChoice</span>
-						<span class="byline">Extending healthcare beyond hospital walls
-							<svg class="icon" width="40" height="40">
+		<div class="work-block" id="mychoice">
+			<a href="/works/mychoice/" class="work-block__link">
+				<div class="work-block__content">
+						<span class="work-block__title">MyChoice</span>
+						<span class="work-block__byline">Extending healthcare beyond hospital walls
+							<svg class="work-block__inline-icon" width="40" height="40">
 								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 							</svg>
 						</span>
@@ -109,26 +61,26 @@
 			</a>
 		</div>
 
-
-	
-			<div class="full-page" id="pensieve">
-				<a href="/works/pensieve/" class="content content--article-list page-link">
-					<div class="constrain-width margin-auto">
-						<span class="title">Pensieve</span>
-						<span class="byline">Write notes and associate them with people
-							<svg class="icon" width="40" height="40">
+		<div class="work-block" id="pensieve">
+			<a href="/works/pensieve/" class="work-block__link">
+				<div class="work-block__content">
+						<span class="work-block__title">Pensieve</span>
+						<span class="work-block__byline">Write notes and associate them with people
+							<svg class="work-block__inline-icon" width="40" height="40">
 								<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 							</svg>
 						</span>
 					</div>
-				</a>
-			</div>
-			<div class="full-page" id="divvy">
-				<a href="/works/divvy/" class="content content--article-list page-link">
-					<div class="constrain-width margin-auto">
-					<span class="title">Divvy</span>
-					<span class="byline">The fastest way to split bills at the table
-						<svg class="icon" width="40" height="40">
+				
+			</a>
+		</div>
+
+			<div class="work-block" id="divvy">
+				<a href="/works/divvy/" class="work-block__link">
+					<div class="work-block__content">
+					<span class="work-block__title">Divvy</span>
+					<span class="work-block__byline">The fastest way to split bills at the table
+						<svg class="work-block__inline-icon" width="40" height="40">
 							<use class="accent" xlink:href="assets/images/sprites.svg#arrow-right-icon"></use>
 						</svg>
 						</span>
@@ -136,21 +88,21 @@
 				</a>
 			</div>
 		
-		<div>
-			<div class="margin-auto constrain-width" id="experience">
-					<span class="title">Experience</span>
-					<div class="button-group">
-						<a href="/assets/cv.pdf" target="_blank" class="button button-filled">
+		<div class="exp-section">
+			<div class="exp-section__content" id="experience">
+					<span class="exp-section__header">Experience</span>
+					<div class="exp-section__controls">
+						<a href="/assets/cv.pdf" target="_blank" class="button button--filled">
 							Download as PDF
 						</a>
 					</div>
 
 					
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							TOTVS Labs (Sep 2014 - Present)
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							UX Designer
 						</p>
 						<ul>
@@ -166,11 +118,11 @@
 						</ul>
 					</div>
 
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							Capstone project for UPMC (Jan 2014 - Aug 2014)
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							User Experience Lead
 						</p>
 						<ul>
@@ -186,11 +138,11 @@
 						</ul>
 					</div>
 		
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							Mint Interactive (Mar 2011 - Jun 2013)
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							UI Designer / Developer
 						</p>
 						<ul>
@@ -207,11 +159,11 @@
 					</div>
 		
 		
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							KEIO-NUS CUTE Center (Sep 2010 - Feb 2011)
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							User Research Assistant
 						</p>
 						<ul>
@@ -224,22 +176,22 @@
 						</ul>
 					</div>
 
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							Carnegie Mellon University, 2014
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							Master in Human-Computer Interaction
 						</p>
 					</div>
 
 
 
-					<div class="experience-block constrain-width half-width">
-						<span class="label">
+					<div class="exp-block">
+						<span class="exp-block__company">
 							National University of Singapore, 2010
 						</span>
-						<p class="bold">
+						<p class="exp-block__position">
 							Bachelor of Science (Chemistry)
 						</p>
 					</div>

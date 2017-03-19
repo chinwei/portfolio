@@ -1,0 +1,17 @@
+.story-block--two-col
+	@extend .l-width-100
+	@extend .row
+
+	div:first-child
+		flex: 1
+		display: flex
+		flex-direction: column
+		@extend .u-spacing-p-l
+
+	div:last-child
+		flex: 2
+
+	&.is-flipped
+		div:first-child
+			order: 2
+
