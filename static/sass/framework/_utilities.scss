@@ -1,0 +1,55 @@
+@function get($map, $keys: null) {
+    @if ($keys) {
+        @each $key in $keys {
+            $map: map-get($map, $key);
+        }
+    }
+
+    @return $map;
+}
+
+@each $value in $display-types	{
+	.u-d-#{$value} {
+		display: $value;
+	}
+}
+
+@each $width in $u-widths {
+    %u-width-#{floor($width)},
+    .u-width-#{floor($width)} {
+        width: percentage($width / 100);
+    }
+}
+
+.l-max-width-text {
+	max-width: 660px;
+}
+
+.l-max-width-display {
+	max-width: 1280px;
+}
+
+
+.u-text-center {
+	text-align: center;
+}
+
+.u-margin-auto {
+	margin: 0 auto;
+}
+
+.u-justify-center {
+	justify-content: center;
+}
+
+.u-color-body {
+	color: $body;
+}
+
+.u-color-accent {
+	color: $primary-color;
+}
+
+
+
+

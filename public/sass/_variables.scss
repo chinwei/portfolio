@@ -1,0 +1,45 @@
+$body: #333333;
+$muted: #939493;
+$faint: #f3f3f3;
+$primary-color: #FF4400;
+
+$phone-width: 400px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+$display-types: (block, inline-block, flex);
+$u-widths: 80, 90, 100 !default;
+
+$u-spacings: (
+    xxl: 80px,
+    xl: 48px,
+    l: 32px,
+    m: 16px,
+    s: 8px,
+    0: 0
+) !default;
+
+$header-sizes: (
+	1: 160px, 
+	2: 112px, 
+	3: 72px, 
+	4: 24px
+);
+
+$body-sizes: (
+	1: 12px, 
+	2: 14px, 
+	3: 18px
+);
+
+
+
+// font weight
+// colors
+// properties - , icon color
+// layout - display, box model, alignment, grid, sizing, positioning mixin
+// 
+// base
+// components
+// 

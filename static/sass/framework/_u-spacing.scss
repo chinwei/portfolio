@@ -1,0 +1,54 @@
+$u-spacing-types: (
+    margin: (
+        m: margin,
+        mb: margin-bottom,
+        ml: margin-left,
+        mr: margin-right,
+        mt: margin-top,
+        mv: (margin-bottom, margin-top),
+        mh: (margin-left, margin-right)
+    ),
+    padding: (
+        p: padding,
+        pb: padding-bottom,
+        pl: padding-left,
+        pr: padding-right,
+        pt: padding-top,
+        pv: (padding-bottom, padding-top),
+        ph: (padding-left, padding-right)
+    )
+) !default;
+
+$u-spacing-mt-zero-first-child: true !default;
+$u-spacing-mb-zero-last-child: true !default;
+
+@each $spacing-name, $spacing-value in $u-spacings {
+    @each $type, $map in $u-spacing-types {
+        @each $class-name, $property-name in get($u-spacing-types, $type) {
+            %u-spacing-#{$class-name}-#{$spacing-name},
+            .u-spacing-#{$class-name}-#{$spacing-name} {
+                @each $property in $property-name {
+                    #{$property}: $spacing-value;
+                }
+            }
+        }
+    }
+}
+
+@if ($u-spacing-mt-zero-first-child) {
+    %u-spacing-mt-zero-first-child,
+    .u-spacing-mt-zero-first-child {
+        &:first-child {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+@if ($u-spacing-mb-zero-last-child) {
+    %u-spacing-mb-zero-last-child,
+    .u-spacing-mb-zero-last-child {
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}

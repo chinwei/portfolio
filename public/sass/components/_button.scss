@@ -1,0 +1,13 @@
+.button {
+	@extend .t-size-b2;
+}
+	
+.button--filled {
+	@extend .u-d-inline-block;
+	@extend .t-size-b1;
+	@extend .t-weight-bold;
+	@extend .u-spacing-p-s;
+	background: $faint;
+	border-radius: 5px;
+	color: $body;
+}

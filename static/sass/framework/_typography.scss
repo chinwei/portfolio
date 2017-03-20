@@ -1,0 +1,50 @@
+
+
+
+@each $selector, $value in $header-sizes {
+	.t-size-h#{$selector} {
+		font-size: $value
+	}
+}
+
+@each $selector, $value in $body-sizes	{
+	.t-size-b#{$selector} {
+		font-size: $value;
+	}
+}
+
+
+.byline {
+	@extend .t-size-h4;
+	@extend .u-spacing-mb-l;
+	@extend .u-d-block;
+	@extend .serif;
+	line-height: 1.5;
+	color: $muted;
+}
+
+.caption {
+	@extend .t-size-b1;
+	@extend .u-width-100;
+	@extend .l-max-width-text;
+	@extend .u-text-center;
+	margin: 0 auto 64px auto;
+	line-height: 1.5;
+	color: $muted;
+}
+
+.sans {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.serif {
+	font-family: 'Noto Serif', serif
+}
+
+.t-weight-bold {
+	font-weight: bold
+}
+
+.t-color-body {
+	color: $body
+}

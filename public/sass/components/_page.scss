@@ -1,0 +1,43 @@
+.page {
+	@extend .u-spacing-pt-xxl;
+}
+
+.page__content {
+	@extend .u-width-100;
+	@extend .l-max-width-display;
+	@extend .u-margin-auto;
+
+	@include phone {
+		padding: 16px;
+	}
+}
+
+.page__header-section {
+	@extend .u-text-center;
+}
+
+.page__header {
+	@extend .header;
+	@extend .t-size-h2;
+
+	@include phone {
+		font-size: 64px;
+		letter-spacing: -6px
+	}
+}
+
+.page__byline {
+	@extend .byline;
+}
+
+.page__summary {
+	@extend .u-text-center;
+	@extend .u-d-inline-block;
+	@extend .u-width-80;
+	@extend .l-max-width-text;
+
+	@include phone {
+		width: 100%;
+	}
+}
+

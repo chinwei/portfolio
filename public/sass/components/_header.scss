@@ -1,0 +1,11 @@
+.header {
+	@extend .t-weight-bold;
+	@extend .u-d-block;
+	@extend .u-spacing-mb-l;
+	letter-spacing: -8px;
+}
+
+.header--small {
+	@extend .t-size-h3;
+	letter-spacing: -6px;
+}

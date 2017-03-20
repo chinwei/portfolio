@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://chinwei.me/works/divvy/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chinwei.me/works/pensieve/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chinwei.me/works/mychoice/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chinwei.me/works/carol/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chinwei.me/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://chinwei.me/works/</loc>
+    <lastmod>2016-12-18T15:14:53-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
