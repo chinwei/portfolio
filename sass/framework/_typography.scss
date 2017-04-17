@@ -1,6 +1,3 @@
-
-
-
 @each $selector, $value in $header-sizes {
 	.t-size-h#{$selector} {
 		font-size: $value
