@@ -20,6 +20,31 @@
     &lt;span class=&#34;page__byline&#34;&gt;The fastest way to split bills at the table&lt;/span&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;img-container&#34;&gt;
+	&lt;video class=&#34;video video--mobile&#34; autoplay loop controls &gt;  
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/divvy/divvy-2.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
+	&lt;/video&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;story-block u-spacing-mb-m&#34;&gt;
+	&lt;h3&gt;Updates&lt;/h3&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;Changed the App Bar color to white so the UI feels lighter, which also helps to surface the primary action.&lt;/li&gt;
+		&lt;li&gt;Added an overlay in the initial view to bring focus to the inputs when there are no items added.&lt;/li&gt;
+		&lt;li&gt;Moved the Add button to a position that is more reachable with the thumb.&lt;/li&gt;
+		&lt;li&gt;Users are now able to select who to split the price together with entering the price of the item.&lt;/li&gt;
+		&lt;li&gt;Built a much more detailed prototype using Framer. Check it out &lt;a class=&#34;t-weight-bold&#34; target=&#34;_blank&#34; href=&#34;https://framer.cloud/smJAs/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+	
+
 &lt;div class=&#34;img-container&#34;&gt;
 	&lt;video class=&#34;video video--mobile&#34; autoplay loop controls poster=&#39;/assets/divvy/divvy-poster.jpg&#39;&gt;  
 	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/divvy/divvy.mp4&#39; media=&#39;(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)&#39;&gt; 
