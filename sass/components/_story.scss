@@ -22,7 +22,7 @@
 		flex: 1;
 
 		@include tablet {
-			padding: 0
+			padding: 0 16px;
 		}
 
 		@include phone {
