@@ -83,120 +83,6 @@
     </item>
     
     <item>
-      <title>Mallia</title>
-      <link>http://chinwei.me/works/mallia/</link>
-      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
-      
-      <guid>http://chinwei.me/works/mallia/</guid>
-      <description>&lt;div class=&#34;page__header-section&#34;&gt;
-    &lt;span class=&#34;page__header&#34;&gt;Mallia&lt;/span&gt;
-    &lt;span class=&#34;page__byline&#34;&gt;Express yourself like never before&lt;/span&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;img-container&#34; style=&#34;max-width: 568px&#34;&gt;
-	&lt;video class=&#34;video&#34; autoplay&gt;  
-	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/cover.mp4&#39;&gt; 
-	&lt;/video&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;story-block&#34;&gt;
-	&lt;h3&gt;Bringing print to life&lt;/h3&gt;
-
-	&lt;p&gt;As part of the campaign to market Legrand&#39;s launch of their Mallia line up of switches, we built this interactive website to amplify the campaign message through digital channels. I designed and built all interactivity for the website.
-	&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;story-block--two-col&#34;&gt;
-	&lt;div&gt;
-		&lt;h3&gt;Lively Switches&lt;/h3&gt;
-		&lt;p&gt;
-			Brisk staggered transitions showcase the selection of colored baseplates available while imparting a sense of light-hearted elegance.
-		&lt;/p&gt;
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 616px;&#34;&gt;
-			&lt;video class=&#34;video&#34; autoplay loop &gt;  
-			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/look.mp4&#39;&gt; 
-			&lt;/video&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;story-block--two-col is-flipped&#34;&gt;
-	&lt;div&gt;
-		&lt;h3&gt;Switch Around&lt;/h3&gt;
-		&lt;p&gt;
-			Mallia switches feature baseplates and rockers with a large variety of colors and styles. Here, users are able to experiment with different combinations of switches and backdrops.
-		&lt;/p&gt;
-		
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 660px&#34;&gt;
-			&lt;video class=&#34;video&#34; autoplay loop &gt;  
-			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/look-without-frame.mp4&#39;&gt; 
-			&lt;/video&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;story-block--two-col&#34;&gt;
-	&lt;div&gt;
-		&lt;h3&gt;Sultry Curves&lt;/h3&gt;
-		&lt;p&gt;
-			The interactive video player allow users to explore the unique curved profile of the switch at any angle, for both glossy and matte finishes.
-		&lt;/p&gt;
-		
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 624px&#34;&gt;
-			&lt;video class=&#34;video&#34; autoplay loop &gt;  
-			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/touch.mp4&#39;&gt; 
-			&lt;/video&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;story-block--two-col is-flipped&#34;&gt;
-	&lt;div&gt;
-		&lt;h3&gt;Boundless Combinations&lt;/h3&gt;
-		&lt;p&gt;
-			This configurator allow users to explore the available combinations in the series, and to save the favorites for later use.
-		&lt;/p&gt;
-		
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 624px&#34;&gt;
-			&lt;video class=&#34;video&#34; autoplay loop &gt;  
-			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/desired-switch.mp4&#39;&gt; 
-			&lt;/video&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</description>
-    </item>
-    
-    <item>
       <title>Pensieve</title>
       <link>http://chinwei.me/works/pensieve/</link>
       <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
@@ -541,6 +427,120 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Mallia</title>
+      <link>http://chinwei.me/works/mallia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://chinwei.me/works/mallia/</guid>
+      <description>&lt;div class=&#34;page__header-section&#34;&gt;
+    &lt;span class=&#34;page__header&#34;&gt;Mallia&lt;/span&gt;
+    &lt;span class=&#34;page__byline&#34;&gt;Express yourself like never before&lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;img-container&#34; style=&#34;max-width: 568px&#34;&gt;
+	&lt;video class=&#34;video&#34; autoplay&gt;  
+	   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/cover.mp4&#39;&gt; 
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;story-block&#34;&gt;
+	&lt;h3&gt;Bringing Print to Life&lt;/h3&gt;
+
+	&lt;p&gt;As part of the campaign to market Legrand&#39;s launch of their Mallia line up of switches, we built this interactive website to amplify the campaign message through digital channels. I designed and built all animation and interactivity for the website.
+	&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;story-block--two-col&#34;&gt;
+	&lt;div&gt;
+		&lt;h3&gt;Lively Switches&lt;/h3&gt;
+		&lt;p&gt;
+			Brisk staggered transitions showcase the selection of colored baseplates available while imparting a sense of light-hearted elegance.
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 616px;&#34;&gt;
+			&lt;video class=&#34;video&#34; autoplay loop &gt;  
+			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/look.mp4&#39;&gt; 
+			&lt;/video&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;story-block--two-col is-flipped&#34;&gt;
+	&lt;div&gt;
+		&lt;h3&gt;Switch Around&lt;/h3&gt;
+		&lt;p&gt;
+			Mallia switches feature baseplates and rockers with a large variety of colors and styles. Here, users are able to experiment with different combinations of switches and backdrops.
+		&lt;/p&gt;
+		
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 660px&#34;&gt;
+			&lt;video class=&#34;video&#34; autoplay loop &gt;  
+			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/look-without-frame.mp4&#39;&gt; 
+			&lt;/video&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;story-block--two-col&#34;&gt;
+	&lt;div&gt;
+		&lt;h3&gt;Sultry Curves&lt;/h3&gt;
+		&lt;p&gt;
+			The interactive video player allow users to explore the unique curved profile of the switch at any angle, for both glossy and matte finishes.
+		&lt;/p&gt;
+		
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 624px&#34;&gt;
+			&lt;video class=&#34;video&#34; autoplay loop &gt;  
+			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/touch.mp4&#39;&gt; 
+			&lt;/video&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;story-block--two-col is-flipped&#34;&gt;
+	&lt;div&gt;
+		&lt;h3&gt;Boundless Combinations&lt;/h3&gt;
+		&lt;p&gt;
+			This configurator allow users to explore the available combinations in the series, and to save the favorites for later use.
+		&lt;/p&gt;
+		
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class=&#34;img-container&#34; style=&#34;max-width: 624px&#34;&gt;
+			&lt;video class=&#34;video&#34; autoplay loop &gt;  
+			   &lt;source type=&#39;video/mp4&#39; src=&#39;http://chinwei.me/assets/mallia/desired-switch.mp4&#39;&gt; 
+			&lt;/video&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
