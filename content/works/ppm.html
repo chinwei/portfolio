@@ -1,0 +1,130 @@
++++
+title = "PPM"
+draft = false
+date = "2017-12-18T15:14:53-08:00"
+
++++
+
+<div class="page__header-section">
+    <span class="page__header">PPM</span>
+    <span class="page__byline">Helping Retailers succeed in an Ecommerce-first world</span>
+</div>
+
+<div class="story-block">
+  <p>Users of PPM (Pricing Performance Management) are category merchants and pricing analysts at large retailers like Lowe’s or Petco. Category merchants are responsible for driving the category’s bottom-line, up to tens to hundreds of millions of revenue, and they do that by ensuring their products are priced competitively and negotiating the best costs with various brands. </p>
+
+  <p>Pricing analysts assist the merchants with execution, tracking and diagnostics of pricing strategies across all categories. PPM offers competitive price intelligence, and allow pricing analysts to create create, track and diagnose strategies. Some of our customers manage hundreds of strategies.</p>
+
+  <h3>Design Role</h3>
+
+  <ul>
+    <li>User Research with merchants and pricing analysts</li>
+    <li>User testing of new designs</li>
+    <li>Redesign of UI (for RFP)</li>
+    <li>Designed UI of Alerts feature</li>
+  </ul>
+
+  <h3>Additional</h3>
+
+  <ul>
+    <li>Implemented utility-first SASS framework</li>
+    <li>Implemented the UI redesign</li>
+    <li>Highlighted code quality issues to the leadership, and offered suggestions to mitigate the problem</li>
+  </ul>
+
+  </div>
+
+  <div class="img-container">
+    <img src="/assets/ppm/problem.jpg" alt="">
+  </div>
+
+  <div class="caption">Considering the product is such an often used feature, it is especially inaccessible</div>
+
+  <div class="story-block">
+
+
+  <h3>The Problem</h3>
+
+  <ul>
+    <li>Major update was designed and shipped without getting user input</li>
+    <li>Product matrix was hard to get to, and had unnecessary clutter</li>
+    <li>Tech debt that has been around for years, no pre-processors used for CSS</li>
+    <li>Engineering is lacking in UI dev expertise, much more emphasis on backend </li>
+    <li>Remote engineering team in India with little time overlap which makes tight collaboration hard to achieve</li>
+  </ul>
+
+  <h3>User Research</h3>
+
+  <ul>
+    <li>Created test plans</li>
+    <li>prototype creation</li>
+    <li>prototype testing</li>
+    <li>on-site visits</li>
+  </ul>
+
+  <p>I joined Boomerang soon after PPM was launched and we wanted to see what our initial merchants felt about using our tool, and one of my goals was to identify and address barriers to adoption.</p>
+
+  <p>Pricing analysts had been using an earlier version of the product extensively for creating strategies, but with this new release, we were targeting a new persona, the category merchant, and we wanted to identify and address potential barriers to adoption.</p>
+
+  <p>We did a number of calls with some of our early adopters, and also made trips to their offices so we could meet in person.  One of the early issues that surfaced repeatedly from these conversations was that during the process of diagnostics, they would frequently have to access SKU level information. For instance, if they saw that the products of their category was priced much higher than on Amazon, usually they would want to see which of those products were responsible so they could either change the price manually or add that SKU to a pricing strategy.  In our logs, we also saw that the SKU level access was one of the most frequent actions a user perform after login.</p>
+
+  <p>However, the only way to get to SKU level information was through the product matrix, which was located below all other widgets in the dashboard, several pages of scroll away.</p>
+
+  <p>During conversations about the usage of the product matrix, we learnt that most of the cells are not used.</p>
+
+</div>
+
+<div class="img-container">
+  <img src="/assets/ppm/product-matrix-cells.jpg" alt="">
+</div>
+
+<div class="story-block">
+
+
+  <p>The product matrix was a 2x2 matrix showing how their category is distributed across performance (Head, Core, Tail) and another metric like PPI (Price Performance Index), which is a measure of how price competitive their categories is relative to other retailers.</p>
+
+  <p>While it had seemed useful initially, merchants cared mostly about the worst performers because those were ones that required urgent action.</p>
+</div>
+
+
+
+<div class="story-block">
+  <h3>Design</h3>
+
+  <p>Seeing that access to SKU level information is so frequent, and that it is a core part of many diagnostics workflow, I felt that we should present it as a different layer of information, rather than as a widget at the end of the dashboard. Also, the product matrix had different modes and filters which required some level of user action to extract value, and I felt it detracted from the intent of a dashboard.</p>
+
+  <p>Therefore, I proposed that the product matrix be presented as a different view since it is looking at a different level of information, and access to it should be in the persistent header so it can be accessed regardless of where the user is looking at in the dashboard.</p>
+
+  <p>Later on, the team talked about providing another view for root cause analysis, so this structure also made sense in retrospect.</p>
+
+  </div>
+
+  <div class="img-container">
+    <img src="/assets/ppm/diagnostics.jpg" alt="">
+  </div>
+
+  <div class="story-block">
+
+  <p>For the product matrix, I proposed that we move away from a 2x2 matrix use a list instead, since that would allow us to have more flexibility to display only what was relevant for our users.  Co-incidentally, the team had been brainstorming about ways to surface advanced thematic opportunities  driven by data-science and wanted to present that in an upcoming demo, so there seemed to be an opportunity to satisfy both needs.</p>
+
+  <p>Since this was a relatively small change, we had a tight deadline and little UI engineering support, I decided to skip the wireframing and mockup stage and make the UI adjustments in code.</p>
+</div>
+
+
+<div class="img-container">
+  <img src="/assets/ppm/opportunities.jpg" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
