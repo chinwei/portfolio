@@ -59,9 +59,9 @@ date = "2016-12-18T15:14:53-08:00"
 
   <p>Since we’re launching a new product, the main goal is to quickly learn about the space and validate our solution so that as a company we can deliver a solution to brands that will make them successful.</p>
 
-  <p>However, as an outsider, prospects are not incentivized to spend time and resources to help us gain an intimate understanding of their problems.  To get around that, we hired some consultants who help brands manage Ecommerce operations and used them as a proxy to understand the Amazon space.</p>
+  <p>However, as an outsider, prospects are not incentivized to spend time and resources to help us gain an intimate understanding of their problems. As a workaround, we hired some consultants who help brands manage Ecommerce operations and used them as a proxy to understand the Amazon space.</p>
 
-  <p>These consultants helped us understand what it takes to run a business on Amazon. Through interviews, we got an overview of what they did day-to-day and asked them to test click-through prototypes in marvel. Once the team felt comfortable about the overall scope, we started building the prototype in code and tested them in sales settings.</p>
+  <p>These consultants helped us understand what it takes to run a business on Amazon. Through interviews, we learnt what they did day-to-day and asked them to test click-through prototypes in marvel. Once the team felt comfortable about the overall scope, we started building the prototype in code and tested them in sales settings.</p>
 
   <p>The team ran a tight schedule, sometimes having three demos a week, each requiring a custom set of data, which is significant for a product heavy on analytics. After each demo, we would incorporate some learnings in the demo for the next meeting.</p>
 
@@ -73,7 +73,7 @@ date = "2016-12-18T15:14:53-08:00"
 
   <h3>Leveraging established design patterns</h3>
 
-  <p>A key feature that we wanted to highlight was the recommendations feature,  which help merchants surface the largest risks and opportunities so they could manage by exceptions. From talking to the consultants, I hypothesized that merchants would check this view several times a week, each time starting from risks with the largest estimated revenue impact and working down the list.</p>
+  <p>A key feature that we wanted to highlight was the recommendations feature, which help merchants surface the largest risks and opportunities so they could manage by exceptions. From talking to the consultants, I hypothesized that merchants would check this view several times a week, each time starting from risks with the largest estimated revenue impact and working down the list.</p>
 
 </div>
 
@@ -88,9 +88,9 @@ date = "2016-12-18T15:14:53-08:00"
   <div class="story-block">
 
 
-  <p>I also considered that in a sales setting, it is crucial that our target audience is able to understand the interface at immediately with minimal explanation. Therefore in my design, I leveraged the design and interaction patterns associated with an email application, such as Microsoft Outlook and Apple Mail, which most if not all business users are familiar with. It included a master/detail screen pattern, and I framed other actions in a way they could draw parallels with in email, such as the ability to remove (dismiss) and share (message) the recommendation.</p>
+  <p>I also considered that in a sales setting, it is crucial that our target audience understand the interface immediately with minimal explanation. Therefore in my design, I leveraged the design and interaction patterns associated with an email application, such as Microsoft Outlook and Apple Mail, which most if not all business users are familiar with. It included a master/detail screen pattern, and I framed other actions in a way they could draw parallels with in email, such as the ability to remove (dismiss) and share (message) the recommendation.</p>
 
-  <h3>Building a data-dense prototype</h3>
+  <h3>Building a Data-heavy Prototype</h3>
 
   <p>Realistic-looking data is crucial in a data-heavy application. The people that we show the demo to are extremely familiar with their business, and are highly sensitive to the content that they see in the prototype. It not only has to look real, but also be specific to their business and use cases.</p>
 
@@ -106,9 +106,9 @@ date = "2016-12-18T15:14:53-08:00"
 
   <p>Foreseeing this, I proposed that all dynamic content should be drawn from an external source which the sales team had control over. Previously I had come across Airtable and felt it was ideal for our prototyping needs. It has a spreadsheet interface that the sales team was familiar with, and was relatively easily to implement.</p>
 
-  <h3>Boomerang UI</h3>
+  <h3>Accelerating Development with Boomerang UI</h3>
 
-  <p>Given that we didn't have any HTML/CSS developers on the team and that we were under time pressure, I felt that we could accelerate development if we had a library of UI components, along with sample code that the developers could leverage to quickly populate the views without the need for detailed UI specifications. This way, I could style the components in the library and it would update across the UI.</p>
+  <p>Given that we didn't have any HTML/CSS developers on the team and that we were under time pressure, I suggested that we could accelerate development if we had a library of UI components, along with sample code that the developers could leverage to quickly populate the views without the need for detailed UI specifications. This way, I could control the look and feel of components in a single location.</p>
 
 </div>
 
@@ -118,20 +118,14 @@ date = "2016-12-18T15:14:53-08:00"
 
   <div class="story-block">
 
-  <p>However building a UI documentation system is not a trivial task. Instead, I opted to take Buefy, an existing open-source UI library, and replace or modify its components to fit our needs. With this approach, we were able to have a rudimentary but functional UI library in 2 days, as opposed to several weeks if we had chosen to build it from scratch.</p>
+  <p>However building a UI documentation system is not a trivial task. Instead, I opted to take Buefy, an existing open-source UI library, and replace or modify its components to fit our needs. With this approach, we were able to have a rudimentary but functional UI library in two days, as opposed to several weeks had we built it from scratch.</p>
+
+  <p>With this approach, the team was able to field compelling demos to multiple prospects each week and incorporating prior learnings in the subsequent iterations, increasing the speed of finding product-market fit. The team has managed to sign some deals and the initial version is now being developed.</p>
+
+
+  <h3>Additional work</h3>
 
   </div>
-
-  <div class="img-container">
-    <img src="/assets/aramus/wireframes.jpg" alt="">
-  </div>
-
-
-
-  <div class="img-container">
-    <img src="/assets/aramus/recommendations-built.jpg" alt="">
-  </div>
-
 
 <div class="img-container">
   <img src="/assets/aramus/dashboard-full.jpg" alt="">
