@@ -16,12 +16,16 @@ date = "2017-12-18T15:14:53-08:00"
 
 <div class="story-block">
   <p>Users of PPM (Pricing Performance Management) are merchants and pricing analysts at large retailers like Lowe’s or Petco. Merchants are responsible for growing the bottom-line of one or several product categories, while pricing analysts assist with creation and diagnostics of pricing strategies.</p>
-  <p>PPM offers competitive price intelligence and allow pricing analysts to create create, track and diagnose strategies. </p>
+  <p>PPM offers competitive price intelligence and allow pricing analysts to create, track and diagnose strategies.</p>
+
   <h3>Summary</h3>
-  <p>I joined Boomerang soon after PPM was launched and one of my goals was to identify and address barriers to adoption. Through customer calls and onsite visits, we identified a number of issues which we attempted to address. Here I will talk about one of them.</p>
-  <p>During this time, we also received a RFP (Request for Proposal), and needed to do a demo within a short time frame.  The company challenged the team to address some of these usability issues and include a prototype of a new feature in the upcoming demo.</p>
+
+  <p>I joined Boomerang soon after PPM was launched and one of my goals was to identify and address barriers to adoption. At the time, we had some early adopters who were using the product heavily, but adoption was generally low across other customers. Through customer calls and onsite visits, we identified a number of issues which we attempted to address. Here I will talk about one of them.</p>
+
+  <p>During this time, we also received a RFP (Request for Proposal), and needed to perform a demo for our prospect within a short time frame. The company challenged the team to address some of these usability issues and include a prototype of the alerts feature in the upcoming demo.</p>
 
   <h3>My Primary Role</h3>
+
   <ul>
     <li>User Research with merchants and pricing analysts</li>
     <li>User testing of new designs</li>
@@ -44,7 +48,7 @@ date = "2017-12-18T15:14:53-08:00"
   <ul>
     <li>It is a core part of many diagnostics workflows, but it is located at the end of a long page, which makes it tedious to get to.</li>
     <li>There are a number of inefficiencies in the current design. For instance, most of the cells are of little value, and the 2x2 matrix made it hard to support future opportunities which could be more fluid.</li>
-    <li>The product matrix table looks extremely cluttered.</li>
+    <li>The product matrix table looks extremely cluttered with data points that add little value.</li>
   </ul>
 
 
@@ -57,14 +61,14 @@ date = "2017-12-18T15:14:53-08:00"
   <div class="caption">Note how the product matrix is located at the end of a long page. Considering it is core part of diagnostic flows and how frequently this is accessed, its position at the bottom makes it unnecessarily tedious for users to reach.</div>
 
  <div class="story-block">
-    <p>The product matrix is a 2x2 matrix showing how their category is distributed across site traffic, split into Head (top 33%), Core (middle 33%), Tail (bottom 33%) buckets and another metric such as PPI (Price Performance Index) which is a measure of how price competitive their categories are relative to other retailers.</p>
+    <p>The product matrix is a 2x2 matrix showing how their category is distributed across revenue, split into Head (top 33%), Core (middle 33%), Tail (bottom 33%) buckets and another metric such as PPI (Price Performance Index), which is a measure of how price competitive their categories are relative to other retailers.</p>
  </div>
 
  <div class="img-container">
    <img src="/assets/ppm/product-matrix-cells.jpg" alt="">
  </div>
 
- <div class="caption">In our conversations with merchants, we learnt that while certain cells provided highly relevant and actionable information, most of the others had little value.</div>
+ <div class="caption">In our conversations with merchants, we learnt that while certain cells provided highly relevant and actionable information, most of the others had little value. In this example, the highlighted cell reveals that there are a large number of high-revenue products that are overpriced, possibly resulting in less than optimal sales.</div>
 
   <div class="story-block">
 
@@ -88,9 +92,7 @@ date = "2017-12-18T15:14:53-08:00"
   <div class="story-block">
   <h3>Design</h3>
 
-  <p>Seeing that access to SKU level information is so frequent, and that it is a core part of many diagnostics workflow, I felt that we should present it as a different layer of information, rather than as a widget at the end of the dashboard. Also, the product matrix had different modes and filters which required some level of user action to extract value, and I felt it detracted from the intent of a dashboard.</p>
-
-  <p>Therefore, I proposed that the product matrix be presented as a different view since it is looking at a different level of information, and access to it should be in the persistent header so it can be accessed regardless of where the user is looking at in the dashboard. Later on, the team also talked about providing another view for root cause analysis, so this structure also made sense in retrospect.</p>
+  <p>Seeing that merchants access SKU level information so frequently while doing diagnostics, I proposed that this view should be accessed regardless of which dashboard widget the merchant is looking at. Later on, the team also talked about providing another view for root cause analysis, so this structure also made sense in retrospect.</p>
 
   </div>
 
@@ -102,7 +104,10 @@ date = "2017-12-18T15:14:53-08:00"
 
   <div class="story-block">
 
-  <p>For the product matrix, I proposed that we move away from a 2x2 matrix and use a list instead, since that would allow us to have more flexibility to display only what was relevant for our users.  Co-incidentally, the team had been brainstorming about ways to surface advanced thematic opportunities  driven by data-science and wanted to present that in an upcoming demo, so there seemed to be an opportunity to satisfy both needs. I also took the chance to simplify the table. Previously the table contained a large number of data points, some of which were not necessary and resulted in an extremely cluttered-looking table.</p>
+  <h3>Tabs allow users to alternate between views of data in the same context</h3>
+
+  <p>For the product matrix, I proposed that we move away from a 2x2 matrix and use a list instead, since that would allow us to have more flexibility to display only what was relevant for our users. The team had been brainstorming about ways to surface advanced thematic opportunities which were more fluid, driven by data-science and wanted to present that in an upcoming demo. A list would also support that better than the current matrix.
+  </p>
 
   </div>
 
@@ -116,7 +121,20 @@ date = "2017-12-18T15:14:53-08:00"
     <img src="/assets/ppm/opportunities.jpg" alt="">
   </div>
 
-  <div class="caption">In the redesigned product matrix, I reorganized the matrix into a list, and removed data points in the table which were not relevant to the current context.</div>
+  <div class="caption">In the redesign, I reorganized the matrix into a list, and removed data points in the table which were not relevant to the current context.</div>
+
+  <div class="story-block">
+
+  <p>
+    Lastly, the table under the product matrix looks extremely cluttered, in large part due to the number of data points forced to fit in a small area. In this arrangement, it would have been tricky to allow the user to sort by a certain value, which an interaction that many of our users would have taken for granted coming from a history of using spreadsheets in their work. The solution I proposed was to remove the data points except the ones that were relevant in the current context, which made the information much easier to parse.
+  </p>
+
+  <p>Since this was a relatively small change, we had a tight deadline and little UI engineering support, I decided to skip the wireframing and mockup stage and make the UI adjustments in code.</p>
+
+  </div>
+
+
+
 
   <div class="img-container">
     <img src="/assets/ppm/alerts.jpg" alt="">
@@ -126,9 +144,10 @@ date = "2017-12-18T15:14:53-08:00"
 
   <div class="story-block">
 
-  <p>Since this was a relatively small change, we had a tight deadline and little UI engineering support, I decided to skip the wireframing and mockup stage and make the UI adjustments in code.</p>
+  <p>
+    We were able to include these changes and also present a prototype of the alerts feature, which allow merchants to manage their categories via exceptions. Being able to demo this helped distance us from our competitors and enable the sales team to secure several landmark deals.</p>
 
-  <p>We were able to include these changes and also present a prototype of the alerts feature in the demo, which was received extremely favorably. Subsequently, the team won Boomerang’s first RFP with US’s largest retailer, a significant milestone for a company at this stage. Following the rollout of these improvements, we reached out to our users during our routine update call and received generally positive feedback about the UI improvements.</p>
+  <p>As a result of these changes and other feature improvements, product adoption across our customers have increased significantly.</p>
 </div>
 
 
