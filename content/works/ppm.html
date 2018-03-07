@@ -14,16 +14,15 @@ date = "2017-12-18T15:14:53-08:00"
 
 <div class="story-block">
 
-  <p>PPM enables retailers to set and measure competitive prices.</p>
-
   <p>Users of PPM (Pricing Performance Management) are merchants and pricing analysts at large retailers like Lowe’s or Petco. Merchants are responsible for growing the bottom-line of one or several product categories, while pricing analysts assist with creation and diagnostics of pricing strategies.</p>
 
+  <p>PPM enables retailers to set and measure competitive prices.</p>
 
   <h3>Summary</h3>
 
-  <p>I joined Boomerang soon after PPM was launched and one of my goals was to identify and address barriers to adoption. At the time, we had some early adopters who were using the product heavily, but adoption was generally low across other customers. Through customer calls and onsite visits, we identified a number of issues which we attempted to address. Here I will talk about one of them.</p>
+  <p>I joined Boomerang soon after PPM was launched and one of my goals was to identify and address barriers to adoption. At the time, we had early adopters who were using the product heavily, but adoption was generally low across other customers. Through customer calls and onsite visits, we identified a number of issues which we attempted to address. Here I will talk about one of them.</p>
 
-  <p>During this time, we also received a RFP (Request for Proposal), and needed to perform a demo for our prospect within a short time frame. The company challenged the team to address some of these usability issues and include a prototype of the alerts feature in the upcoming demo.</p>
+  <p>During this time, we also received a RFP (Request for Proposal), and needed to perform a demo for a prospect at short notice. The leadership challenged the team to address some of these usability issues and showcase a prototype of the alerts feature in the upcoming demo.</p>
 
   <h3>Design Role</h3>
 
@@ -44,16 +43,7 @@ date = "2017-12-18T15:14:53-08:00"
 
   <h3>Problem</h3>
 
-  <p>Merchants are using the product matrix frequently as part of their diagnostic workflow, but getting to it is tedious.</p>
-
-  <p>During this time I worked on several key changes. Here I will talk about some of them relating to the product matrix. The main issues are:</p>
-
-  <ul>
-    <li>It is a core part of many diagnostics workflows, but it is located at the end of a long page, which makes it tedious to get to.</li>
-    <li>There are a number of inefficiencies in the current design. For instance, most of the cells are of little value, and the 2x2 matrix made it hard to support future opportunities which could be more fluid.</li>
-    <li>The product matrix table looks extremely cluttered with data points that add little value.</li>
-  </ul>
-
+  <p>Merchants are using the product matrix frequently as part of their diagnostic workflow, but having to repeatedly scroll to the end of the page to get to it is tedious. The product matrix is also not efficiently utilitized, and has a lot of unnecessary clutter.</p>
 
   </div>
 
@@ -64,7 +54,13 @@ date = "2017-12-18T15:14:53-08:00"
   <div class="caption">Note how the product matrix is located at the end of a long page. Considering it is core part of diagnostic flows and how frequently this is accessed, its position at the bottom makes it unnecessarily tedious for users to reach.</div>
 
  <div class="story-block">
+
     <p>The product matrix is a 2x2 matrix showing how their category is distributed across revenue, split into Head (top 33%), Core (middle 33%), Tail (bottom 33%) buckets and another metric such as PPI (Price Performance Index), which is a measure of how price competitive their categories are relative to other retailers.</p>
+
+    <p>The product matrix allows a merchant to quickly identify highly visible SKUs that are priced uncompetitively. However in the initial design, most of the cells in the matrix were not used, since the highest priority for merchants is to identify the worst performing SKUs since they are the ones that require urgent attention. The team also wanted to present data-science driven opportunities in the near future that were more fluid and therefore would not fit well in the current structure. The accompanying table is also extremely cluttered because many data points were forced to fit in a small area, and the grouping of columns made it harder to parse the data since the relationship between rows and columns are made more complex.</p>
+
+
+
  </div>
 
  <div class="img-container">
@@ -75,7 +71,7 @@ date = "2017-12-18T15:14:53-08:00"
 
   <div class="story-block">
 
-  <p>In practice, the product matrix allows a merchant to quickly identify highly visible SKUs that are priced uncompetitively. However, most of the cells were of no interest to merchants since their highest priority is to identify the worst performing SKUs since they are the ones that require urgent attention.</p>
+
 
   <h3>Constraints</h3>
 
@@ -96,13 +92,11 @@ date = "2017-12-18T15:14:53-08:00"
 
   <h3>Design</h3>
 
-
-
   <div class="img-container">
     <img src="/assets/ppm/new-ui.jpg" alt="">
   </div>
 
-  <p>To address this issue, I proposed using a tab for users to get to the product matrix. I felt it was appropriate here because the same context is maintained across these two views, with the product matrix providing a more granular view of data. It is part of the persistent header so access to the product matrix is readily available regardless of where the user is looking at on the dashboard. The team had also been planning to add an additional view to enable root cause analysis for the merchants, so this structure would support that as well.</p>
+  <p>To address this issue, I proposed using a tab for users to get to the product matrix. While there were several options. I decided on tabs because it is a commonly used way to display alternative views with different use cases while maintaining the same context. I positioned it as part of the header so it could be persistent regardless of where the user is looking at on the dashboard. The team also planned to include additional views to diagnose performance issues such as root cause analysis and trend analysis, so tabs would communicate that structure than say, a button or a toggle in this instance.</p>
 
   <div class="img-container">
     <img src="/assets/ppm/diagnostics.jpg" alt="">
