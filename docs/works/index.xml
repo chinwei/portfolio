@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Chinwei: Design Portfolio</title>
+    <link>http://chinwei.me/works/</link>
+    <description>Recent content in Works on Chinwei: Design Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Dec 2017 15:14:53 -0800</lastBuildDate>
+    
+	<atom:link href="http://chinwei.me/works/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PPM</title>
+      <link>http://chinwei.me/works/ppm/</link>
+      <pubDate>Mon, 18 Dec 2017 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/ppm/</guid>
+      <description>PPM Helping retailers succeed in an Ecommerce-first world  PPM enables retailers to set and measure competitive prices.
+Users of PPM (Pricing Performance Management) are merchants and pricing analysts at large retailers like Lowe’s or Petco. Merchants are responsible for growing the bottom-line of one or several product categories, while pricing analysts assist with creation and diagnostics of pricing strategies.
+Summary I joined Boomerang soon after PPM was launched and one of my goals was to identify and address barriers to adoption.</description>
+    </item>
+    
+    <item>
+      <title>Aramus</title>
+      <link>http://chinwei.me/works/aramus/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/aramus/</guid>
+      <description>Aramus Helping brands succeed in an Ecommerce-first world   The way consumers buy has changed completely with Ecommerce. Brands need to operate differently, and be supported by different tools to be successful online.  Aramus is a new product under development, and its aim is to help Sales and Marketing teams in brands that list and sell their products on Amazon. It offers Ecommerce merchants a number of tools they can leverage to be successful on Amazon, such as search rank tracking, ad automation and campaign optimization.</description>
+    </item>
+    
+    <item>
+      <title>Divvy</title>
+      <link>http://chinwei.me/works/divvy/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/divvy/</guid>
+      <description>Divvy The fastest way to split bills at the table    Updates  Changed the App Bar color to white so the UI feels lighter, which also helps to surface the primary action. Added an overlay in the initial view to bring focus to the inputs when there are no items added. Moved the Add button to a position that is more reachable with the thumb. Users are now able to select who to split the price together with entering the price of the item.</description>
+    </item>
+    
+    <item>
+      <title>Pensieve</title>
+      <link>http://chinwei.me/works/pensieve/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/pensieve/</guid>
+      <description>Pensieve Write notes and associate them with your contacts    A messaging flow should be familiar to many people. Here I am exploring to see whether it makes sense to repurpose the flow to reference people instead. Built using Sketch and Framer.  Pensieve is a place where you can write notes and associate them with people. When you take a note, it captures the date and location to help you better recall the ideas that has to do with a context and person.</description>
+    </item>
+    
+    <item>
+      <title>UPMC</title>
+      <link>http://chinwei.me/works/mychoice/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/mychoice/</guid>
+      <description>MyChoice Extending healthcare beyond hospital walls   Note: Due to a NDA with UPMC, I cannot reveal our findings or end solution. Here, I will focus mostly on our process. Improve patient engagement As a culmination of Carnegie Mellon&amp;rsquo;s Master&amp;rsquo;s of HCI program, this 8-month project was sponsored by the University of Pittsburgh Medical Center (UPMC) to look into a patient-facing tool with the goals of deeper engagement with the health system and better health outcomes.</description>
+    </item>
+    
+    <item>
+      <title>carol.ai</title>
+      <link>http://chinwei.me/works/carol/</link>
+      <pubDate>Sun, 18 Dec 2016 15:14:53 -0800</pubDate>
+      
+      <guid>http://chinwei.me/works/carol/</guid>
+      <description>Carol.ai An end-to-end data exploration platform As part of a team that built this product from the ground up, I have been involved in every user-facing aspect of the product. I helped define how the product works, looks and feels and took on other roles ranging from frontend development and product management.
+   Designing for People Understanding the motivations of each persona and how they interact with the product is crucial.</description>
+    </item>
+    
+    <item>
+      <title>Mallia</title>
+      <link>http://chinwei.me/works/mallia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://chinwei.me/works/mallia/</guid>
+      <description>Mallia Express yourself like never before    Bringing Print to Life As part of the campaign to market Legrand&#39;s launch of their Mallia line up of switches, we built this interactive website to amplify the campaign message through digital channels. I designed and built all animation and interactivity for the website.   Lively Switches  Brisk staggered transitions showcase the selection of colored baseplates available while imparting a sense of light-hearted elegance.</description>
+    </item>
+    
+  </channel>
+</rss>
